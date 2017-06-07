@@ -1,0 +1,83 @@
+#table_format {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #CCC;
+}
+
+#container {
+	width: 880px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/container_bg.gif);
+	background-repeat: repeat-y;
+}
+
+#header h1,#sidebar p,#footer p {
+	margin-left: 20px;
+}
+
+#header {
+	color: #FFF;
+	background-color: #0e2d63;
+}
+
+#table_cell_1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px; 
+	background-color: #9f9;
+}
+
+#table_cell_2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px; 
+	background-color: #9ff;
+}
+
+#footer {
+	color: #FFF;
+	background-color: #0e2d63;
+}
+
+#sidebar {
+	float: left;
+	width: 150px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px; 
+	background-image: url(images/container_bg.gif);
+	background-repeat: repeat-y;
+	/* background-color: #aac7ce; */
+}
+
+#main_content {
+	margin-left: 175px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#comment_type {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #000178;
+	/*font-size: 12px;*/
+}
+
+#passed_type {
+	font-family: "Lucida Console", Monaco, monospace;
+    /* color: #006600 the color green ; */ 
+}
+
+#failed_type {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #C03;
+	/*font-size: 12px;*/
+}
+
+.clearfloat {
+	clear: both;
+	margin: 0px;
+	height: 0px;
+}
+
+#container p.noscript {
+	font-size: .8em; 
+	color:#f00;
+}

@@ -1,0 +1,61 @@
+
+PROCEDURE TO BUILD AND LOAD INFO/X REPOSITORY Last Update 8/3/10 by L. Crawford
+
+
+
+1)	After initial installation and PCFILE is built, remember to add the password authorization 
+    library to the STEPLIB in these places:
+	a.	Started task - DSSISTC7 (copied from Install library to SYSP.USER.PROCLIB)
+	b.	QAL.MGH.R300. QAMGH01.INSTALL, members PR1PROC, PR1PROCT, and STEPLIB1
+
+2)	Build the INFO/X repository from the installation interface in exactly this order and pay
+    attention to the return codes - should never get anything above 4 - see below:
+	a.	1-Create the database - should get RC 0
+	b.	2-Prime the database - should get RC 0
+	c.	3-Bind Packages and plan(s) - should get RC 0
+	d.	4-Grant Access to the database and plans - should get either
+        RC 0 or RC 4 (gets RC 4 if grants already exist)
+	e.	5-Grant access to individual users for batch i/x - should get
+        either RC 0 or RC 4 (gets RC 4 if grants already exist)
+	f.	6-Populate the database w/ demo data - should get RC 0
+	g.	7-Populate the database w/ DB2 xref info - should get RC 0 on 
+        all steps except usually gets  RC 4 on the second DSNUPROC
+		step for a copy pending issue.  This is okay to ignore.
+		
+       IMPORTANT UPDATE 6/25/10 for PR290 only:  system programmer  
+        changed something in D9EQ that causes SSID to be corrupted.
+        Before running this job, search for SSID, then remove 
+        the 'BIT' from 'CHAR BIT' in every case - there are several.
+        Mike White says this will be fixed in R300.
+       
+	h.	8-Populate the database w/ CICS xref info - should get RC 0
+	i.	9-Run DB2 REORG & RUNSTATS on the database - should get RC 0
+
+3)	Load the INFO/X repository from the Product update panel (not the installtion interface update panel)  with QAL.MGH.WGR.DB2WIN but EXCLUDE member
+    JS970363 - this is a known bug.  (Use Processing Mode=JOB) This will take a long time - over 2 hours.
+    This gets RC 16 - this is okay.
+
+4)	Load the repository from the Update panel with QAL.MGH.WGR.LOAD. (Use Processing Mode= LOADMODULE)  Should get RC=0.
+
+5)	Load the repository from the Update panel with QAL.MGH.WGR.PROCLIB. (Use Processing Mode=JOB) Should get RC=0.
+
+6)	Re-run these jobs from the INFO/X installation interface in exactly this order (same return codes as above):
+	a.	9-Run DB2 REORG & RUNSTATS on the database
+	b.	7-Populate the database w/ DB2 xref info (remember to exclude 'BIT' - see step 2g above)
+	c.	3-Bind Packages and plan(s) 
+
+7)	Load the INFO/X repository with the long column data:
+	a.	Insert long data into repository by submitting QAL.MGH.P97308.JCL.CNTL(I97308I) - should get RC 0.
+	    (Make sure SQLID is the OWNER/AUTHID specified in the installation interface (QAMGH01).
+	b.	Submit this job QAL.MGH.P97308.JCL.CNTL(IE97308) - this gets RC 8 - this is okay.
+
+NOTE:  If you re-run option "6b-Populate the database w/ DB2 xref info" after you load the long column data, it wipes out the
+       long column data, so you need to re-load the long column data again.
+
+
+
+8)	Run job QAL.MGH.WGR.DB2WIN(C1A019SS) after making the following changes.   
+	a.	QUALIFIER and OWNER should be the Primary Authid specified in the installation interface (QAMGH01)
+	b.	PACKAGE should be the  Collection ID specified in the installation interface (QACI290)
+	c.	LIBRARY should be the current  DBRM library (QAL.MGH.PR290$.QAMGH01.DBRM)
+

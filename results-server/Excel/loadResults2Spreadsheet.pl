@@ -1,0 +1,206 @@
+	#!/usr/bin/perl 
+
+	use strict;
+	use Spreadsheet::WriteExcel;
+	use Util;
+	use Cwd;
+	
+# call main	
+
+main(@ARGV);
+	
+	
+sub main {
+	
+	# Create the workbook
+	my $workbook  = Spreadsheet::WriteExcel->new('r840.xls');
+#	create_sheet ("c:/path/to/suitelog.txt", 1, $workbook);
+    create_sheet ("C:/Users/scottba/MAP/workspace/trunk/PHX/ESW/smartFileMVS/mainframe/suite/suitelog.txt", 1, $workbook);
+ 	
+#	# Loop thru the 1 runs for SF 8.2 adding a sheet for each run. 
+#	for (my $i = 1; $i <= 9; $i++) {
+#		create_sheet ("c:/ftp1.txt", $i, $workbook);
+#
+#	}
+}
+     
+sub create_sheet {
+	
+	my $path       = shift;
+	my $file_num   = shift;
+	my $workbook   = shift;
+	my $row;
+	my $sheet_name = "SF840-GA3" . $file_num;
+   
+	my $ftpElaspedTime;
+	my $suite = 1;
+	my $group_start_row;
+	my @log_layout;
+	my @sheet_layout;
+	my $convmin;
+	
+	
+	my $ws = $workbook->add_worksheet($sheet_name);
+
+	$ws->write( 0, 0, "Suite Name" );
+	$ws->write( 0, 1, "Script Name" );
+	$ws->write( 0, 2, "  " );
+	$ws->write( 0, 3, "Status P/F" );
+	$ws->write( 0, 4, "Start Date and Time" );
+	$ws->write( 0, 5, "End Date and Time" );
+	$ws->write( 0, 6, "Anaylst" );
+	$ws->write( 0, 7, "Impact" );
+	$ws->write( 0, 8, "Comments" );
+	$ws->write( 0, 9, "Run Time (Mins) " );
+	$ws->write( 0, 10, "Review Time (Mins) " );
+	$ws->write( 0, 11, "Total Time  (Mins)" );
+	
+	my $record_num;
+
+	# break the input record into columns
+ 	open( RESULTS, $path )|| die ("Couldn't open $path");
+
+	$record_num = 1;
+
+	while (<RESULTS>) {
+		my $z = 0;
+		# add the build info to the first record and column of the sheet
+		if ($record_num == 1 ) {
+			$ws->write( $record_num, 0, $_ );
+			$record_num++;
+			next;
+		}
+		# create the columns from the results log
+		chomp;
+		(
+			$log_layout[0],    # null
+			$log_layout[1],    # suite name
+			$log_layout[2],    # empty slot
+			$log_layout[3],    # script name
+			$log_layout[4],    # start date
+			$log_layout[5],    # start time
+			$log_layout[6],    # end date
+			$log_layout[7],    # end time
+			$log_layout[8],    # status
+			$log_layout[9],    # status
+			$log_layout[10],   # status
+			$log_layout[11]    # status
+												
+		) = split(/\s+/);
+
+		# now rearrange the suite log columns to
+		# match the AutoReg layout
+
+		$sheet_layout[0]  = "      ";          # suite name
+		$sheet_layout[1]  = $log_layout[2];    # script name
+		$sheet_layout[2]  = "      ";          # TC doc name
+		$sheet_layout[3]  = $log_layout[7];    # pass or fail status
+		$sheet_layout[4]  = "$log_layout[3] " . $log_layout[4];    # start time
+		$sheet_layout[5]  = "$log_layout[5] " . $log_layout[6];    # end time
+		$sheet_layout[6]  = "SKB";                                 # anaylst
+		$sheet_layout[7]  = "      ";    # reqmt. Spec#Comments
+        $sheet_layout[8]  = "      ";    # impact 
+        $sheet_layout[9]  = "      ";    # impact 
+        $sheet_layout[10] = "      ";    # impact 
+        $sheet_layout[11] = "      ";    # impact 
+              
+
+
+		# calculate the amount of time the test took.
+		my $timeDiffStr = Util::timeDiff(
+			date1 => $sheet_layout[4],
+			date2 => $sheet_layout[5]
+		);
+        print "$timeDiffStr\n";
+		# now reformat to Function Test Plan (FTP) time format
+		if ( $timeDiffStr =~ m/\d+ Day\(s\)\. (\d+) Hour\(s\)\. (\d+) Min\(s\)\. (\d+) Sec\(s\)\./ )
+		{
+			$convmin = ($1 * 60);
+			if ($3 > 0) {
+				$convmin++;
+			}
+			$ftpElaspedTime = $convmin + $2;	
+		}
+		else {
+			print "Time format mismatch! Check regex on line 75.\n";
+		}
+		$sheet_layout[9] = $ftpElaspedTime;    # Run time
+
+		
+
+		# check to see if we're starting a new group. If so,
+		# then we need to write some totals.
+		if ( $suite ne $log_layout[1] ) {
+
+			# is this the first time?
+			if ( $suite == 1 ) {
+
+				# set the break point
+				$suite = $log_layout[1];
+				$group_start_row = 2;
+				
+			}
+			else {
+               
+				$ws->write($record_num, 3,"Total Passed");
+         		$ws->write($record_num, 4, "=COUNTIF(D" . $group_start_row . ":D" . $record_num . ",\"=passed\")");
+         		$record_num++;
+				$ws->write($record_num, 3,"Total Failed"  );
+         		$ws->write($record_num, 4, "=COUNTIF(D" . $group_start_row . ":D" . ($record_num-1) . ",\"=failed\")");
+				$record_num++;
+			
+				$group_start_row = $record_num+1;
+			}
+            
+            $suite = $log_layout[1];
+            $sheet_layout[0] = $suite;
+		}
+		# write the record (columns)
+		my $x = 0;
+		foreach my $col (@sheet_layout) {
+			# write the formula for column l
+			if ($x == 11) {
+				$row = $record_num +1;
+				$ws->write( $record_num, $x, "=SUM(J$row:K$row)" );
+			} else {
+				$ws->write( $record_num, $x, $col );
+			}
+			
+			$x++;
+		}
+		$suite = $log_layout[1];
+		$record_num++;
+	}
+	
+	## last record. Do the grand totals for the page.
+	$ws->write($record_num, 3,"Total Passed");
+    $ws->write($record_num, 4, "=COUNTIF(D" . $group_start_row . ":D" . $record_num . ",\"=passed\")");
+    $record_num++;
+	$ws->write($record_num, 3,"Total Failed"  );
+    $ws->write($record_num, 4, "=COUNTIF(D" . $group_start_row . ":D" . ($record_num-1) . ",\"=failed\")");
+	$record_num++;
+	$ws->write($record_num, 2," Total Passed");
+    $ws->write($record_num, 3, "=COUNTIF(D2:D" . ($record_num-2) . ",\"=passed\")");
+    
+    $ws->write($record_num, 8,  " Time Totals (Mins)");
+    $ws->write($record_num, 9,  "=SUM(J2:J" . ($record_num -2) . ")");
+    $ws->write($record_num, 10, "=SUM(K2:K" . ($record_num -2) . ")");
+    $ws->write($record_num, 11, "=SUM(L2:L" . ($record_num -2) . ")");
+    
+    $record_num++;
+	$ws->write($record_num, 2," Total Failed"  );
+    $ws->write($record_num, 3, "=COUNTIF(D2:D" . ($record_num-3) . ",\"=failed\")");
+    # calculate the grand total time spent on the script. Convert mins to hours. Column L.
+    $ws->write($record_num, 8, "Grand Total(Hours): ");
+    $ws->write($record_num, 11, "=SUM(L" . ($record_num). ") / 60");
+    
+    $record_num++;
+	$ws->write($record_num, 2," Total Scripts Run"  );
+    $ws->write($record_num, 3, "=SUM(D" . ($record_num-1) . ":D" . $record_num . ")");
+	print "Excel spreadsheet generated. \n";
+}
+	exit;
+
+	
+
+	

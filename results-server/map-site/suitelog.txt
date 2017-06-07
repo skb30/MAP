@@ -1,0 +1,92 @@
+   Release R290 Created on 23 Dec 2009#Thu Jul 15, 2010 15:28:08 
+   ADMINISTRATION            i10900.pl    2010-07-15 15:27:28   2010-07-15 15:28:08   passed
+   ADMINISTRATION            ID14009.pl   2010-07-15 15:28:08   2010-07-15 15:28:17   passed
+   ADMINISTRATION            IH11045.pl   2010-07-15 15:28:17   2010-07-15 15:28:57   passed
+   ADMINISTRATION            IH12133.pl   2010-07-15 15:28:57   2010-07-15 15:29:14   passed
+   ADMINISTRATION            IH25115.pl   2010-07-15 15:29:14   2010-07-15 15:29:31   passed
+   ADMINISTRATION            IH3A058.pl   2010-07-15 15:29:31   2010-07-15 15:29:42   passed
+   ADMINISTRATION            IH4A016.pl   2010-07-15 15:29:42   2010-07-15 15:29:58   passed
+   ADMINISTRATION            piadm001.pl  2010-07-15 15:29:58   2010-07-15 15:30:14   passed
+   ADMINISTRATION            piadm002.pl  2010-07-15 15:30:14   2010-07-15 15:30:52   passed
+   ADMINISTRATION            piadm003.pl  2010-07-15 15:30:52   2010-07-15 15:31:35   passed
+   FOLDERS                   assign_fold  2010-07-15 15:31:35   2010-07-15 15:32:04   passed
+   FOLDERS                   ih12021.pl   2010-07-15 15:32:04   2010-07-15 15:32:24   passed
+   NISSAN                    ic53007.pl   2010-07-15 15:32:24   2010-07-15 15:32:34   passed
+   PRINTSETUP                ic13015.pl   2010-07-15 15:32:34   2010-07-15 15:32:47   passed
+   PRINTSETUP                ic25010.pl   2010-07-15 15:32:47   2010-07-15 15:33:04   passed
+   PRINTSETUP                ic25011.pl   2010-07-15 15:33:04   2010-07-15 15:33:30   passed
+   PRINTSETUP                ic27007.pl   2010-07-15 15:33:30   2010-07-15 15:33:50   passed
+   PRINTSETUP                ih12049.pl   2010-07-15 15:33:50   2010-07-15 15:34:13   passed
+   PRINTSETUP                ih13053.pl   2010-07-15 15:34:13   2010-07-15 15:34:23   passed
+   PRINTSETUP                ih17125.pl   2010-07-15 15:34:23   2010-07-15 15:34:46   passed
+   PRINTSETUP                ih18079.pl   2010-07-15 15:34:46   2010-07-15 15:35:03   passed
+   PRINTSETUP                ih1a122.pl   2010-07-15 15:35:03   2010-07-15 15:35:23   passed
+   PRINTSETUP                ih49031.pl   2010-07-15 15:35:23   2010-07-15 15:36:34   passed
+   QUERY1                    IH4B026.pl   2010-07-15 15:36:34   2010-07-15 15:36:37   failed <---
+   REPORTS                   IC11025.pl   2010-07-15 15:36:37   2010-07-15 15:36:50   passed
+   REPORTS                   IH54031.pl   2010-07-15 15:36:50   2010-07-15 15:37:01   passed
+   SETUP                     IC1B003.pl   2010-07-15 15:37:01   2010-07-15 15:37:14   passed
+   SETUP                     IH12135.pl   2010-07-15 15:37:14   2010-07-15 15:37:25   passed
+   SETUP                     IH1A097.pl   2010-07-15 15:37:25   2010-07-15 15:37:39   passed
+   SETUP                     IH35079.pl   2010-07-15 15:37:39   2010-07-15 15:37:51   passed
+   SETUP                     IH3B034.pl   2010-07-15 15:37:51   2010-07-15 15:38:29   passed
+   SETUP                     IH48072.pl   2010-07-15 15:38:29   2010-07-15 15:38:42   passed
+   sort                      i725695.pl   2010-07-15 15:38:42   2010-07-15 15:38:54   failed <---
+   sort                      IH1B052.pl   2010-07-15 15:38:54   2010-07-15 15:42:05   failed <---
+   sort                      IH1C005.pl   2010-07-15 15:42:05   2010-07-15 15:50:32   failed <---
+   XREF1                     i13034.pl    2010-07-15 15:50:32   2010-07-15 15:50:47   passed
+   XREF1                     i13095.pl    2010-07-15 15:50:48   2010-07-15 15:51:18   passed
+   XREF1                     i13095a.pl   2010-07-15 15:51:18   2010-07-15 15:51:34   passed
+   XREF1                     ic13001.pl   2010-07-15 15:51:34   2010-07-15 15:52:13   passed
+   XREF1                     ih1b022.pl   2010-07-15 15:52:13   2010-07-15 15:52:42   passed
+   XREF1                     ih45042.pl   2010-07-15 15:52:42   2010-07-15 15:52:52   passed
+   XREF1                     im104683.pl  2010-07-15 15:52:52   2010-07-15 15:53:02   failed <---
+   XREF1                     im90198.pl   2010-07-15 15:53:02   2010-07-15 15:53:12   passed
+   XREF1                     pixrf001.pl  2010-07-15 15:53:12   2010-07-15 15:53:57   passed
+   XREF_DB2COLLECTIONID1     IM92010.pl   2010-07-15 15:53:57   2010-07-15 15:54:13   passed
+   XREF_DB2COLLECTIONID1     P106569.pl   2010-07-15 15:54:13   2010-07-15 15:54:22   failed <---
+   XREF_DB2COLLECTIONID1     PI106569.pl  2010-07-15 15:54:22   2010-07-15 15:54:41   passed
+   XREF_DB2COLLECTIONID1     PIXRF008.pl  2010-07-15 15:54:41   2010-07-15 15:55:38   passed
+   XREF_DB2PACKAGE1          IH12046.pl   2010-07-15 15:55:38   2010-07-15 15:55:47   passed
+   XREF_DB2PACKAGE1          IH13043.pl   2010-07-15 15:55:47   2010-07-15 15:55:56   passed
+   XREF_DB2PLAN1             IM91549.pl   2010-07-15 15:55:56   2010-07-15 15:56:10   passed
+   XREF_DB2TABLE1            ID25008.pl   2010-07-15 15:56:10   2010-07-15 15:56:24   passed
+   XREF_DB2TABLE1            IM90400.pl   2010-07-15 15:56:24   2010-07-15 15:56:44   passed
+   XREF_DSNAME1              IH49037.pl   2010-07-15 15:56:44   2010-07-15 15:56:56   passed
+   XREF_DSNAME1              IH53002.pl   2010-07-15 15:56:56   2010-07-15 15:57:13   passed
+   XREF_JOB                  ic12012.pl   2010-07-15 15:57:13   2010-07-15 15:57:24   passed
+   XREF_JOB                  ic17008.pl   2010-07-15 15:57:24   2010-07-15 15:57:46   passed
+   XREF_JOB                  Ic3a007.pl   2010-07-15 15:57:46   2010-07-15 15:57:57   passed
+   XREF_JOB                  id25004.pl   2010-07-15 15:57:57   2010-07-15 15:58:08   passed
+   XREF_JOB                  id25006.pl   2010-07-15 15:58:08   2010-07-15 15:58:19   passed
+   XREF_JOB                  id25007.pl   2010-07-15 15:58:19   2010-07-15 15:58:29   passed
+   XREF_JOB                  id25009.pl   2010-07-15 15:58:29   2010-07-15 15:58:56   passed
+   XREF_JOB                  id27005.pl   2010-07-15 15:58:56   2010-07-15 15:59:06   passed
+   XREF_JOB                  ih4a042.pl   2010-07-15 15:59:07   2010-07-15 15:59:25   passed
+   XREF_JOB2                 ic56005.pl   2010-07-15 15:59:25   2010-07-15 15:59:36   passed
+   XREF_JOB2                 ih28064.pl   2010-07-15 15:59:36   2010-07-15 15:59:52   passed
+   XREF_JOB2                 ih2b003.pl   2010-07-15 15:59:52   2010-07-15 16:00:03   passed
+   XREF_JOB2                 ih36050.pl   2010-07-15 16:00:03   2010-07-15 16:00:13   passed
+   XREF_JOB2                 ih39051.pl   2010-07-15 16:00:13   2010-07-15 16:00:27   passed
+   XREF_JOB2                 ih39100.pl   2010-07-15 16:00:27   2010-07-15 16:00:41   passed
+   XREF_JOB2                 ih3a064.pl   2010-07-15 16:00:42   2010-07-15 16:00:53   passed
+   XREF_JOB2                 ih49035.pl   2010-07-15 16:00:53   2010-07-15 16:01:08   passed
+   XREF_JOB2                 IU53024.pl   2010-07-15 16:01:08   2010-07-15 16:01:19   passed
+   XREF_PGM1                 i12696.pl    2010-07-15 16:01:19   2010-07-15 16:01:43   passed
+   XREF_PGM1                 ic2a003.pl   2010-07-15 16:01:43   2010-07-15 16:01:53   passed
+   XREF_PGM1                 ic2c013.pl   2010-07-15 16:01:53   2010-07-15 16:02:04   passed
+   XREF_PGM1                 ih39098.pl   2010-07-15 16:02:04   2010-07-15 16:02:14   passed
+   XREF_PGM1                 ih49040.pl   2010-07-15 16:02:14   2010-07-15 16:02:25   passed
+   XREF_PGM1                 im93874.pl   2010-07-15 16:02:25   2010-07-15 16:02:38   passed
+   XREF_PGM1                 im93932.pl   2010-07-15 16:02:38   2010-07-15 16:02:48   passed
+   XREF_PGM1                 pixrf002.pl  2010-07-15 16:02:48   2010-07-15 16:03:10   passed
+   XREF_PROC1                id25011.pl   2010-07-15 16:03:10   2010-07-15 16:03:25   passed
+   XREF_PROC1                ih1a015.pl   2010-07-15 16:03:25   2010-07-15 16:03:35   passed
+   XREF_PROC1                ih22161.pl   2010-07-15 16:03:35   2010-07-15 16:03:47   passed
+   XREF_PROC1                ih44087.pl   2010-07-15 16:03:47   2010-07-15 16:03:56   passed
+   XREF_PROC1                pixrf003.pl  2010-07-15 16:03:56   2010-07-15 16:04:09   passed
+   XREF_SYSOUT1              ih1a030.pl   2010-07-15 16:04:09   2010-07-15 16:04:18   passed
+   XREF_SYSOUT1              ih1a154.pl   2010-07-15 16:04:18   2010-07-15 16:04:29   passed
+   XREF_SYSOUT1              im90333.pl   2010-07-15 16:04:29   2010-07-15 16:04:40   passed
+   XREF_SYSOUT1              pixrf004.pl  2010-07-15 16:04:40   2010-07-15 16:04:52   passed
+  

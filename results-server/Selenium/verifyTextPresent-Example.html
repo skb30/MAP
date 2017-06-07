@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://usmghcentosqa/map_site/index.php" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/map_site/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=PROJCL</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>PROJCL</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>R290</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=(//td[@id='table_cell_1'])[4]</td>
+	<td>Release R290 created on 9 Sep 2009 at 16:08:51</td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Release R290 created on 9 Sep 2009 at 16:08:51</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Setup Instructions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Make sure DJ0YSAF2 is renamed to DJ0YSAF in the products loadlib otherwise you will get authentication errors</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Starting in 290 you must turn the Remote Dest Check default to NO otherwise many scripts will fail. Make sure you update the default RTS member before you create QARTS members for both Infox and Projcl. From the validation panel select Settings drop-down, 1 - RTS Member, 1- Run-Time Options, select JES Dest Checkand set to 'N' Verify that the default has been saved by exiting the product then returning to the validation panel/ RTS member and making sure the Dest Check default is set to 'N'</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Make sure your STC has the 'OPC message Library' allocated to QAL.mgh.pgr.tws.seqqmsg0 (The STC gets built with the allocation if you've supplied the file name in the install OPC Message Library field</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>ASG Quality Assurance 2012 - all rights reserved.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Make sure you opt add all the prv1 RTS members to your pcfile. Use this link for BUILDPC JCL example which is located in your install library - the green text marks the changes you need to make. Submit the buildpc JCL and make sure you get an RC of 0. The job will run about 5 mins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>ASG Quality Assurance 2012 - all rights reserved.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Home</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

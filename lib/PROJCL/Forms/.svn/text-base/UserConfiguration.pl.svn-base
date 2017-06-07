@@ -1,0 +1,18 @@
+my $UserConfigurationForm = tie(
+	%form, Tie::IxHash,
+	'Machine Name  . . . . . . .'  => 'Z*',
+	'User/Group ID . . . . . . .'  => 'QA*',
+	'ID Type . . . . . . . . . .'  => 'U',
+	'Administrator . . . . . . .'  => 'Y',
+	'RTS Member  . . . . . . . .'  => '*ANY*',
+	'Selection Exit  . . . . . .'  => '*ANY*',
+	'JMP Program Data Set  . .'    => ' ',
+	'JMP Program . . . . . . .'    => '*ANY*',
+	'Reformatter Member  . . .'    => '*ANY*',
+	'Scheduler . . . . . . . .'    => '*ANY*',
+	'JMP . . . . . . . . . . .'    => 'Y',	  
+	'Reformat  . . . . . . . .'    => 'Y',
+	'Validation - ESP  . . . .'    => 'Y',
+	'Validation - TWS  . . . .'    => 'Y',
+	'Directed Execution. . . .'    => 'Y',
+);

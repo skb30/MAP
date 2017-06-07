@@ -1,0 +1,22 @@
+1) Run the Admin ? script to create the pro/jcl stats log otherwise script ? will fail.
+
+2) Starting in 290 you must turn the 'Remote Dest Check' default to NO otherwise many scripts
+   will fail. Make sure you update the default RTS member as well as QARTS. 
+	From the validation panel select Settings drop-down, 1 - RTS Member, 1- Run-Time Options,
+	select JES Dest Check and set to 'N'
+
+Remote Validation setup
+
+3) Make sure you opt add all the prv1 RTS members to your pcfile. 
+
+4) Create a backup of your pcf file after you've installed and did the opt adds. Issue bkuppcf [Release Qaulifier]
+   from ISPF to create the backup.
+
+
+Scheduler suite setup
+
+5) Make sure your STC has the 'OPC message Library' allocated. Use QAL.mgh.pgr.tws.xxxxxxx 
+
+6) Make sure the TWS8 STC is available 
+
+7) You must add to the sysexec DD qal.mgh.pgr.jmpexec
