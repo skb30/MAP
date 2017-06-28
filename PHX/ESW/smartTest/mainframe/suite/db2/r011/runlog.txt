@@ -1,0 +1,129 @@
+Wed May 11 11:09:59 2016 ------- Test Case r011.pl.pl Started -------
+*** 2016-05-11 11:10:02 'r011.pl' 40 - Starting PCOM with ID of: T Passed ***
+*** 2016-05-11 11:10:14 'r011.pl' 41 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-11 11:10:14 'r011.pl' 41 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-05-11 11:10:15 'r011.pl' 41 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-05-11 11:10:15 'r011.pl' 41 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 41 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 41 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 41 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 41 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 48 - write2CommandLine "6" Passed ***
+*** 2016-05-11 11:10:16 'r011.pl' 48 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-05-11 11:10:17 'r011.pl' 48 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SCNXCLST)'" Passed ***
+*** 2016-05-11 11:10:17 'r011.pl' 48 - pressKey "[enter]" Passed ***
+*** 2016-05-11 11:10:18 'r011.pl' 48 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SESWCLST)'" Passed ***
+*** 2016-05-11 11:10:18 'r011.pl' 48 - pressKey "[enter]" Passed ***
+*** 2016-05-11 11:10:19 'r011.pl' 50 - write2CommandLine "CENTER" Passed ***
+*** 2016-05-11 11:10:20 'r011.pl' 53 - write2CommandLine "ST" Passed ***
+*** 2016-05-11 11:10:20 'r011.pl' 54 - navigate2DropDownList "Options" Passed ***
+*** 2016-05-11 11:10:21 'r011.pl' 56 - pressKeys: //QA056ALG Passed ***
+*** 2016-05-11 11:10:21 'r011.pl' 59 - write2CommandLine "AN " Passed ***
+*** 2016-05-11 11:10:22 'r011.pl' 79 - write2CommandLine "S" Passed ***
+*** 2016-05-11 11:10:25 'r011.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-11 11:10:28 'r011.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-11 11:10:31 'r011.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-11 11:10:31 'r011.pl' 82 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:31 'r011.pl' 85 - write2CommandLine "AKR" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 97 - findStringOnPanel "ESWDBTCH   __________            IN,STX    11MAY2016" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 100 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 103 - write2CommandLine "ENV" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 106 - write2CommandLine "L" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 107 - pressKey "[TAB]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 112 - pressKey "[tab]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 113 - pressKeys: 'QAL.PHX.esw800au.AKR' Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 116 - pressKey "[tab]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 117 - pressKeys: 'QAL.PHX.esw800au.LOADPDSE'  Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 120 - pressKey "[tab]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 121 - pressKeys: 'CEE.SCEERUN'  Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 122 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:32 'r011.pl' 124 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:33 'r011.pl' 129 - write2CommandLine "T2" Passed ***
+*** 2016-05-11 11:10:33 'r011.pl' 147 - write2CommandLine "W" Passed ***
+*** 2016-05-11 11:10:33 'r011.pl' 148 - findStringOnPanel "Test - Setup Wizards (Batch - JCL Specification)" Passed ***
+*** 2016-05-11 11:10:33 'r011.pl' 149 - findStringOnPanel "VPPWZBTJ" Passed ***
+*** 2016-05-11 11:10:33 'r011.pl' 162 - findStringOnPanel "VPPWZBST" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 165 - panelListAction STEP1 found on panel Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 166 - findStringOnPanel "VPPWZBLM" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 170 - findStringOnPanel "VPPWZBLM" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 171 - pressKey "[Enter]" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 174 - findStringOnPanel "VPPWZBAV" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 175 - pressKey "[Enter]" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 178 - findStringOnPanel "VPPWZBBP" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 182 - findStringOnPanel "VPPSESSN" Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 184 - pressKeys: ESWDBTCH.ESWDBTCH Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 185 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 186 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 187 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 188 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 189 - pressKeys: no  Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 190 - pressKeys: no  Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 191 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:34 'r011.pl' 192 - pressKeys: yes Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 193 - pressKey "[enter]" Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 194 - findStringOnPanel "ESWDBTCH.ESWDBTCH     YES    YES   YES   YES   NO    NO    YES    YES" Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 198 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 199 - findStringOnPanel "VPPWZBFB" Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 202 - pressKeys: 1 Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 203 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:35 'r011.pl' 204 - findStringOnPanel "VPPWZBTD" Passed ***
+*** 2016-05-11 11:10:36 'r011.pl' 207 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:36 'r011.pl' 208 - findStringOnPanel "VPPALCL" Passed ***
+*** 2016-05-11 11:10:36 'r011.pl' 209 - findStringOnPanel "Allocations from JCL" Passed ***
+*** 2016-05-11 11:10:36 'r011.pl' 216 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:36 'r011.pl' 217 - findStringOnPanel "ASG2512I VERIFY PLAN NAME AND SUBSYSTEM ID AND ENTER 'R' TO RUN THE TEST." Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 220 - write2CommandLine "R" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 221 - findStringOnPanel "BREAK AT START OF TEST SESSION" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 224 - pressKey "[F4]" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 225 - findStringOnPanel "DECLARE CURSOR SQL RC = 00000000:" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 226 - findStringOnPanel "OPEN CURSOR SQL RC    = 00000000:" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 227 - findStringOnPanel "FETCH ROW SQL RC      = 00000000:" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 230 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 231 - findStringOnPanel "ADD 1 TO WS-COUNTER-NUM." Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 232 - findStringOnPanel "10 WS-COUNTER-NUM                  PIC S9(5) COMP-3    " Passed ***
+*** 2016-05-11 11:10:40 'r011.pl' 233 - findStringOnPanel " VALUE > ...                               <  * INVALID NUMERIC" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 237 - findStringOnPanel "SUCCESSFUL MEMORY UPDATE" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 240 - pressKey "[F4]" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 241 - findStringOnPanel "CLOSE CURSOR SQL RC   = 00000000:" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 244 - pressKey "[enter]" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 245 - findStringOnPanel "TEST ENDED, RC=0 " Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 246 - findStringOnPanel ">>>>>>      GOBACK" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 249 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:41 'r011.pl' 250 - findStringOnPanel "Test/Program View Entry" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 253 - write2CommandLine "CAN;Q CAN ALL" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 254 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 255 - findStringOnPanel "Test/Program View Entry" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 258 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 259 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 262 - write2CommandLine "ENV" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 263 - findStringOnPanel "Environment Selection" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 266 - write2CommandLine "B2" Passed ***
+*** 2016-05-11 11:10:43 'r011.pl' 267 - findStringOnPanel "DB2 Batch Session Setup" Passed ***
+*** 2016-05-11 11:10:44 'r011.pl' 286 - write2CommandLine "G" Passed ***
+*** 2016-05-11 11:10:44 'r011.pl' 287 - findStringOnPanel "JCL GENERATED" Passed ***
+*** 2016-05-11 11:10:44 'r011.pl' 290 - write2CommandLine "EG" Passed ***
+*** 2016-05-11 11:10:44 'r011.pl' 291 - findStringOnPanel "ISREDDE2" Passed ***
+*** 2016-05-11 11:10:44 'r011.pl' 292 - pressKey "[F3]" Passed ***
+*** 2016-05-11 11:10:45 'r011.pl' 295 - write2CommandLine "SG" Passed ***
+*** 2016-05-11 11:10:48 'r011.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-11 11:10:51 'r011.pl' checkBatchStatus: JOB ASG2076I ***
+*** 2016-05-11 11:10:53 'r011.pl' 302 - write2CommandLine "C" Passed ***
+*** 2016-05-11 11:11:03 'r011.pl' 306 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:11:03 'r011.pl' 307 - panelListAction JOBDBTC2 found on panel Passed ***
+*** 2016-05-11 11:11:06 'r011.pl' 312 - pressKey "[F4]" Passed ***
+*** 2016-05-11 11:11:08 'r011.pl' 314 - findStringOnPanel ">>>>>>      ADD 1 TO WS-COUNTER-NUM." Passed ***
+*** 2016-05-11 11:11:08 'r011.pl' 315 - findStringOnPanel "DATA EXCEPTION (0C7)" Passed ***
+*** 2016-05-11 11:11:09 'r011.pl' 319 - findStringOnPanel "SUCCESSFUL MEMORY UPDATE" Passed ***
+*** 2016-05-11 11:11:09 'r011.pl' 322 - pressKey "[F4]" Passed ***
+*** 2016-05-11 11:11:13 'r011.pl' 324 - findStringOnPanel "TEST ENDED, RC=0" Passed ***
+*** 2016-05-11 11:11:13 'r011.pl' 325 - pressKey "[ENTER]" Passed ***
+*** 2016-05-11 11:11:13 'r011.pl' 328 - pressKey "[F4]" Passed ***
+*** 2016-05-11 11:11:16 'r011.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-11 11:11:20 'r011.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-11 11:11:20 'r011.pl' 332 - write2CommandLine "C" Passed ***
+*** 2016-05-11 11:11:20 'r011.pl' 334 - verifyStringNotFoundOnPanel "WAITING FOR CONNECTION" Passed ***
+*** 2016-05-11 11:11:20 'r011.pl' 335 - verifyStringNotFoundOnPanel "JOBDBTC2" Passed ***
+*** 2016-05-11 11:11:21 'r011.pl' 338 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-11 11:11:21 'r011.pl' 338 - Ended with a status of:  Passed ***
+Wed May 11 11:11:21 2016 ------- Test Case r011.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 1 Min(s). 22 Sec(s). ------
+

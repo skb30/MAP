@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View               VIAPASM.VIAPXESA -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ ''''''   R14?                               DS CL16             ADDR 000FC114  
+ ''''''    000FC114  000FC134 000FC124 C6C9D9E2 E3404040  * ..A...A.FIRST    *  
+ ''''''   R14?+4?                            DS CL16             ADDR 000FC124  
+ ''''''    000FC124  000FC114 000FC134 D4C9C4C4 D3C54040  * ..A...A.MIDDLE   *  
+ ''''''   R14?+0?+8                          DS CL8              ADDR 000FC13C  
+ ''''''    000FC13C  D3C1E2E3 40404040                    * LAST             *  
+ -------------------------------------------------------------------------------
+ '''''1  BREAK.                                                                 
+ >>>>>>  PAUSE001 L     R14,4(,R14)            POINT TO MIDDLE OF CHAIN         
+ 000304  *--------------------------------------------------------------------* 
+ 000305  *                                                                    * 
+ 000306  * THIS EXAMPLE USES 'ADDRESS EXPRESSIONS' IN SEVERAL COMMANDS.       * 
+ 000307  *                                                                    * 
+ 000308  * AT THIS POINT, R14 POINTS TO THE FIRST ENTRY IN A CIRCULAR CHAIN OF* 
+ 000309  * CONTROL BLOCKS.  THE 1ST FULLWORD IN THE BLOCK POINTS TO THE PRIOR * 
+ 000310  * ENTRY IN THE CHAIN, THE 2ND FULLWORD POINTS TO THE NEXT ENTRY, AND * 
+ 000311  * THE REMAINING 8 BYTES OF EACH ENTRY ARE TEXT IDENTIFYING THE ENTRY.* 
+ 000312  *                                                                    * 
+ 000313  * ENTER THE FOLLOWING 'KEEP' COMMAND VARIATIONS:                     * 
+ 000314  *     'KEEP R14? LEN 16'     THE CURRENT ENTRY IN THE CHAIN          * 
+ 000315  *     'KEEP R14?+4? LEN 16'  THE NEXT ENTRY IN THE CHAIN             * 
+ 000316  *     'KEEP R14?+0?+8 CHAR LEN 8' THE TEXT OF THE PRIOR ENTRY        * 
+ 000317  *                                                                    * 
+ 000318  * NOW, 'STEP 2 AUTO' TO WATCH THE VALUES CHANGE AS R14 CHANGES.      * 
+ 000319  *                                                                    * 
+ 000320  *--------------------------------------------------------------------* 
+ 000321           L     R14,0(,R14)            POINT TO END OF CHAIN            
+ 000322           L     R14,0(,R14)            COMPLETE THE CIRCLE, POINT TO 1S 
+ 000323  *--------------------------------------------------------------------* 
+ 000324  *                                                                    * 
+ 000325  * ADDRESS EXPRESSIONS ARE ALSO SUPPORTED IN SEVERAL OTHER COMMANDS.  * 
+ 000326  *                                                                    * 
+ 000327  * ENTER 'DISPLAY R13%+4%+24%%+2 CHAR LEN 8' TO CHAIN BACK THROUGH THE* 
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK                   PGM: VIAPXESA  DATE: 06NOV2012 |
+ |  STMT: 000303  OFF: 0002B4  AMODE: 24 CC: 0  MOD: VIAPASM   TIME: 14:18:49  |
+ |SOURCE: PAUSE001 L     R14,4(,R14)            POINT TO MIDDLE OF CHAIN       |
+ +-----------------------------------------------------------------------------+

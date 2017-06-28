@@ -1,0 +1,43 @@
+ VPPSCNT                       Execution Counts                  SORTED BY LINE 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+ VIAPCOB   Total PARAS:   50  100%      VIAPCOB   Execution count: 439          
+        Executed PARAS:   39   78%                  Highest count: 150          
+      Unexecuted PARAS:   11   22%             Highest count line: 1096         
+                                                                                
+ S LINE   COUNT   %.........50%........100%  PARAS SORTED BY LINE NUMBER        
+ - ------ ------- ------------------------- ----------------------------------- 
+ _ 000255       1                           PROCEDURE DIVISION USING PARM-AREA. 
+ _ 000295       -                           DUMMY.                              
+ _ 000313       1                           PROGRAM-INIT.                       
+ _ 000336       -                           RECURSIVE-SUBROUTINE.               
+ _ 000352       -                           UNREFERENCED-SUBROUTINE.            
+ _ 000373       -                           PROGRAM-TERM.                       
+ _ 000379       -                           GET-TIME-IN-HUNDREDTHS.             
+ _ 000387       1                           GET-TIME-OF-DAY.                    
+ _ 000394       8 *                         MAIN-ROUTINE-LOOP.                  
+ _ 000408       1                           S0C7-DEMO.                          
+ _ 000430       1                           S0C7FIX1.                           
+ _ 000433       2                           S0C4-DEMO.                          
+ _ 000455      11 **                        S0C4-LOOP.                          
+ _ 000488       1                           NOSOURCE-DEMO.                      
+ _ 000548       1                           ADSTOP-DEMO.                        
+ _ 000605       1                           STOPFIX.                            
+ _ 000608       3 *                         STOP-BUILD-PAYEE-TABLE.             
+ _ 000614       3 *                         STOP-COMPUTE-SALARY.                
+ _ 000619       3 *                         STOP-COMPUTE-AVERAGE.               
+ _ 000637      14 **                        STOP-INIT-PAYEE-TABLE.              
+ _ 000667       1                           STEP-DEMO.                          
+ _ 000760       7 *                         STEP-VALUE-SUBROUTINE.              
+ _ 000763       1                           STEP-PARA-DEMO.                     
+ _ 000787       1                           STEP-PARA-SUB4.                     
+ _ 000797       1                           STEP-PARA-SUB3.                     
+ _ 000803       1                           STEP-PARA-SUB2.                     
+ _ 000809       1                           STEP-PARA-SUBROUTINE.               
+ _ 000825       1                           FX-DEMO.                            
+ _ 000884       1                           BACKTRACK-DEMO.                     
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: ######### |
+ |  STMT: ######  OFF: ######  AMODE: 31     MODULE: VIAPCOB   TIME: ########  |
+ |SOURCE: GO TO MAIN-ROUTINE-CHECK-ALL.                                        |
+ +-----------------------------------------------------------------------------+

@@ -1,0 +1,43 @@
+   File  View  Test  Search  List  Options  Help                                
+ ------------------------------------------------------------------------------ 
+ VPPTGVPL                        Program View               VIAPPLI.VIAPPLI1 -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ 001324       SUB1 = SUB1 + 1;                                                  
+ 001325       IF SUB1 ¬> VALID_PARMS_COUNT THEN                                 
+ 001326          DO;                                                            
+ 001327             IF VALID_PARM_TEXT (SUB1) ¬= ' ' THEN                       
+ 001328                DO;                                                      
+ 001329                   CURRENT_PARM_NUMBER = VALID_PARM_NUMB (SUB1);         
+ 001330                   DAT1 =  ' DEMONSTRATION OF: ';                        
+ 001331                   DAT2 =  VALID_PARM_TEXT (SUB1);                       
+ 001332                   DISPLAY_AREA_LENGTH = 80;                             
+ 001333                   PUT SKIP EDIT(DAT1,DAT2) (A, A);                      
+ 001334                   PUT PAGE;                                             
+ 001335                   /*------------------------------------------------*   
+ 001336                   * IF YOU GET A "FILE NOT ALLOCATED" MESSAGE       *   
+ 001337                   * IN THE STATUS BOX, SEE ALLOCATION COMMENTS ON   *   
+ 001338                   * THE NEXT PAGE(INVALID_PARM PROCEDURE COMMENTS). *   
+ 001339                   *------------------------------------------------*/   
+ 001340                   SUB1 = VALID_PARMS_COUNT;                             
+ 001341                END;                                                     
+ 001342          END;                                                           
+ 001343    END FIND_NEXT_PARAMETER;                                             
+ 001344                                                                         
+ 001345    /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/      
+ 001346                                                                         
+ 001347    /* ERROR IN PARM.  DISPLAY ERROR MESSAGE. */                         
+ 001348                                                                         
+ 001349    INVALID_PARM: PROC;                                                  
+ 001350                                                                         
+ 001351                                                                         
+ 001352       /*--------------------------------------------------------------* 
+ 001353       *                                                               * 
+ 001354       * IF YOU HAVEN'T ALLOCATED THE 'SYSOUT' DD STATEMENT YET, YOU   * 
+ 001355       * WILL GET A 'FILE NOT ALLOCATED, DD: SYSOUT' COMMENT IN THE    * 
+ 001356       * STATUS BOX AT THE OPEN SVC (SVC 19).  TO DYNAMICALLY ALLOCATE * 
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPPLI1  DATE: 19DEC2012 |
+ |  STMT: 001444  OFF: 000440  AMODE: 31     MODULE: VIAPPLI   TIME: 11:20:00  |
+ |SOURCE: S0C4_DEMO: PROC;                   /* PAUSE HERE */                  |
+ +-----------------------------------------------------------------------------+

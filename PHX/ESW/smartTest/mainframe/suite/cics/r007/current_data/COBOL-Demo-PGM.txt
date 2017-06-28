@@ -1,0 +1,24 @@
+ ------------------------ COBOL Demonstration Program ------------------------- 
+                                                                                
+                                                                                
+ ==>                                                                            
+                                                                                
+     1  Execute 2 thru 8                        9  Storage violation (harmless) 
+                                                                                
+     2  S0C7 ASRA demonstration                10  Invalid Freemain             
+                                                                                
+     3  S0C4 ASRA demonstration                11  Excessive CICS calls         
+                                                                                
+     4  Demonstrates stepping options          12  Too much storage accumulated 
+                                                                                
+     5  Stop on storage modification           13  AExx Abends (nohandle)       
+                                                                                
+     6  Disassembled object code               14  Link to Viacasm (assembler)  
+                                                                                
+     7  Sorted execution counts                15  Start asynchronous task VCO3 
+                                                                                
+     8  Review execution in reverse            16  Runaway task (AICA)          
+                                                                                
+                                                                                
+                                                                                
+ Clear=Exit  X=Exit  Enter=Link  Any other=Xctl                                 

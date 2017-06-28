@@ -1,0 +1,43 @@
+
+
+VSP03000               ASG-ESW - AKR Utility                         
+Command ===> ______________________________________________________  
+                                                                     
+       Blank - Display member list       D - Delete member           
+       A     - Allocate/expand AKR       R - Rename member           
+       M     - Move AKR member           C - Copy AKR member         
+                                                                     
+Application Knowledge Repository (AKR):                              
+                                                                     
+   Data set name . . ###############################                   
+   Member  . . . . . __________  (if "R","D","M" or "C" selected)    
+   New name  . . . . __________  (if "R" selected)                   
+                                                                     
+   Volume serial . . ______      (if not cataloged)                  
+   Password  . . . . ________    (if password protected)             
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     

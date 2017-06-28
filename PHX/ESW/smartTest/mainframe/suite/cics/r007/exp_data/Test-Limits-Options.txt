@@ -1,0 +1,43 @@
+ VPPCCSET               Transaction Limits and Options       VIACCOB.VIACCOB -A 
+ Command ===> ________________________________________________________________  
+                                                                                
+    You may increase a limit or set it to 0 (no limit) during a test session.   
+                                                                                
+          Limits:                      Current values:                          
+            Maximum calls  . . 0         0                                      
+            File I/O . . . . . 0         0                                      
+            Temp Storage . . . 0         0                                      
+            Transient Data . . 0         0                                      
+            Maximum Storage    0         0                                      
+                                                                                
+                                                                                
+          Options:                                                              
+            Storage protection NO      (YES or NO)                              
+            Print destination  CSSL    (Transient Data name)                    
+            Max GETMAIN size   0       (1 to 65520)                             
+            Save trace table   NO      (YES or NO)                              
+            Intercept SVCs . . YES     (YES or NO)                              
+            Intercept abends   YES     (YES or NO)                              
+                                                                                
+          Instruction count  : 0                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

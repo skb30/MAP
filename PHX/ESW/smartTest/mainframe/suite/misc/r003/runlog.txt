@@ -1,0 +1,46 @@
+Tue May 10 17:31:11 2016 ------- Test Case r003.pl.pl Started -------
+*** 2016-05-10 17:31:15 'r003.pl' 0 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:31:15 'r003.pl' 0 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-05-10 17:31:15 'r003.pl' 0 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-05-10 17:31:15 'r003.pl' 0 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-05-10 17:31:16 'r003.pl' 0 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-05-10 17:31:16 'r003.pl' 0 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-05-10 17:31:16 'r003.pl' 0 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-05-10 17:31:16 'r003.pl' 0 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:31:17 'r003.pl' 40 - write2CommandLine "TSO DELETE 'QAL.PHX.ESWAUTO.AKR'" Passed ***
+*** 2016-05-10 17:31:17 'r003.pl' 41 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:31:17 'r003.pl' 47 - write2CommandLine "6" Passed ***
+*** 2016-05-10 17:31:17 'r003.pl' 47 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-05-10 17:31:17 'r003.pl' 47 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SCNXCLST)'" Passed ***
+*** 2016-05-10 17:31:18 'r003.pl' 47 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:31:18 'r003.pl' 47 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SESWCLST)'" Passed ***
+*** 2016-05-10 17:31:18 'r003.pl' 47 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:31:19 'r003.pl' 48 - write2CommandLine "CENTER" Passed ***
+*** 2016-05-10 17:31:20 'r003.pl' 51 - navigate2DropDownList "Test" Passed ***
+*** 2016-05-10 17:31:20 'r003.pl' 52 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 55 - navigate2DropDownList "File" Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 56 - findStringOnPanel "ASG-ESW - AKR Utility" Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 68 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 85 - pressKeys: AKRALLOC JOB (QAPHX),'ESW AKR ALLOC', Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 88 - pressKeys: MSGCLASS=A,NOTIFY=&SYSUID Passed ***
+*** 2016-05-10 17:31:21 'r003.pl' 89 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:31:22 'r003.pl' 91 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:31:25 'r003.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 17:31:28 'r003.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 17:31:29 'r003.pl' 96 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:31:29 'r003.pl' 97 - findStringOnPanel "ASG-ESW - AKR Utility" Passed ***
+*** 2016-05-10 17:31:29 'r003.pl' 100 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:31:29 'r003.pl' 101 - verifyPanel NewAKR.txt Passed ***
+*** 2016-05-10 17:31:29 'r003.pl' 104 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:31:29 'r003.pl' 107 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:31:30 'r003.pl' 121 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:31:34 'r003.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 17:31:37 'r003.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 17:31:37 'r003.pl' 126 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:31:37 'r003.pl' 129 - findStringOnPanel "ASG-ESW - AKR Utility" Passed ***
+*** 2016-05-10 17:31:37 'r003.pl' 130 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:31:37 'r003.pl' 131 - verifyPanel NewAKR2.txt Passed ***
+*** 2016-05-10 17:31:38 'r003.pl' 133 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:31:38 'r003.pl' 133 - Ended with a status of:  Passed ***
+Tue May 10 17:31:38 2016 ------- Test Case r003.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 27 Sec(s). ------
+

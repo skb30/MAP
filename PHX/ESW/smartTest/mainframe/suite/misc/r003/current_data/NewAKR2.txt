@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ - EsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssN -- 
+ V e VSP03000               ASG-ESW - AKR Utility                          e    
+ EsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssN
+ e VSP03100                  ASG-ESW - AKR Directory                           e
+ e Command ===> ___________________________________________ Scroll ===> CSR    e
+ e                                                                             e
+ e AKR: QAL.PHX.ESWAUTO.AKR                                        Row:      1 e
+ e M - Move     C - Copy        Total members:       0   Total entries:      0 e
+ e D - Delete   R - Rename      Total records:    2004      Free space: 100.0% e
+ e                                                                             e
+ e      Name     New name   Alias of    Type      Date    Time  Jobname  Space e
+ e - ---------- ---------- ---------- --------- --------- ----- -------- ----- e
+ e ******************************* BOTTOM OF DATA **************************** e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ e                                                                             e
+ DsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssM
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

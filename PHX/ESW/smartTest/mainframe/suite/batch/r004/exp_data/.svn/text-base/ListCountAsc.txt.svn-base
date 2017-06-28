@@ -1,0 +1,43 @@
+ VPPSCNT                       Execution Counts                SORTED ASCENDING 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+ VIAPCOB   Total STMTS:   243  100%     VIAPCOB   Execution count: 980          
+        Executed STMTS:   173   71%                 Highest count: 150          
+      Unexecuted STMTS:   70    29%            Highest count line: 1097         
+                                                                                
+ S LINE   COUNT   %.........50%........100%  STMTS SORTED BY ASCENDING COUNT    
+ - ------ ------- ------------------------- ----------------------------------- 
+ _ 000273       -                               PERFORM PROGRAM-TERM.           
+ _ 000281       -                               GOBACK.                         
+ _ 000297       -                               MOVE -1 TO RETURN-CODE.         
+ _ 000311       -                               GO TO MAIN-ROUTINE-CHECK-ALL.   
+ _ 000324       -                                  PERFORM INVALID-PARM         
+ _ 000325       -                                  PERFORM ABEND-ROUTINE.       
+ _ 000343       -                               IF RETURN-CODE < 0 THEN         
+ _ 000344       -                                  MOVE +2 TO RETURN-CODE       
+ _ 000346       -                                  MOVE +1 TO RETURN-CODE.      
+ _ 000347       -                               IF RETURN-CODE < 0 THEN         
+ _ 000348       -                                  PERFORM RECURSIVE-SUBROUTINE.
+ _ 000358       -                               IF RETURN-CODE < 0 THEN         
+ _ 000359       -                                  MOVE +2 TO RETURN-CODE       
+ _ 000361       -                                  MOVE +1 TO RETURN-CODE.      
+ _ 000362       -                               PERFORM ABEND-ROUTINE.          
+ _ 000369       -                               GOBACK.                         
+ _ 000374       -                               MOVE +0 TO RETURN-CODE.         
+ _ 000375       -                               PERFORM SUMMARY-ROUTINE.        
+ _ 000380       -                               COMPUTE TIME-OF-DAY-BIN = (TOD-H
+ _ 000381       -                               COMPUTE TIME-OF-DAY-BIN = (TIME-
+ _ 000382       -                               COMPUTE TIME-OF-DAY-BIN = (TIME-
+ _ 000383       -                               COMPUTE TIME-OF-DAY-BIN = (TIME-
+ _ 001014       -                                     MOVE 'N' TO BACK-FLAG.    
+ _ 001021       -                                  MOVE 'N' TO BACK-FLAG        
+ _ 001027       -                                     MOVE 'N' TO BACK-FLAG.    
+ _ 001034       -                                  MOVE 'N' TO BACK-FLAG        
+ _ 001040       -                                     MOVE 'N' TO BACK-FLAG.    
+ _ 001047       -                                  MOVE 'N' TO BACK-FLAG        
+ _ 001053       -                                     MOVE 'N' TO BACK-FLAG.    
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: ######### |
+ |  STMT: ######  OFF: ######  AMODE: 31     MODULE: VIAPCOB   TIME: ########  |
+ |SOURCE: GO TO MAIN-ROUTINE-CHECK-ALL.                                        |
+ +-----------------------------------------------------------------------------+

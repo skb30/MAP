@@ -1,0 +1,43 @@
+ VPPEXTRK                     Execution Tracking             VIACCOB.VIACCOB -A 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+       ######      PERFORM STOP-BUILD-PAYEE-TABLE                               
+    STOP-BUILD-PAYEE-TABLE                                                      
+       ######      MOVE 40 TO STOP-PAY-HOURS        (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-HOURS (STOP-PAYEE).               
+       ######      MOVE STOP-PAYEE TO STOP-PAY-RATE (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-RATE  (STOP-PAYEE).               
+    STOP-BUILD-PAYEE-TABLE                                                      
+       ######      MOVE 40 TO STOP-PAY-HOURS        (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-HOURS (STOP-PAYEE).               
+       ######      MOVE STOP-PAYEE TO STOP-PAY-RATE (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-RATE  (STOP-PAYEE).               
+    STOP-BUILD-PAYEE-TABLE                                                      
+       ######      MOVE 40 TO STOP-PAY-HOURS        (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-HOURS (STOP-PAYEE).               
+       ######      MOVE STOP-PAYEE TO STOP-PAY-RATE (STOP-PAYEE).               
+       ######      ADD STOP-PAYEE TO STOP-PAY-RATE  (STOP-PAYEE).               
+    ADSTOP-DEMO                                                                 
+       ######      PERFORM STOP-COMPUTE-SALARY                                  
+    STOP-COMPUTE-SALARY                                                         
+       ######      COMPUTE STOP-PAY-AMOUNT (STOP-PAYEE) =                       
+    STOP-COMPUTE-SALARY                                                         
+       ######      COMPUTE STOP-PAY-AMOUNT (STOP-PAYEE) =                       
+    STOP-COMPUTE-SALARY                                                         
+       ######      COMPUTE STOP-PAY-AMOUNT (STOP-PAYEE) =                       
+    ADSTOP-DEMO                                                                 
+       ######      PERFORM STOP-COMPUTE-AVERAGE                                 
+    STOP-COMPUTE-AVERAGE                                                        
+       ######      ADD STOP-PAY-AMOUNT (STOP-PAYEE) TO STOP-PAY-TOTAL.          
+       ######      COMPUTE STOP-PAY-AVERAGE = STOP-PAY-TOTAL / STOP-PAYEE.      
+    STOP-COMPUTE-AVERAGE                                                        
+       ######      ADD STOP-PAY-AMOUNT (STOP-PAYEE) TO STOP-PAY-TOTAL.          
+       ######      COMPUTE STOP-PAY-AVERAGE = STOP-PAY-TOTAL / STOP-PAYEE.      
+    STOP-COMPUTE-AVERAGE                                                        
+       ######      ADD STOP-PAY-AMOUNT (STOP-PAYEE) TO STOP-PAY-TOTAL.          
+ ******************************* BOTTOM OF DATA ********************************
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED BEFORE ADDRESS MODIFIED   PROGRAM: VIACCOB   DATE: ######### |
+ |  STMT: ######  OFF: ######  AMODE: 31     MODULE: VIACCOB   TIME: ######### |
+ |SOURCE: ADD STOP-PAY-AMOUNT (STOP-PAYEE) TO STOP-PAY-TOTAL.                  |
+ +-----------------------------------------------------------------------------+

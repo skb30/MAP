@@ -1,0 +1,328 @@
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004.pl           2015-07-07 14:30:26   2015-07-07 14:31:52   failed <---               0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004A.pl          2015-07-07 14:31:52   2015-07-07 14:32:20   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r005.pl           2015-07-07 14:32:20   2015-07-07 14:32:41   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl           2015-07-07 14:32:41   2015-07-07 14:33:04   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   cics                      r007.pl           2015-07-07 14:33:04   2015-07-07 14:43:15   passed                    0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl           2015-07-07 14:43:15   2015-07-07 14:45:06   failed <---               0 Day(s). 0 Hour(s). 1 Mi
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004.pl           2015-07-09 12:19:38   2015-07-09 12:21:00   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004A.pl          2015-07-09 12:21:00   2015-07-09 12:21:29   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r005.pl           2015-07-09 12:21:29   2015-07-09 12:21:49   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl           2015-07-09 12:21:49   2015-07-09 12:22:12   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  3
+   Scripts Run:     4
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  25
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004.pl           2015-07-13 13:54:58   2015-07-13 13:56:17   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004A.pl          2015-07-13 13:56:17   2015-07-13 13:56:45   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r005.pl           2015-07-13 13:56:45   2015-07-13 13:57:42   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl           2015-07-13 13:57:42   2015-07-13 13:59:26   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   cics                      r007.pl           2015-07-13 13:59:26   2015-07-13 14:09:50   passed                    0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl           2015-07-13 14:09:50   2015-07-13 14:14:12   passed                    0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl           2015-07-13 14:14:12   2015-07-13 14:25:41   failed <---               0 Day(s). 0 Hour(s). 11 M
+   misc                      r003.pl           2015-07-13 14:25:41   2015-07-13 14:25:51   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl           2015-07-13 14:25:51   2015-07-13 14:27:28   failed <---               0 Day(s). 0 Hour(s). 1 Mi
+   tca                       r015a.pl          2015-07-13 14:27:28   2015-07-13 14:30:39   failed <---               0 Day(s). 0 Hour(s). 3 Mi
+                                                        Summary Report
+   Scripts Passed:  5
+   Scripts Failed:  5
+   Scripts Run:     10
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 3
+   Percent Passed:  50
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 0 Mi
+   misc                      r003.pl           2015-07-14 09:42:24   2015-07-14 09:43:07   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl           2015-07-14 09:43:07   2015-07-14 09:43:50   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl          2015-07-14 09:43:50   2015-07-14 09:44:56   failed <---               0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  2
+   Scripts Failed:  1
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  66.66
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   tca                       r015.pl           2015-07-14 10:16:44   2015-07-14 10:17:44   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   tca                       r015a.pl          2015-07-14 10:17:44   2015-07-14 10:18:44   failed <---               0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  1
+   Scripts Run:     2
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  50
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl           2015-07-14 10:19:02   2015-07-14 10:19:52   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl          2015-07-14 10:19:52   2015-07-14 10:21:22   passed                    0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  2
+   Scripts Failed:  0
+   Scripts Run:     2
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004.pl           2015-07-14 13:17:29   2015-07-14 13:18:58   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004A.pl          2015-07-14 13:18:58   2015-07-14 13:19:27   failed <---               0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r005.pl           2015-07-14 13:19:27   2015-07-14 13:20:26   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl           2015-07-14 13:20:26   2015-07-14 13:22:15   passed                    0 Day(s). 0 Hour(s). 1 Mi
+   cics                      r007.pl           2015-07-14 13:22:15   2015-07-14 13:32:44   passed                    0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl           2015-07-14 13:32:44   2015-07-14 13:37:01   passed                    0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl           2015-07-14 13:37:01   2015-07-14 13:46:53   passed                    0 Day(s). 0 Hour(s). 9 Mi
+   misc                      r003.pl           2015-07-14 13:46:53   2015-07-14 13:47:20   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl           2015-07-14 13:47:20   2015-07-14 13:48:02   passed                    0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl          2015-07-14 13:48:02   2015-07-14 13:49:33   passed                    0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  9
+   Scripts Failed:  1
+   Scripts Run:     10
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 3
+   Percent Passed:  90
+   Suite Name                Script Name       Start Time            End Time              Status                    0 Day(s). 0 Hour(s). 1 Mi
+   db2                       r011.pl           2015-07-15 09:40:17   2015-07-15 09:41:47   passed                    0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 1
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 3 Mi
+   cics                      r007.pl                 2015-07-31 08:41:35   2015-07-31 08:45:24   failed <--- 0 Day(s). 0 Hour(s). 3 Mi
+   cics                      r008.pl                 2015-07-31 08:45:24   2015-07-31 08:46:47   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+   cics                      r009.pl                 2015-07-31 08:46:47   2015-07-31 08:56:23   failed <--- 0 Day(s). 0 Hour(s). 9 Mi
+                                                        Summary Report
+   Scripts Passed:  0
+   Scripts Failed:  3
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 1
+   Percent Passed:  0
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 11 M
+   cics                      r007.pl                 2015-07-31 09:06:18   2015-07-31 09:17:42   passed      0 Day(s). 0 Hour(s). 11 M
+   cics                      r008.pl                 2015-07-31 09:17:42   2015-07-31 09:22:53   passed      0 Day(s). 0 Hour(s). 5 Mi
+   cics                      r009.pl                 2015-07-31 09:22:53   2015-07-31 09:32:34   passed      0 Day(s). 0 Hour(s). 9 Mi
+                                                        Summary Report
+   Scripts Passed:  3
+   Scripts Failed:  0
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 11 M
+   cics                      r007.pl                 2015-07-31 11:08:34   2015-07-31 11:19:47   passed      0 Day(s). 0 Hour(s). 11 M
+   cics                      r008.pl                 2015-07-31 11:19:47   2015-07-31 11:24:35   passed      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl                 2015-07-31 11:24:35   2015-07-31 11:33:48   failed <--- 0 Day(s). 0 Hour(s). 9 Mi
+                                                        Summary Report
+   Scripts Passed:  2
+   Scripts Failed:  1
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  66.66
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 11 M
+   cics                      r007.pl                 2015-07-31 12:56:23   2015-07-31 13:07:25   passed      0 Day(s). 0 Hour(s). 11 M
+   cics                      r008.pl                 2015-07-31 13:07:25   2015-07-31 13:12:57   passed      0 Day(s). 0 Hour(s). 5 Mi
+   cics                      r009.pl                 2015-07-31 13:12:57   2015-07-31 13:22:44   passed      0 Day(s). 0 Hour(s). 9 Mi
+                                                        Summary Report
+   Scripts Passed:  3
+   Scripts Failed:  0
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 10 M
+   cics                      r007.pl                 2015-07-31 13:43:14   2015-07-31 13:54:12   passed      0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl                 2015-07-31 13:54:12   2015-07-31 13:58:42   passed      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl                 2015-07-31 13:58:42   2015-07-31 14:07:40   failed <--- 0 Day(s). 0 Hour(s). 8 Mi
+                                                        Summary Report
+   Scripts Passed:  2
+   Scripts Failed:  1
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  66.66
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 8 Mi
+   cics                      r009.pl                 2015-07-31 14:14:22   2015-07-31 14:23:18   failed <--- 0 Day(s). 0 Hour(s). 8 Mi
+                                                        Summary Report
+   Scripts Passed:  0
+   Scripts Failed:  1
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 9
+   Percent Passed:  0
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 9 Mi
+   cics                      r009.pl                 2015-07-31 14:24:51   2015-07-31 14:34:40   passed      0 Day(s). 0 Hour(s). 9 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 9
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r007.pl                 2015-08-03 10:39:15   2015-08-03 10:43:47   failed <--- 0 Day(s). 0 Hour(s). 4 Mi
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 3 Mi
+   cics                      r007.pl                 2015-08-03 10:43:29   2015-08-03 10:47:28   failed <--- 0 Day(s). 0 Hour(s). 3 Mi
+   cics                      r008.pl                 2015-08-03 10:47:28   2015-08-03 10:48:51   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 11 M
+   cics                      r007.pl                 2015-08-03 10:50:50   2015-08-03 11:02:32   passed      0 Day(s). 0 Hour(s). 11 M
+   cics                      r008.pl                 2015-08-03 11:02:32   2015-08-03 11:07:13   passed      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl                 2015-08-03 11:07:13   2015-08-03 11:17:21   passed      0 Day(s). 0 Hour(s). 10 M
+                                                        Summary Report
+   Scripts Passed:  3
+   Scripts Failed:  0
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 9 Mi
+   cics                      r007.pl                 2015-08-03 11:32:16   2015-08-03 11:41:57   failed <--- 0 Day(s). 0 Hour(s). 9 Mi
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 11 M
+   cics                      r007.pl                 2015-08-03 14:51:48   2015-08-03 15:03:19   passed      0 Day(s). 0 Hour(s). 11 M
+   cics                      r008.pl                 2015-08-03 15:03:19   2015-08-03 15:08:24   passed      0 Day(s). 0 Hour(s). 5 Mi
+   cics                      r009.pl                 2015-08-03 15:08:24   2015-08-03 15:19:06   passed      0 Day(s). 0 Hour(s). 10 M
+                                                        Summary Report
+   Scripts Passed:  3
+   Scripts Failed:  0
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004.pl                 2015-09-16 13:37:10   2015-09-16 13:38:40   passed      0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r004A.pl                2015-09-16 13:38:40   2015-09-16 13:39:09   failed <--- 0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r005.pl                 2015-09-16 13:39:09   2015-09-16 13:40:05   passed      0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl                 2015-09-16 13:40:05   2015-09-16 13:41:49   passed      0 Day(s). 0 Hour(s). 1 Mi
+   misc                      r003.pl                 2015-09-16 13:41:59   2015-09-16 13:42:25   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl                 2015-09-16 13:42:48   2015-09-16 13:43:30   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl                2015-09-16 13:43:30   2015-09-16 13:44:35   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+   db2                       r011.pl                 2015-09-16 13:44:45   2015-09-16 13:45:42   failed <--- 0 Day(s). 0 Hour(s). 0 Mi
+                                                        Summary Report
+   Scripts Passed:  5
+   Scripts Failed:  3
+   Scripts Run:     8
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 8
+   Percent Passed:  62.5
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 10 M
+   cics                      r007.pl                 2015-09-17 16:20:04   2015-09-17 16:30:42   passed      0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl                 2015-09-17 16:30:42   2015-09-17 16:34:54   passed      0 Day(s). 0 Hour(s). 4 Mi
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 2 Mi
+   db2                       r011.pl                 2015-10-30 13:32:57   2015-10-30 13:34:59   passed      0 Day(s). 0 Hour(s). 2 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name               Start Time            End Time              Status      0 Day(s). 0 Hour(s). 8 Mi
+   cics                      r009.pl                 2015-10-30 13:52:53   2015-10-30 14:01:52   failed <--- 0 Day(s). 0 Hour(s). 8 Mi
+                                                        Summary Report
+   Scripts Passed:  0
+   Scripts Failed:  1
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 9
+   Percent Passed:  0
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   batch                     r004.pl                 2016-04-27 12:04:48   2016-04-27 12:08:06   passed      0 Day(s). 0 Hour(s). 3 Mi
+   batch                     r005.pl                 2016-04-27 12:08:06   2016-04-27 12:10:50   passed      0 Day(s). 0 Hour(s). 2 Mi
+   batch                     r006.pl                 2016-04-27 12:10:50   2016-04-27 12:14:18   passed      0 Day(s). 0 Hour(s). 3 Mi
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   cics                      r007.pl                 2016-04-27 12:33:46   2016-04-27 12:47:05   passed      0 Day(s). 0 Hour(s). 13 M
+   cics                      r008.pl                 2016-04-27 12:47:05   2016-04-27 12:53:18   passed      0 Day(s). 0 Hour(s). 6 Mi
+   cics                      r009.pl                 2016-04-27 12:53:18   2016-04-27 13:05:23   passed      0 Day(s). 0 Hour(s). 12 M
+   misc                      r003.pl                 2016-04-27 13:05:31   2016-04-27 13:08:59   failed <--- 0 Day(s). 0 Hour(s). 3 Mi
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   misc                      r003.pl                 2016-04-27 14:55:37   2016-04-27 14:56:13   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl                 2016-04-27 14:56:20   2016-04-27 14:57:09   failed <--- 0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl                2016-04-27 14:57:09   2016-04-27 14:58:41   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  2
+   Scripts Run:     3
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 3
+   Percent Passed:  33.33
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   tca                       r015.pl                 2016-04-27 15:24:30   2016-04-27 15:26:05   passed      0 Day(s). 0 Hour(s). 1 Mi
+   tca                       r015a.pl                2016-04-27 15:26:05   2016-04-27 15:27:36   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  1
+   Scripts Run:     2
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 3
+   Percent Passed:  50
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   tca                       r015a.pl                2016-04-27 16:23:50   2016-04-27 16:26:08   passed      0 Day(s). 0 Hour(s). 2 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 2
+   Percent Passed:  100
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   db2                       r011.pl                 2016-04-28 11:17:06   2016-04-28 11:18:32   passed      0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 1
+   Percent Passed:  100
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   batch                     r004.pl                 2016-04-29 08:40:55   2016-04-29 08:44:24   passed      0 Day(s). 0 Hour(s). 3 Mi
+   batch                     r005.pl                 2016-04-29 08:44:25   2016-04-29 08:47:18   passed      0 Day(s). 0 Hour(s). 2 Mi
+   batch                     r006.pl                 2016-04-29 08:47:18   2016-04-29 08:50:33   passed      0 Day(s). 0 Hour(s). 3 Mi
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   cics                      r007.pl                 2016-04-29 14:53:33   2016-04-29 15:05:46   passed      0 Day(s). 0 Hour(s). 12 M
+   cics                      r008.pl                 2016-04-29 15:05:46   2016-04-29 15:11:51   passed      0 Day(s). 0 Hour(s). 6 Mi
+   cics                      r009.pl                 2016-04-29 15:11:51   2016-04-29 15:23:53   passed      0 Day(s). 0 Hour(s). 12 M
+   misc                      r003.pl                 2016-04-29 15:24:33   2016-04-29 15:25:06   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015.pl                 2016-04-29 15:25:18   2016-04-29 15:26:42   passed      0 Day(s). 0 Hour(s). 1 Mi
+   tca                       r015a.pl                2016-04-29 15:26:42   2016-04-29 15:28:14   failed <--- 0 Day(s). 0 Hour(s). 1 Mi
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   batch                     r004.pl                 2016-05-10 16:47:59   2016-05-10 16:49:11   passed      0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r005.pl                 2016-05-10 16:49:11   2016-05-10 16:50:07   passed      0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl                 2016-05-10 16:50:07   2016-05-10 16:51:49   passed      0 Day(s). 0 Hour(s). 1 Mi
+   cics                      r007.pl                 2016-05-10 17:07:45   2016-05-10 17:18:05   passed      0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl                 2016-05-10 17:18:05   2016-05-10 17:22:06   passed      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl                 2016-05-10 17:22:06   2016-05-10 17:31:04   passed      0 Day(s). 0 Hour(s). 8 Mi
+   misc                      r003.pl                 2016-05-10 17:31:11   2016-05-10 17:31:38   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl                2016-05-10 17:32:06   2016-05-10 17:33:40   passed      0 Day(s). 0 Hour(s). 1 Mi
+   db2                       r011.pl                 2016-05-10 17:34:15   2016-05-10 17:34:59   failed <--- 0 Day(s). 0 Hour(s). 0 Mi
+                                                        Summary Report
+   Scripts Passed:  8
+   Scripts Failed:  1
+   Scripts Run:     9
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 4
+   Percent Passed:  88.88
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   db2                       r011.pl                 2016-05-11 10:20:55   2016-05-11 10:21:39   failed <--- 0 Day(s). 0 Hour(s). 0 Mi
+                                                        Summary Report
+   Scripts Passed:  0
+   Scripts Failed:  1
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 4
+   Percent Passed:  0
+   Suite Name                Script Name             Start Time            End Time              Status      Elapased Time
+   db2                       r011.pl                 2016-05-11 11:09:59   2016-05-11 11:11:21   passed      0 Day(s). 0 Hour(s). 1 Mi
+                                                        Summary Report
+   Scripts Passed:  1
+   Scripts Failed:  0
+   Scripts Run:     1
+   Scripts Skipped: 0
+   Elasped Time:    0 Day(s). 0 Hour(s). 1
+   Percent Passed:  100

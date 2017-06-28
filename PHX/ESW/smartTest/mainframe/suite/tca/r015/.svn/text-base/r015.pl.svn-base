@@ -1,0 +1,435 @@
+###############################################################################
+#
+# TEST SCRIPT: QA-TCD-ST-7.9.0-R015.doc  
+#		
+# Script  
+# DESCRIPTION: Verify TCA (Test Coverage Analysis) setup and generation of  reports 
+# executes correctly
+# DATE: 7/9/2014
+# CJM 
+# Lines 271/272 cause a USERID.*.VIALIST file to be saved.  Before executing this script
+# verify that any existing VIALIST files are deleted to prevent line 272 from failing.
+##########################################################################################
+
+use Hllapi;
+use PROJCL::ProJcl;
+use Tie::IxHash;
+use MAP;
+use ESW::Eswtool;
+use ESW::PanelsMap; 
+
+my $configRef 		  = Cfg::getcfg();
+my $sessionID  		  = $configRef->{'SessionID'};
+my $userID            = $configRef->{'UserID'};
+my $execclist         = $configRef->{'Exec'};
+my $cntlLib 	      = $configRef->{'CntlLib'};
+my $ispprof           = $configRef->{'Ispprof'};
+my $hlq               = $configRef->{'TestDataHLQ'. '.'};
+my $akrcob            = $configRef->{'AKRCOB'}; 
+my $clist             = $configRef->{'Clist'}; 
+my $loadcob           = $configRef->{'LOADCOB'};                
+	
+package MAP;
+init;
+$session = startSession($sessionID);
+my $status = Eswtool::initProfile($session);
+$status = 0;
+
+# get the current date and return it in ddmmmyyyy (12JUN2012 for ej)
+$date = Util::check_date;  
+# Step 1-2
+## Go option 6
+ln __LINE__; $status = Eswtool::accessProduct($session, $execclist);
+#  
+ln __LINE__; $status = write2CommandLine( $session, "CENTER", '[enter]' ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "ST", '[enter]' ) if ( not $status );
+
+# Step 2 Analyze program VIAPCOB to be used in testing TCA
+ln __LINE__; $status = write2CommandLine( $session, "AN ", '[enter]' ) if ( not $status );
+
+# Step 3
+my $form = tie(
+	%form, Tie::IxHash,             
+	
+ 	'Data set name'        => "'qal.phx.eswauto.jcl2(VIAPCOBC)'",
+    'Understand: ' 	   	   => 'Y',
+    'Test:'   	           => 'Y',
+    'Extended Analysis:'   => 'Y',
+    'AKR data set name'    => "'$akrcob'",
+	'Compile? (Y/N) . . . . . . . . .'   => 'Y',
+	'Link load module reusable? (Y/N)'   => 'Y',
+		   
+);
+
+ln __LINE__; $status = write2Panel( $session, $form, '[enter]') if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "S", '[enter]' ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+# Step 4
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+
+# Step 5 Check if AKR contains cobol VIAPCOB
+ln __LINE__; $status = write2CommandLine( $session, "AKR", '[enter]' ) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "ASG-ESW - AKR Utility" ) if ( not $status );
+
+# Step 6
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Data set name . .'        => "'$akrcob'",
+	   
+);
+
+ln __LINE__; $status = write2Panel( $session, $form, '[enter]') if ( not $status );
+
+ln __LINE__; $status = pressKey( $session, '[F8]') if (not $status);
+# check that VIAPCOB in the directory has  today’s date.
+ln __LINE__;  findStringOnPanel( $session, "$date" );
+#                                           
+ln __LINE__; $status = pressKeyRepeat( $session, '[F3]',1) if (not $status);
+
+# Check TCA AKR for QAPLANB1 
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Data set name . .'        => "'QAL.PHX.ESW810AU.TCA.AKR'",
+	   
+);
+
+
+ln __LINE__; $status = write2Panel( $session, $form, '[enter]') if ( not $status );
+
+$status=MAP::findStringOnPanel( $session, "##QAPLANB1", 0,1 );
+
+# Delete QAPLANB1 if present.
+ if ( $status == 0 ){ 				
+	ln __LINE__;  panelListAction($session, "##QAPLANB1", "D");
+
+ }else { 
+    	$status =0;
+    	}
+    	
+# Step 7   	
+ln __LINE__; navigateBack2Panel( $session, 'VPIPRTME' ) if (not $status); 
+
+# Step 8  Create a TCA Plan - Step 1 – “Naming the TCA Plan” 
+ln __LINE__; $status = write2CommandLine( $session, "LIST TCA", '[enter]' ) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "File - TCA Test Plan Selection" ) if (not $status);
+
+# Step 9
+ln __LINE__; $status = pressKeys( $session, '1') if (not $status);
+ln __LINE__; $status = write2PanelField( $session, "TCA AKR Name..", "'QAL.PHX.ESW810AU.TCA.AKR'", ) if (not $status);
+ln __LINE__; $status = write2PanelField( $session, "TCA PLAN Name.", "QAPLANB1",'[enter]' ) if (not $status);
+
+ln __LINE__;  findStringOnPanel( $session, "Environment Selection" ) if (not $status);
+
+
+# Step 10 Defining the library specification AKR and LOAD
+ln __LINE__; $status = write2CommandLine( $session, "L", '[enter]' ) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "Library Specification" ) if (not $status);
+
+ln __LINE__; $status = pressKey( $session, '[TAB]') if (not $status);
+
+# Step 11 Application Knowledge Repositaries (AKR)
+
+ln __LINE__; $status = putCursorOnPanelSrting( $session, 'Application Knowledge Repositories (AKR):')  if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[tab]')  if ( not $status );
+ln __LINE__; $status = pressKeys( $session, "'$akrcob'")  if ( not $status );
+# Application Load Libraries: 
+ln __LINE__; $status = putCursorOnPanelSrting( $session, 'Application Load Libraries:')  if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[tab]')  if ( not $status );
+ln __LINE__; $status = pressKeys( $session, "'$loadcob' ")  if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[ENTER]') if (not $status);
+
+# Step 12
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__;  findStringOnPanel( $session, "Environment Selection" ) if (not $status);
+
+# Step 13
+ln __LINE__; $status = write2CommandLine( $session, "T1", '[enter]' ) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "TSO Session Setup" ) if (not $status);
+
+# Step 14
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Load module'        								 => "VIAPCOB",
+	'Break on entry (Y/N)'								 => "NO ",
+	'Execution parameters:   (quotes are optional)'		 => "STEP",
+    'Deallocate'										 => "NO",  
+);
+
+ln __LINE__; $status = write2Panel( $session, $form,) if ( not $status );
+ln __LINE__; $status = pressKeyRepeat( $session, '[F3]',2) if (not $status);
+ln __LINE__;  findStringOnPanel( $session, "ASG-ESW - Testing/Debugging" ) if (not $status);
+
+# Step 15 -16 Select Test coverage
+ln(__LINE__); $status = navigate2DropDownList ($session, "File", "Select Test Coverage" ) if ( not $status);
+ln __LINE__;  findStringOnPanel( $session, "File - TCA Test Plan Selection" ) if (not $status);
+
+# Step 17 Enter Plan Name
+ln __LINE__; $status = write2PanelField( $session, "TCA PLAN Name.", "QAPLANB1", ) if (not $status);
+
+# Select Define/Display TCA PLAN
+ln __LINE__; $status = pressKey( $session, '[tab]') if (not $status);
+ln __LINE__; $status = pressKeys( $session, "2") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__;  $status =  findStringOnPanel( $session, "T.C.A. - COVERAGE PLAN" ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "ENV SYSTEM VARIABLES AND PARMS RESTORED" ) if ( not $status );
+
+# Step 18
+ln __LINE__; $status = write2PanelField( $session, "DESCRIPTION.....", "QA Batch Plan B1",'[enter]' ) if (not $status);
+
+# Step 19 Set Up the TCA Test Session
+ln __LINE__; $status = write2CommandLine( $session, "S", '[enter]' ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "TCA PLAN UPDATED" ) if ( not $status );
+
+# Step 20 
+
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Load module'        								 => "VIAPCOB",
+	'Break on entry (Y/N)'								 => "NO ",
+	'Execution parameters:   (quotes are optional)'		 => "STEP",
+	'Data set name'										 => "                                                    ",
+	'Member'											 => "           ",
+    'Deallocate'										 => "NO",  
+);
+
+ln __LINE__; $status = write2Panel( $session, $form,) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "TSO Session Setup" ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "*** TCA ACTIVE ***" ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "C", '[enter]' ) if ( not $status );
+
+# Step 21
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Data set name'        		 => "'$cntlLib'",
+    'Member  . . .'				 => "VIAPCOBJ",
+    'Data set name&'        		 => "'$clist'   ",
+    'Member  . . .&'				 => "PCOBTCA",
+	'Delete (Y/N)'					 => "NO",   
+	'Step   (Y/N)'					 => "NO",
+	'Subsystem'						 => "    ", 
+	'Step Name'						 => "      "
+	
+);
+
+ln __LINE__; $status = write2Panel( $session, $form,) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "Convert Batch JCL" )if ( not $status );
+
+#  C Convert batch JCL to TSO CLIST
+ln __LINE__; $status = write2CommandLine( $session, "C", '[enter]' ) if ( not $status );
+ln __LINE__;  findStringOnPanel( $session, "CLIST GENERATED" )if ( not $status ); 
+
+# Step 22
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__;  $status =  findStringOnPanel( $session, "TSO Session Setup" ) if ( not $status );
+
+# Step 23 Run the Test
+ln __LINE__; $status = write2CommandLine( $session, "R", '[enter]' ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "File - TCA Test Plan Run" ) if ( not $status );
+
+# Step 24 Select 1. Coverage Test
+ln __LINE__; $status = write2PanelField( $session, "Test Description=>", "QA Batch Plan B1", ) if (not $status);
+ln __LINE__; $status = pressKeyRepeat( $session, '[tab]',2) if (not $status);
+ln __LINE__; $status = pressKeys( $session, "1") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "DEMONSTRATION CLOCK TIME IN SECS/100:" ) if ( not $status );
+
+# Step 25
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "TEST ENDED, RC=0" ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - COVERAGE PLAN" ) if ( not $status );
+
+# Step 26 Generate Reports
+ln __LINE__; $status = write2CommandLine( $session, "G", '[enter]' ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - REPORT SELECTION" ) if ( not $status );
+
+# Step 27  1  Detail Count and Program Summary Report
+ln __LINE__; $status = pressKeys( $session, "1") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 28 Select All  tests results
+ln __LINE__; $status = pressKeys( $session, "A") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+
+# Step 29 To select programs for reports.
+ln __LINE__; $status = pressKeys( $session, "P") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - PROGRAM SELECTION" ) if ( not $status );
+
+# Step 30 Generate Reports ENTER G AND PROGRAM VIAPCOB
+ln __LINE__; $status = write2CommandLine( $session, "G",  ) if ( not $status );
+ln __LINE__; $status = pressKeyRepeat( $session, '[tab]',2) if (not $status);
+ln __LINE__; $status = pressKeys( $session, "VIAPCOB") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - DETAIL STATEMENT LIST" ) if ( not $status );
+
+# Step 31 Generate Hardcopy report to listFile
+ln __LINE__; $status = write2CommandLine( $session, "G",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "1006 LINE(S) PRINTED" ) if ( not $status );
+
+# Step 32 Apply tested/untested results to AKR
+ln __LINE__; $status = write2CommandLine( $session, "T",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "RESULTS APPLIED" ) if ( not $status );
+
+# Steps 33 - 37
+ln __LINE__; navigateBack2Panel( $session, 'VPIPRTME' ) if (not $status);
+
+# Step 39
+ln __LINE__; $status = navigate2DropDownList ($session, "Options", "Log/list/punch..." ) if ( not $status);
+
+# Step 40 Process List File
+ln __LINE__; $status =  findStringOnPanel( $session, "LIST FILE IS ALLOCATED" ) if ( not $status );
+ln __LINE__; $status = pressKeyRepeat ( $session, '[TAB]',16) if (not $status);
+ln __LINE__; $status = pressKeys( $session, "//QA056AAL JOB (ACCOUNT),NAME,  ") if (not $status);
+ln __LINE__; $status = pressKey  ( $session, '[TAB]') if (not $status);
+ln __LINE__; $status = pressKeys( $session, "//         MSGCLASS=A") if (not $status);
+
+ln __LINE__; $status = write2CommandLine( $session, "2",  ) if ( not $status );
+ln __LINE__; $status = pressKeyRepeat( $session, '[TAB]',2) if (not $status);
+ln __LINE__; $status = pressKeys( $session, "PK") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[ENTER]') if (not $status);
+
+# Step 41 
+ln __LINE__; $status = pressKey( $session, '[ENTER]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "LIST OPTIONS PROCESSED" ) if ( not $status );
+
+# Step 42
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "ASG-ESW - Testing/Debugging" ) if ( not $status );
+
+# Step 43 - 44 Select TCA Information
+ln __LINE__; $status = navigate2DropDownList ($session, "List", "TCA information" ) if ( not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "File - TCA Test Plan Selection" ) if ( not $status );
+
+# Step 45 Select Generate TCA Reports
+ln __LINE__; $status = pressKeys( $session, "5") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - REPORT SELECTION" ) if ( not $status );
+
+# Step 46 Select Detail Execution Report
+ln __LINE__; $status = pressKeys( $session, "2") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 47 Select All test results.
+ln __LINE__; $status = write2CommandLine( $session, "A",'[enter]'  ) if ( not $status );
+
+# Step 48 Generate Reports for selected Results
+ln __LINE__; $status = write2CommandLine( $session, "G",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - DETAIL STATEMENT LIST" ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "bottom",'[enter]'  ) if ( not $status );
+ln __LINE__; $status = verifyPanelMask   ( $session, "Totalstats.txt",1 ) if ( not $status );
+
+# Step 49 Return to  T.C.A. - RESULT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 50 Return to  T.C.A. - REPORT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - REPORT SELECTION" ) if ( not $status );
+
+# Step 51 Select 3 Program/Paragraph Label Count Report
+ln __LINE__; $status = pressKeys( $session, "3") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 52 Select All test results.
+ln __LINE__; $status = write2CommandLine( $session, "A",'[enter]'  ) if ( not $status );
+
+# Step 53 Generate Reports for selected Results
+ln __LINE__; $status = write2CommandLine( $session, "G",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - PROGRAM - LABEL  LIST" ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "bottom",'[enter]'  ) if ( not $status );
+ln __LINE__; $status = verifyPanelMask  ( $session, "Totalstats2.txt",1 ) if ( not $status );
+
+# Step 54 Return to  T.C.A. - RESULT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 55 Return to  T.C.A. - REPORT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - REPORT SELECTION" ) if ( not $status );
+
+# Step 56 Select 4 Program/Paragraph Label Execution Report 
+ln __LINE__; $status = pressKeys( $session, "4") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 57 Select All test results.
+ln __LINE__; $status = write2CommandLine( $session, "A",'[enter]'  ) if ( not $status );
+
+# Step 58 Generate Reports for selected Results
+ln __LINE__; $status = write2CommandLine( $session, "G",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - PROGRAM - LABEL  LIST" ) if ( not $status );
+
+# Step 59 Return to  T.C.A. - RESULT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 60 Return to  T.C.A. - REPORT SELECTION
+ln __LINE__; $status = pressKey( $session, '[F3]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - REPORT SELECTION" ) if ( not $status );
+
+# Step 61 Select 5 Executed/Not Executed Summary Report 
+ln __LINE__; $status = pressKeys( $session, "5") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - RESULT SELECTION" ) if ( not $status );
+
+# Step 62 Select All test results.
+ln __LINE__; $status = write2CommandLine( $session, "A",'[enter]'  ) if ( not $status );
+
+# Step 63 Generate Reports for selected Results
+ln __LINE__; $status = write2CommandLine( $session, "G",'[enter]'  ) if ( not $status );
+ln __LINE__; $status =  findStringOnPanel( $session, "T.C.A. - SUMMARY REPORT" ) if ( not $status );
+ln __LINE__; $status = verifyPanelMask ( $session, "Totalstats3.txt" ,1) if ( not $status );
+
+# Step 64 -67
+ln __LINE__; navigateBack2Panel( $session, 'VPPTCADA' ) if (not $status);
+
+# Step 68 Go to Setup TCA TEST
+ln __LINE__; $status = pressKeys( $session, "3") if (not $status);
+ln __LINE__; $status = pressKey ( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "TSO Session Setup" ) if ( not $status );
+
+# Step 69 Set Break on Entry to NO
+$form = tie(
+	%form, Tie::IxHash,             
+	
+	'Load module'        								 => "VIAPCOB",
+	'Break on entry (Y/N)'								 => "NO ",
+	'Execution parameters:   (quotes are optional)'		 => "STEP",
+	'Data set name'										 => "                                                    ",
+	'Member'											 => "           ",
+    'Deallocate'										 => "NO",  
+);
+
+ln __LINE__; $status = write2Panel( $session, $form,) if ( not $status );
+
+# Step 70 Run the test
+ln __LINE__; $status = write2CommandLine( $session, "R", '[enter]' ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "File - TCA Test Plan Run" ) if ( not $status );
+
+# Step 71 Select TCA Test Option - Point Test
+ln __LINE__; $status = pressKeyRepeat( $session, '[tab]',2) if (not $status);
+ln __LINE__; $status = pressKeys( $session, "2") if (not $status);
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__; $status =  findStringOnPanel( $session, "DEMONSTRATION CLOCK TIME IN SECS/100: 00000" ) if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[enter]') if (not $status);
+ln __LINE__;  $status =  findStringOnPanel( $session, "T.C.A. - COVERAGE PLA" ) if ( not $status );
+
+# Step 72 Select L - To List/Maintain TCA Tests Results.
+ln __LINE__; $status = write2CommandLine( $session, "L", '[enter]' ) if ( not $status );
+ln __LINE__;  $status =  findStringOnPanel( $session, "T.C.A. - TEST UTILITY" ) if ( not $status );
+
+# Step 73 D Delete the Test result
+ln __LINE__;  panelListAction($session, "DEFAULT DESCRIPTION", "D") if (not $status);
+
+# Step 74 End the Test and go back to main ISPF menu
+ln __LINE__; navigateBack2Panel( $session, 'ISP@MST1' );
+end ($status); 1;

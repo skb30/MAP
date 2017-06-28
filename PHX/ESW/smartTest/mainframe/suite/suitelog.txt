@@ -1,0 +1,10 @@
+800 GA April Cumm#April Cumm Maint# 2016-05-11 11:09:57
+   batch                     r004.pl                 2016-05-10 16:47:59   2016-05-10 16:49:11   passed      0 Day(s). 0 Hour(s). 1 Mi
+   batch                     r005.pl                 2016-05-10 16:49:11   2016-05-10 16:50:07   passed      0 Day(s). 0 Hour(s). 0 Mi
+   batch                     r006.pl                 2016-05-10 16:50:07   2016-05-10 16:51:49   passed      0 Day(s). 0 Hour(s). 1 Mi
+   cics                      r007.pl                 2016-05-10 17:07:45   2016-05-10 17:18:05   passed      0 Day(s). 0 Hour(s). 10 M
+   cics                      r008.pl                 2016-05-10 17:18:05   2016-05-10 17:22:06   passed      0 Day(s). 0 Hour(s). 4 Mi
+   cics                      r009.pl                 2016-05-10 17:22:06   2016-05-10 17:31:04   passed      0 Day(s). 0 Hour(s). 8 Mi
+   misc                      r003.pl                 2016-05-10 17:31:11   2016-05-10 17:31:38   passed      0 Day(s). 0 Hour(s). 0 Mi
+   tca                       r015a.pl                2016-05-10 17:32:06   2016-05-10 17:33:40   passed      0 Day(s). 0 Hour(s). 1 Mi
+   db2                       r011.pl                 2016-05-11 11:09:59   2016-05-11 11:11:21   passed      0 Day(s). 0 Hour(s). 1 Mi

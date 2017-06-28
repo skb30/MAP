@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIACASM.VIACASM -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ 000070           DFHEIGBL ,,,NOLE          INSERTED BY TRANSLATOR              
+ >>>>>>  VIACASM  DFHEIENT CODEREG=(12,8)                                       
+ 000410           B     BYINFO                 BRANCH AROUND PGM INFORMATION    
+ 000411  *--------------------------------------------------------------------* 
+ 000412  *                                                                    * 
+ 000413  *       ***************  R E A D   T H I S  ******************       * 
+ 000414  *       *                                                    *       * 
+ 000415  *       *  PLEASE READ THE INSTRUCTIONS AT THE TOP OF THIS   *       * 
+ 000416  *       *  PROGRAM.  THEY WILL HELP YOU GET THE MOST VALUE   *       * 
+ 000417  *       *  FROM THIS DEMONSTRATION.                          *       * 
+ 000418  *       *                                                    *       * 
+ 000419  *       *  ENTER 'UP MAX' ON THE PRIMARY COMMAND LINE.       *       * 
+ 000420  *       *                                                    *       * 
+ 000421  *       ***************  R E A D   T H I S  ******************       * 
+ 000422  *                                                                    * 
+ 000423  *--------------------------------------------------------------------* 
+ 000424           DC    CL8'VIACASM '          PROGRAM NAME                     
+ 000425           DC    CL8'&SYSDATE',CL8'&SYSTIME'  DATE/TIME OF ASSEMBLY      
+ 000425           DC    CL8'05/10/16',CL8'20.18'     DATE/TIME OF ASSEMBLY      
+ 000426           DC    C'*************************************************** ' 
+ 000427           DC    C'THIS PROGRAM IS PROPRIETARY PROPERTY OF ASG, INC.   ' 
+ 000428           DC    C'               ALL RIGHTS RESERVED                  ' 
+ 000429           DC    C'*************************************************** ' 
+ 000430  *                                                                      
+ 000431  BYINFO   DS    0H                                                      
+ 000432           CLI   EIBAID,C'1'            Q-PF01 ?                         
+ 000433           BNE   BYINFOO                N-GOBY                           
+ 000434           BAL   R10,SENDHELP           GO ALLOCATE MY WORK AREA         
+ 000435           MVI   SELBI,X'FF'            ..CLEAR FOR RESEND               
+ 000436           B     RESEND                                                  
+ 000437  *                                                                      
+ 000438  BYINFOO  DS    0H                                                      
+ 000439           BAL   R10,INITPARM           ..INIT PARMS                     
+ +-----------------------------------------------------------------------------+
+ |STATUS: BREAK AT START OF TEST SESSION        PGM: VIACASM   DATE: 10MAY2016 |
+ |  STMT: 000075  OFF: 000000  AMODE: 31 CC: 1  MOD: VIACASM   TIME: 20:19:11  |
+ |SOURCE: VIACASM  DFHEIENT CODEREG=(12,8)                                     |
+ +-----------------------------------------------------------------------------+

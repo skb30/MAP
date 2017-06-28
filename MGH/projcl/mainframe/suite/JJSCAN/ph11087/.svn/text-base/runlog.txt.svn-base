@@ -1,0 +1,24 @@
+Thu May 30 10:12:35 2013 ------- Test Case ph11087.pl.pl Started -------
+*** 2013-05-30 10:12:36 'ph11087.pl' started ***
+*** 2013-05-30 10:12:42 'ph11087.pl' 0 - navigate2Panel  Passed ***
+*** 2013-05-30 10:12:43 'ph11087.pl' 0 - findStringOnPanel "D0JPMAI0" Passed ***
+*** 2013-05-30 10:12:43 'ph11087.pl' 0 - navigate2Panel D0JPMAI0 Passed ***
+*** 2013-05-30 10:12:44 'ph11087.pl' 0 - findStringOnPanel "D0SPDIA1" Passed ***
+*** 2013-05-30 10:12:44 'ph11087.pl' 0 - navigate2Panel D0SPDIA1 Passed ***
+*** 2013-05-30 10:12:44 'ph11087.pl' 0 - findStringOnPanel "D0SPDIA8" Passed ***
+*** 2013-05-30 10:12:44 'ph11087.pl' 0 - navigate2Panel D0SPDIA8 Passed ***
+*** 2013-05-30 10:12:45 'ph11087.pl' 0 - panelListAction QA027ART found on panel Passed ***
+*** 2013-05-30 10:12:50 'ph11087.pl' 0 - findStringOnPanel "D0JPJVAL" Passed ***
+*** 2013-05-30 10:12:50 'ph11087.pl' 0 - navigate2Panel D0JPJVAL Passed ***
+*** 2013-05-30 10:12:50 'ph11087.pl' 0 - navigate2DropDownList "Settings" Passed ***
+*** 2013-05-30 10:12:51 'ph11087.pl' 0 - navigate2DropDownList "File" Passed ***
+*** 2013-05-30 10:12:53 'ph11087.pl' 32 - navigate2Panel  Passed ***
+*** 2013-05-30 10:12:54 'ph11087.pl' 35 - findStringOnPanel "D0SPSTCX" Passed ***
+*** 2013-05-30 10:12:54 'ph11087.pl' 37 - findStringOnPanel "D0SPSTC2" Passed ***
+*** 2013-05-30 10:12:54 'ph11087.pl' 39 - findStringOnPanel "QA027A" Passed ***
+*** 2013-05-30 10:12:55 'ph11087.pl' 47 - findStringOnPanel "ISREDM01" Passed ***
+*** 2013-05-30 10:12:57 'ph11087.pl' 54 - findStringOnPanel "QA027A" Passed ***
+*** 2013-05-30 10:12:59 'ph11087.pl' 62 - pressKeys "" Passed ***
+*** 2013-05-30 10:12:59 'ph11087.pl' 64 - Ended with a status of:  Passed ***
+Thu May 30 10:12:59 2013 ------- Test Case ph11087.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 24 Sec(s). ------
+

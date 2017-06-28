@@ -1,0 +1,33 @@
+Thu May 30 10:12:10 2013 ------- Test Case pc26009.pl.pl Started -------
+*** 2013-05-30 10:12:11 'pc26009.pl' started ***
+*** 2013-05-30 10:12:17 'pc26009.pl' 0 - navigate2Panel  Passed ***
+*** 2013-05-30 10:12:18 'pc26009.pl' 0 - findStringOnPanel "D0JPMAI0" Passed ***
+*** 2013-05-30 10:12:18 'pc26009.pl' 0 - navigate2Panel D0JPMAI0 Passed ***
+*** 2013-05-30 10:12:18 'pc26009.pl' 0 - findStringOnPanel "D0SPDIA1" Passed ***
+*** 2013-05-30 10:12:18 'pc26009.pl' 0 - navigate2Panel D0SPDIA1 Passed ***
+*** 2013-05-30 10:12:19 'pc26009.pl' 0 - findStringOnPanel "D0SPDIA8" Passed ***
+*** 2013-05-30 10:12:19 'pc26009.pl' 0 - navigate2Panel D0SPDIA8 Passed ***
+*** 2013-05-30 10:12:20 'pc26009.pl' 0 - panelListAction QA027ART found on panel Passed ***
+*** 2013-05-30 10:12:21 'pc26009.pl' 0 - findStringOnPanel "D0JPJVAL" Passed ***
+*** 2013-05-30 10:12:21 'pc26009.pl' 0 - navigate2Panel D0JPJVAL Passed ***
+*** 2013-05-30 10:12:22 'pc26009.pl' 0 - navigate2DropDownList "Settings" Passed ***
+*** 2013-05-30 10:12:22 'pc26009.pl' 0 - navigate2DropDownList "File" Passed ***
+*** 2013-05-30 10:12:24 'pc26009.pl' 30 - navigate2Panel  Passed ***
+*** 2013-05-30 10:12:25 'pc26009.pl' 33 - findStringOnPanel "D0JPMAI0" Passed ***
+*** 2013-05-30 10:12:25 'pc26009.pl' 33 - navigate2Panel D0JPMAI0 Passed ***
+*** 2013-05-30 10:12:26 'pc26009.pl' 35 - findStringOnPanel "D0JPJVAL" Passed ***
+*** 2013-05-30 10:12:26 'pc26009.pl' 35 - navigate2Panel D0JPJVAL Passed ***
+*** 2013-05-30 10:12:27 'pc26009.pl' 38 - navigate2DropDownList "Settings" Passed ***
+*** 2013-05-30 10:12:27 'pc26009.pl' 40 - findStringOnPanel "D0SPRUN0" Passed ***
+*** 2013-05-30 10:12:27 'pc26009.pl' 40 - navigate2Panel D0SPRUN0 Passed ***
+*** 2013-05-30 10:12:28 'pc26009.pl' 42 - panelListAction Error Summary found on panel Passed ***
+filename=QA027A.SJL.SCAN.TEMP1 
+*** 2013-05-30 10:12:31 'pc26009.pl' 85 - findStringOnPanel "'QA027A.ERROR.SUMMARY.FIRST' NOT IN CATALOG" Passed ***
+*** 2013-05-30 10:12:32 'pc26009.pl' 89 - findStringOnPanel "'QA027A.SJL.SCAN.TEMP1' NOT IN CATALOG" Passed ***
+*** 2013-05-30 10:12:33 'pc26009.pl' 92 - navigate2DropDownList "Settings" Passed ***
+*** 2013-05-30 10:12:33 'pc26009.pl' 94 - findStringOnPanel "D0SPRUN0" Passed ***
+*** 2013-05-30 10:12:33 'pc26009.pl' 94 - navigate2Panel D0SPRUN0 Passed ***
+*** 2013-05-30 10:12:33 'pc26009.pl' 96 - panelListAction Error Summary found on panel Passed ***
+*** 2013-05-30 10:12:35 'pc26009.pl' 100 - Ended with a status of:  Passed ***
+Thu May 30 10:12:35 2013 ------- Test Case pc26009.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 25 Sec(s). ------
+

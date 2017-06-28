@@ -1,0 +1,24 @@
+ ---------------------- Assembler Demonstration Program ----------------------- 
+                                                                                
+                                                                                
+ ==>                                                                            
+                                                                                
+     1  Execute 2 thru 12                       8  Adstop feature               
+                                                                                
+     2  S0C7 abend demonstration                9  Disassembled object code     
+                                                                                
+     3  S0C4 abend demonstration               10  Sorted execution counts      
+                                                                                
+     4  Patch invalid instruction              11  Floating point registers     
+                                                                                
+     5  Demonstrates stepping options          12  Reentrancy check             
+                                                                                
+     6  Address expressions                                                     
+                                                                                
+     7  Dsect demo                                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Clear=Exit  X=Exit  PF1=Readme                                                 

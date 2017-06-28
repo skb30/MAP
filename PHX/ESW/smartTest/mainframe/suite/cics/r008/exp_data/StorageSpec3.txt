@@ -1,0 +1,43 @@
+ VPPCTBLA                   Storage Specification            VIACASM.VIACASM -A 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+     Define storage locations which are to be protected or allowed. These       
+     definitions will be merged with the default protection rules.              
+                                                                                
+     Valid Areas are: INS, PGM, CSA, CWA, DCT, FCT, PCT, PPT, TCT, TUA.         
+                                                                                
+     Area   Name    Offset  Length  Protect (YES/NO, NO implies ALLOW)          
+     ---  --------  -----   ------  -------                                     
+ ''' PGM  VIACASM   00000   009184  YES                                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

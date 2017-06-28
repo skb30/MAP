@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ ''''''   10 BACK-FLAG                       PIC X                              
+ ''''''        VALUE > N <                                                      
+ -------------------------------------------------------------------------------
+ 000988      IF BACK-SUB >   9 THEN                                             
+ 000989         MOVE 'N' TO BACK-FLAG                                           
+ 000990 *---------------------------------------------------------------*       
+ 000991 *                                                               *       
+ 000992 * THIS IS THE MOST RECENT MODIFICATION OF 'BACK-FLAG'.  TO SEE  *       
+ 000993 * WHAT VALUE 'BACK-FLAG' CONTAINED BEFORE IT WAS MODIFIED,      *       
+ 000994 * ENTER 'KEEP BACK-FLAG'.                                       *       
+ 000995 *                                                               *       
+ 000996 * AT THIS POINT IN THE EXECUTION OF THE TEST PROGRAM, THE FIELD *       
+ 000997 * BACK-FLAG CONTAINED A 'Y'.  YOU CAN STEP BACKWARD AND FORWARD *       
+ 000998 * THROUGH THE EXECUTION HISTORY, AND WATCH THE DATA VALUES      *       
+ 000999 * CHANGE.  ENTER 'STEP FORWARD' (OR 'STEP F') TO WATCH IT       *       
+ 001000 * CHANGE TO AN 'N'.                                             *       
+ 001001 *                                                               *       
+ 001002 *---------------------------------------------------------------*       
+ 001003      ELSE                                                               
+ 001004         ADD 1 TO RETURN-CODE.                                           
+ BKTR=>      PERFORM BACK-PARA6.                                                
+ 001006 *---------------------------------------------------------------*       
+ 001007 *                                                               *       
+ 001008 * NOW, ENTER 'STEP BACK 4 AUTO' TO WATCH IT CHANGE BACK TO      *       
+ 001009 * 'Y', AND CONTINUE EXECUTION IN REVERSE.                       *       
+ 001010 *                                                               *       
+ 001011 *---------------------------------------------------------------*       
+ 001012      IF RETURN-CODE NOT = BACK-SUB THEN                                 
+ 001013         IF RETURN-CODE < 0 THEN                                         
+ 001014            MOVE 'N' TO BACK-FLAG.                                       
+ 001015      PERFORM BACK-PARA6.                                        RETURN  
+ 001016                                                                         
+ 001017  BACK-PARA3.                                                            
+ +-----------------------------------------------------------------------------+
+ |STATUS: * REVIEWING BACKTRACK HISTORY *   PROGRAM: VIAPCOB   DIRECTION: FWD  |
+ |  STMT: 001005  OFF: 000E16  AMODE: 31     MODULE: VIAPCOB    SEQ# -342      |
+ |SOURCE: PERFORM BACK-PARA6.                                                  |
+ +-----------------------------------------------------------------------------+

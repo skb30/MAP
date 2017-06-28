@@ -1,0 +1,1187 @@
+7/14/2015 2:12:59 PM:  *** ********************************************************************************************************* *** 
+7/14/2015 2:12:59 PM:  *** Starting MAP Publisher.. *** 
+7/14/2015 2:12:59 PM:  *** ********************************************************************************************************* *** 
+7/14/2015 2:12:59 PM:  *** Publishing to Database: `MAP2-TEST` *** 
+7/14/2015 2:13:02 PM:  *** ********************************************************************************************************* *** 
+7/14/2015 2:13:02 PM:  *** Starting MAP Publisher.. *** 
+7/14/2015 2:13:02 PM:  *** ********************************************************************************************************* *** 
+7/14/2015 2:13:02 PM:  *** Publishing to Database: `MAP2` *** 
+7/14/2015 2:13:57 PM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+7/14/2015 2:13:57 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+7/14/2015 2:13:57 PM:  *** OS version: 8 - z/OS - 2.10 *** 
+7/14/2015 2:13:57 PM:  *** LPAR: 2 - SYSQ -   *** 
+7/14/2015 2:13:57 PM:  *** Subsytem: 43 - CICS - TS52 *** 
+7/14/2015 2:13:57 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+7/14/2015 2:13:57 PM:  *** BuildInfo: Release 800 June Cumm maint *** 
+7/14/2015 2:13:57 PM:  *** Build Name: JuneCumm *** 
+7/14/2015 2:13:57 PM:  *** JuneCumm:  added to regression table with ID: 278 and productID of: 74 *** 
+7/14/2015 2:13:57 PM:  *** Script instance created *** 
+7/14/2015 2:13:57 PM:  *** Suite: batch added to suite table with ID: 2170 and regressionID of: 278 *** 
+7/14/2015 2:13:57 PM:  *** Inserting Suite batch with ID: 2170 *** 
+7/14/2015 2:13:57 PM:  *** Script r004 added to script table with ID: 18863 and suiteID of: 2170 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\backflag.txt:  added to exp_files with ID: 62230 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\backflagvalue.txt:  added to exp_files with ID: 62231 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\backflagvalue2.txt:  added to exp_files with ID: 62232 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\backflagvalue3.txt:  added to exp_files with ID: 62233 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\backflagvalue4.txt:  added to exp_files with ID: 62234 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\FindValuebreak.txt:  added to exp_files with ID: 62235 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\FindValuebreak2.txt:  added to exp_files with ID: 62236 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\IEFBR14Break.txt:  added to exp_files with ID: 62237 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\IEFBR14Step.txt:  added to exp_files with ID: 62238 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 62239 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\ListCountAsc.txt:  added to exp_files with ID: 62240 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\ListCountDesc.txt:  added to exp_files with ID: 62241 and scriptID of: 18863 *** 
+7/14/2015 2:13:57 PM:  *** exp_data\ListCountDPara.txt:  added to exp_files with ID: 62242 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListCountLine.txt:  added to exp_files with ID: 62243 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 62244 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Listtracking.txt:  added to exp_files with ID: 62245 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Nosource.txt:  added to exp_files with ID: 62246 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\StopFix.txt:  added to exp_files with ID: 62247 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\backflag.txt:  added to current with ID: 56636 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\backflagvalue.txt:  added to current with ID: 56637 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\backflagvalue2.txt:  added to current with ID: 56638 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\backflagvalue3.txt:  added to current with ID: 56639 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\backflagvalue4.txt:  added to current with ID: 56640 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\FindValuebreak.txt:  added to current with ID: 56641 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\FindValuebreak2.txt:  added to current with ID: 56642 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\IEFBR14Step.txt:  added to current with ID: 56643 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListAddStop.txt:  added to current with ID: 56644 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListCountAsc.txt:  added to current with ID: 56645 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListCountDesc.txt:  added to current with ID: 56646 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListCountDPara.txt:  added to current with ID: 56647 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListCountLine.txt:  added to current with ID: 56648 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTrack.txt:  added to current with ID: 56649 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Nosource.txt:  added to current with ID: 56650 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** current_data\StopFix.txt:  added to current with ID: 56651 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\backflag.txt:  added to differences with ID: 56016 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\backflagvalue.txt:  added to differences with ID: 56017 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\backflagvalue2.txt:  added to differences with ID: 56018 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\backflagvalue3.txt:  added to differences with ID: 56019 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\backflagvalue4.txt:  added to differences with ID: 56020 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\FindValuebreak.txt:  added to differences with ID: 56021 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\FindValuebreak2.txt:  added to differences with ID: 56022 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\IEFBR14Step.txt:  added to differences with ID: 56023 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListAddStop.txt:  added to differences with ID: 56024 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListCountAsc.txt:  added to differences with ID: 56025 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListCountDesc.txt:  added to differences with ID: 56026 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListCountDPara.txt:  added to differences with ID: 56027 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListCountLine.txt:  added to differences with ID: 56028 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 56029 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Nosource.txt:  added to differences with ID: 56030 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Differences\StopFix.txt:  added to differences with ID: 56031 and scriptID of: 18863 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r004A added to script table with ID: 18864 and suiteID of: 2170 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r005 added to script table with ID: 18865 and suiteID of: 2170 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62248 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 62249 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 62250 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 62251 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 56652 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** current_data\S0C4.txt:  added to current with ID: 56653 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** current_data\SC07.txt:  added to current with ID: 56654 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Stepover.txt:  added to current with ID: 56655 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56032 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** Differences\S0C4.txt:  added to differences with ID: 56033 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** Differences\SC07.txt:  added to differences with ID: 56034 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Stepover.txt:  added to differences with ID: 56035 and scriptID of: 18865 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r006 added to script table with ID: 18866 and suiteID of: 2170 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 62252 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailor.txt:  added to exp_files with ID: 62253 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 62254 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 62255 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 62256 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 62257 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailor.txt:  added to current with ID: 56656 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTrack.txt:  added to current with ID: 56657 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailor.txt:  added to differences with ID: 56036 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 56037 and scriptID of: 18866 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Suite: cics added to suite table with ID: 2171 and regressionID of: 278 *** 
+7/14/2015 2:13:58 PM:  *** Inserting Suite cics with ID: 2171 *** 
+7/14/2015 2:13:58 PM:  *** Script r007 added to script table with ID: 18867 and suiteID of: 2171 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62258 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 62259 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 62260 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 62261 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 62262 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 62263 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 62264 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 62265 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 62266 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 62267 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 62268 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 62269 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 62270 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 62271 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 56658 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 56659 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 56660 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 56661 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 56662 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 56663 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56038 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 56039 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 56040 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 56041 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 56042 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 56043 and scriptID of: 18867 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r008 added to script table with ID: 18868 and suiteID of: 2171 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62272 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 62273 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 62274 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 62275 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 62276 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 62277 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 62278 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 56664 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ProgramView.txt:  added to current with ID: 56665 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 56666 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 56667 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 56668 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 56669 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 56670 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56044 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 56045 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 56046 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 56047 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 56048 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 56049 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 56050 and scriptID of: 18868 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r009 added to script table with ID: 18869 and suiteID of: 2171 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62279 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 62280 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 62281 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 62282 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62283 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 62284 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 62285 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 56671 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 56672 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 56673 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 56674 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56051 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56052 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 56053 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 56054 and scriptID of: 18869 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Suite: misc added to suite table with ID: 2172 and regressionID of: 278 *** 
+7/14/2015 2:13:58 PM:  *** Inserting Suite misc with ID: 2172 *** 
+7/14/2015 2:13:58 PM:  *** Script r003 added to script table with ID: 18870 and suiteID of: 2172 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\NewAKR.txt:  added to exp_files with ID: 62286 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\NewAKR2.txt:  added to exp_files with ID: 62287 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** current_data\NewAKR.txt:  added to current with ID: 56675 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** current_data\NewAKR2.txt:  added to current with ID: 56676 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** Differences\NewAKR.txt:  added to differences with ID: 56055 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** Differences\NewAKR2.txt:  added to differences with ID: 56056 and scriptID of: 18870 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Suite: tca added to suite table with ID: 2173 and regressionID of: 278 *** 
+7/14/2015 2:13:58 PM:  *** Inserting Suite tca with ID: 2173 *** 
+7/14/2015 2:13:58 PM:  *** Script r015 added to script table with ID: 18871 and suiteID of: 2173 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Totalstats.txt:  added to exp_files with ID: 62288 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Totalstats2.txt:  added to exp_files with ID: 62289 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** exp_data\Totalstats3.txt:  added to exp_files with ID: 62290 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Totalstats.txt:  added to current with ID: 56677 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Totalstats2.txt:  added to current with ID: 56678 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** current_data\Totalstats3.txt:  added to current with ID: 56679 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Totalstats.txt:  added to differences with ID: 56057 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Totalstats2.txt:  added to differences with ID: 56058 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** Differences\Totalstats3.txt:  added to differences with ID: 56059 and scriptID of: 18871 *** 
+7/14/2015 2:13:58 PM:  *** Script instance created *** 
+7/14/2015 2:13:58 PM:  *** Script r015a added to script table with ID: 18872 and suiteID of: 2173 *** 
+7/14/2015 2:13:58 PM:  *** Suite-log matched query *** 
+7/14/2015 2:13:58 PM:  *** Results for [Release 800 June Cumm maint] successfully completed. *** 
+7/14/2015 2:13:58 PM:  *** *************************Publish Results Ended **************************** *** 
+7/15/2015 9:45:07 AM:  *** ********************************************************************************************************* *** 
+7/15/2015 9:45:07 AM:  *** Starting MAP Publisher.. *** 
+7/15/2015 9:45:07 AM:  *** ********************************************************************************************************* *** 
+7/15/2015 9:45:07 AM:  *** Publishing to Database: `MAP2` *** 
+7/15/2015 9:45:34 AM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+7/15/2015 9:45:34 AM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+7/15/2015 9:45:34 AM:  *** OS version: 8 - z/OS - 2.10 *** 
+7/15/2015 9:45:34 AM:  *** LPAR: 2 - SYSQ -   *** 
+7/15/2015 9:45:34 AM:  *** Subsytem: 1 - N/A - N/A *** 
+7/15/2015 9:45:34 AM:  *** Site: 1 - MGH - Morgan Hill *** 
+7/15/2015 9:45:34 AM:  *** BuildInfo: Release 800 May Cumm maint *** 
+7/15/2015 9:45:34 AM:  *** Build Name: June Cumm *** 
+7/15/2015 9:45:35 AM:  *** June Cumm:  added to regression table with ID: 279 and productID of: 74 *** 
+7/15/2015 9:45:35 AM:  *** Script instance created *** 
+7/15/2015 9:45:35 AM:  *** Suite: db2 added to suite table with ID: 2174 and regressionID of: 279 *** 
+7/15/2015 9:45:35 AM:  *** Inserting Suite db2 with ID: 2174 *** 
+7/15/2015 9:45:35 AM:  *** Script r011 added to script table with ID: 18873 and suiteID of: 2174 *** 
+7/15/2015 9:45:35 AM:  *** Suite-log matched query *** 
+7/15/2015 9:45:35 AM:  *** Results for [Release 800 May Cumm maint] successfully completed. *** 
+7/15/2015 9:45:35 AM:  *** *************************Publish Results Ended **************************** *** 
+7/31/2015 1:29:26 PM:  *** ********************************************************************************************************* *** 
+7/31/2015 1:29:26 PM:  *** Starting MAP Publisher.. *** 
+7/31/2015 1:29:26 PM:  *** ********************************************************************************************************* *** 
+7/31/2015 1:29:26 PM:  *** Publishing to Database: `MAP2` *** 
+7/31/2015 1:30:23 PM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+7/31/2015 1:30:23 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+7/31/2015 1:30:23 PM:  *** OS version: 8 - z/OS - 2.10 *** 
+7/31/2015 1:30:23 PM:  *** LPAR: 2 - SYSQ -   *** 
+7/31/2015 1:30:23 PM:  *** Subsytem: 8 - CICS - 5.1 *** 
+7/31/2015 1:30:23 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+7/31/2015 1:30:23 PM:  *** BuildInfo: Release 800 *** 
+7/31/2015 1:30:23 PM:  *** Build Name: TS51 CMP 4.2 *** 
+7/31/2015 1:30:24 PM:  *** TS51 CMP 4.2:  added to regression table with ID: 286 and productID of: 74 *** 
+7/31/2015 1:30:24 PM:  *** Script instance created *** 
+7/31/2015 1:30:24 PM:  *** Suite: cics added to suite table with ID: 2181 and regressionID of: 286 *** 
+7/31/2015 1:30:24 PM:  *** Inserting Suite cics with ID: 2181 *** 
+7/31/2015 1:30:25 PM:  *** Script r007 added to script table with ID: 18932 and suiteID of: 2181 *** 
+7/31/2015 1:30:26 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62747 and scriptID of: 18932 *** 
+7/31/2015 1:30:26 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 62748 and scriptID of: 18932 *** 
+7/31/2015 1:30:26 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 62749 and scriptID of: 18932 *** 
+7/31/2015 1:30:26 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 62750 and scriptID of: 18932 *** 
+7/31/2015 1:30:27 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 62751 and scriptID of: 18932 *** 
+7/31/2015 1:30:27 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 62752 and scriptID of: 18932 *** 
+7/31/2015 1:30:27 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 62753 and scriptID of: 18932 *** 
+7/31/2015 1:30:27 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 62754 and scriptID of: 18932 *** 
+7/31/2015 1:30:28 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 62755 and scriptID of: 18932 *** 
+7/31/2015 1:30:28 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 62756 and scriptID of: 18932 *** 
+7/31/2015 1:30:28 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 62757 and scriptID of: 18932 *** 
+7/31/2015 1:30:28 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 62758 and scriptID of: 18932 *** 
+7/31/2015 1:30:29 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 62759 and scriptID of: 18932 *** 
+7/31/2015 1:30:29 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 62760 and scriptID of: 18932 *** 
+7/31/2015 1:30:29 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57131 and scriptID of: 18932 *** 
+7/31/2015 1:30:30 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 57132 and scriptID of: 18932 *** 
+7/31/2015 1:30:30 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 57133 and scriptID of: 18932 *** 
+7/31/2015 1:30:30 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 57134 and scriptID of: 18932 *** 
+7/31/2015 1:30:30 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 57135 and scriptID of: 18932 *** 
+7/31/2015 1:30:31 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 57136 and scriptID of: 18932 *** 
+7/31/2015 1:30:31 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56510 and scriptID of: 18932 *** 
+7/31/2015 1:30:31 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 56511 and scriptID of: 18932 *** 
+7/31/2015 1:30:31 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 56512 and scriptID of: 18932 *** 
+7/31/2015 1:30:32 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 56513 and scriptID of: 18932 *** 
+7/31/2015 1:30:32 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 56514 and scriptID of: 18932 *** 
+7/31/2015 1:30:32 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 56515 and scriptID of: 18932 *** 
+7/31/2015 1:30:32 PM:  *** Script instance created *** 
+7/31/2015 1:30:33 PM:  *** Script r008 added to script table with ID: 18933 and suiteID of: 2181 *** 
+7/31/2015 1:30:33 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62761 and scriptID of: 18933 *** 
+7/31/2015 1:30:34 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 62762 and scriptID of: 18933 *** 
+7/31/2015 1:30:34 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 62763 and scriptID of: 18933 *** 
+7/31/2015 1:30:34 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 62764 and scriptID of: 18933 *** 
+7/31/2015 1:30:35 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 62765 and scriptID of: 18933 *** 
+7/31/2015 1:30:35 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 62766 and scriptID of: 18933 *** 
+7/31/2015 1:30:35 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 62767 and scriptID of: 18933 *** 
+7/31/2015 1:30:36 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57137 and scriptID of: 18933 *** 
+7/31/2015 1:30:36 PM:  *** current_data\ProgramView.txt:  added to current with ID: 57138 and scriptID of: 18933 *** 
+7/31/2015 1:30:36 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 57139 and scriptID of: 18933 *** 
+7/31/2015 1:30:36 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 57140 and scriptID of: 18933 *** 
+7/31/2015 1:30:37 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 57141 and scriptID of: 18933 *** 
+7/31/2015 1:30:37 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 57142 and scriptID of: 18933 *** 
+7/31/2015 1:30:37 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 57143 and scriptID of: 18933 *** 
+7/31/2015 1:30:37 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56516 and scriptID of: 18933 *** 
+7/31/2015 1:30:38 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 56517 and scriptID of: 18933 *** 
+7/31/2015 1:30:38 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 56518 and scriptID of: 18933 *** 
+7/31/2015 1:30:38 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 56519 and scriptID of: 18933 *** 
+7/31/2015 1:30:38 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 56520 and scriptID of: 18933 *** 
+7/31/2015 1:30:39 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 56521 and scriptID of: 18933 *** 
+7/31/2015 1:30:39 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 56522 and scriptID of: 18933 *** 
+7/31/2015 1:30:39 PM:  *** Script instance created *** 
+7/31/2015 1:30:40 PM:  *** Script r009 added to script table with ID: 18934 and suiteID of: 2181 *** 
+7/31/2015 1:30:40 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62768 and scriptID of: 18934 *** 
+7/31/2015 1:30:41 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 62769 and scriptID of: 18934 *** 
+7/31/2015 1:30:41 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 62770 and scriptID of: 18934 *** 
+7/31/2015 1:30:41 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 62771 and scriptID of: 18934 *** 
+7/31/2015 1:30:41 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62772 and scriptID of: 18934 *** 
+7/31/2015 1:30:42 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 62773 and scriptID of: 18934 *** 
+7/31/2015 1:30:42 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 62774 and scriptID of: 18934 *** 
+7/31/2015 1:30:42 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57144 and scriptID of: 18934 *** 
+7/31/2015 1:30:43 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57145 and scriptID of: 18934 *** 
+7/31/2015 1:30:43 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 57146 and scriptID of: 18934 *** 
+7/31/2015 1:30:43 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 57147 and scriptID of: 18934 *** 
+7/31/2015 1:30:43 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56523 and scriptID of: 18934 *** 
+7/31/2015 1:30:44 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56524 and scriptID of: 18934 *** 
+7/31/2015 1:30:44 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 56525 and scriptID of: 18934 *** 
+7/31/2015 1:30:44 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 56526 and scriptID of: 18934 *** 
+7/31/2015 1:30:46 PM:  *** Suite-log matched query *** 
+7/31/2015 1:30:46 PM:  *** Results for [Release 800] successfully completed. *** 
+7/31/2015 1:30:46 PM:  *** *************************Publish Results Ended **************************** *** 
+7/31/2015 2:42:44 PM:  *** ********************************************************************************************************* *** 
+7/31/2015 2:42:44 PM:  *** Starting MAP Publisher.. *** 
+7/31/2015 2:42:44 PM:  *** ********************************************************************************************************* *** 
+7/31/2015 2:42:44 PM:  *** Publishing to Database: `MAP2` *** 
+7/31/2015 2:44:09 PM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+7/31/2015 2:44:09 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+7/31/2015 2:44:09 PM:  *** OS version: 8 - z/OS - 2.10 *** 
+7/31/2015 2:44:09 PM:  *** LPAR: 1 - N/A -   *** 
+7/31/2015 2:44:09 PM:  *** Subsytem: 7 - CICS - 4.2 *** 
+7/31/2015 2:44:09 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+7/31/2015 2:44:09 PM:  *** BuildInfo: #PTF PP00792 *** 
+7/31/2015 2:44:09 PM:  *** Build Name:  TS41 CMP 4.2 *** 
+7/31/2015 2:44:10 PM:  ***  TS41 CMP 4.2:  added to regression table with ID: 287 and productID of: 74 *** 
+7/31/2015 2:44:10 PM:  *** Script instance created *** 
+7/31/2015 2:44:11 PM:  *** Suite: cics added to suite table with ID: 2182 and regressionID of: 287 *** 
+7/31/2015 2:44:11 PM:  *** Inserting Suite cics with ID: 2182 *** 
+7/31/2015 2:44:12 PM:  *** Script r007 added to script table with ID: 18935 and suiteID of: 2182 *** 
+7/31/2015 2:44:12 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62775 and scriptID of: 18935 *** 
+7/31/2015 2:44:12 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 62776 and scriptID of: 18935 *** 
+7/31/2015 2:44:12 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 62777 and scriptID of: 18935 *** 
+7/31/2015 2:44:13 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 62778 and scriptID of: 18935 *** 
+7/31/2015 2:44:13 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 62779 and scriptID of: 18935 *** 
+7/31/2015 2:44:13 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 62780 and scriptID of: 18935 *** 
+7/31/2015 2:44:13 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 62781 and scriptID of: 18935 *** 
+7/31/2015 2:44:14 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 62782 and scriptID of: 18935 *** 
+7/31/2015 2:44:14 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 62783 and scriptID of: 18935 *** 
+7/31/2015 2:44:14 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 62784 and scriptID of: 18935 *** 
+7/31/2015 2:44:14 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 62785 and scriptID of: 18935 *** 
+7/31/2015 2:44:14 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 62786 and scriptID of: 18935 *** 
+7/31/2015 2:44:15 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 62787 and scriptID of: 18935 *** 
+7/31/2015 2:44:15 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 62788 and scriptID of: 18935 *** 
+7/31/2015 2:44:15 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57148 and scriptID of: 18935 *** 
+7/31/2015 2:44:16 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 57149 and scriptID of: 18935 *** 
+7/31/2015 2:44:16 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 57150 and scriptID of: 18935 *** 
+7/31/2015 2:44:16 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 57151 and scriptID of: 18935 *** 
+7/31/2015 2:44:16 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 57152 and scriptID of: 18935 *** 
+7/31/2015 2:44:17 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 57153 and scriptID of: 18935 *** 
+7/31/2015 2:44:17 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56527 and scriptID of: 18935 *** 
+7/31/2015 2:44:17 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 56528 and scriptID of: 18935 *** 
+7/31/2015 2:44:17 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 56529 and scriptID of: 18935 *** 
+7/31/2015 2:44:17 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 56530 and scriptID of: 18935 *** 
+7/31/2015 2:44:18 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 56531 and scriptID of: 18935 *** 
+7/31/2015 2:44:18 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 56532 and scriptID of: 18935 *** 
+7/31/2015 2:44:18 PM:  *** Script instance created *** 
+7/31/2015 2:44:19 PM:  *** Script r008 added to script table with ID: 18936 and suiteID of: 2182 *** 
+7/31/2015 2:44:19 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62789 and scriptID of: 18936 *** 
+7/31/2015 2:44:19 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 62790 and scriptID of: 18936 *** 
+7/31/2015 2:44:19 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 62791 and scriptID of: 18936 *** 
+7/31/2015 2:44:20 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 62792 and scriptID of: 18936 *** 
+7/31/2015 2:44:20 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 62793 and scriptID of: 18936 *** 
+7/31/2015 2:44:20 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 62794 and scriptID of: 18936 *** 
+7/31/2015 2:44:20 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 62795 and scriptID of: 18936 *** 
+7/31/2015 2:44:21 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57154 and scriptID of: 18936 *** 
+7/31/2015 2:44:21 PM:  *** current_data\ProgramView.txt:  added to current with ID: 57155 and scriptID of: 18936 *** 
+7/31/2015 2:44:21 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 57156 and scriptID of: 18936 *** 
+7/31/2015 2:44:21 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 57157 and scriptID of: 18936 *** 
+7/31/2015 2:44:22 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 57158 and scriptID of: 18936 *** 
+7/31/2015 2:44:22 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 57159 and scriptID of: 18936 *** 
+7/31/2015 2:44:22 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 57160 and scriptID of: 18936 *** 
+7/31/2015 2:44:22 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56533 and scriptID of: 18936 *** 
+7/31/2015 2:44:23 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 56534 and scriptID of: 18936 *** 
+7/31/2015 2:44:23 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 56535 and scriptID of: 18936 *** 
+7/31/2015 2:44:23 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 56536 and scriptID of: 18936 *** 
+7/31/2015 2:44:23 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 56537 and scriptID of: 18936 *** 
+7/31/2015 2:44:24 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 56538 and scriptID of: 18936 *** 
+7/31/2015 2:44:24 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 56539 and scriptID of: 18936 *** 
+7/31/2015 2:44:24 PM:  *** Script instance created *** 
+7/31/2015 2:44:25 PM:  *** Script r009 added to script table with ID: 18937 and suiteID of: 2182 *** 
+7/31/2015 2:44:25 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62796 and scriptID of: 18937 *** 
+7/31/2015 2:44:25 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 62797 and scriptID of: 18937 *** 
+7/31/2015 2:44:25 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 62798 and scriptID of: 18937 *** 
+7/31/2015 2:44:26 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 62799 and scriptID of: 18937 *** 
+7/31/2015 2:44:26 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62800 and scriptID of: 18937 *** 
+7/31/2015 2:44:26 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 62801 and scriptID of: 18937 *** 
+7/31/2015 2:44:26 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 62802 and scriptID of: 18937 *** 
+7/31/2015 2:44:27 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57161 and scriptID of: 18937 *** 
+7/31/2015 2:44:27 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57162 and scriptID of: 18937 *** 
+7/31/2015 2:44:27 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 57163 and scriptID of: 18937 *** 
+7/31/2015 2:44:27 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 57164 and scriptID of: 18937 *** 
+7/31/2015 2:44:28 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56540 and scriptID of: 18937 *** 
+7/31/2015 2:44:28 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56541 and scriptID of: 18937 *** 
+7/31/2015 2:44:28 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 56542 and scriptID of: 18937 *** 
+7/31/2015 2:44:28 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 56543 and scriptID of: 18937 *** 
+7/31/2015 2:44:30 PM:  *** Suite-log matched query *** 
+7/31/2015 2:44:30 PM:  *** Results for [#PTF PP00792] successfully completed. *** 
+7/31/2015 2:44:30 PM:  *** *************************Publish Results Ended **************************** *** 
+8/3/2015 11:24:54 AM:  *** ********************************************************************************************************* *** 
+8/3/2015 11:24:54 AM:  *** Starting MAP Publisher.. *** 
+8/3/2015 11:24:54 AM:  *** ********************************************************************************************************* *** 
+8/3/2015 11:24:54 AM:  *** Publishing to Database: `MAP2` *** 
+8/3/2015 11:25:43 AM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+8/3/2015 11:25:43 AM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+8/3/2015 11:25:43 AM:  *** OS version: 8 - z/OS - 2.10 *** 
+8/3/2015 11:25:43 AM:  *** LPAR: 2 - SYSQ -   *** 
+8/3/2015 11:25:43 AM:  *** Subsytem: 7 - CICS - 4.2 *** 
+8/3/2015 11:25:43 AM:  *** Site: 1 - MGH - Morgan Hill *** 
+8/3/2015 11:25:43 AM:  *** BuildInfo: 800 *** 
+8/3/2015 11:25:43 AM:  *** Build Name: PTF PP00792 - TS41 CMP 4.2 *** 
+8/3/2015 11:25:43 AM:  *** PTF PP00792 - TS41 CMP 4.2:  added to regression table with ID: 288 and productID of: 74 *** 
+8/3/2015 11:25:43 AM:  *** Script instance created *** 
+8/3/2015 11:25:43 AM:  *** Suite: cics added to suite table with ID: 2183 and regressionID of: 288 *** 
+8/3/2015 11:25:43 AM:  *** Inserting Suite cics with ID: 2183 *** 
+8/3/2015 11:25:43 AM:  *** Script r007 added to script table with ID: 18938 and suiteID of: 2183 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62803 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 62804 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 62805 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 62806 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 62807 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 62808 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 62809 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 62810 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 62811 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 62812 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 62813 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 62814 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 62815 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 62816 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57165 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 57166 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 57167 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 57168 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 57169 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 57170 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56544 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 56545 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 56546 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 56547 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 56548 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 56549 and scriptID of: 18938 *** 
+8/3/2015 11:25:43 AM:  *** Script instance created *** 
+8/3/2015 11:25:43 AM:  *** Script r008 added to script table with ID: 18939 and suiteID of: 2183 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62817 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 62818 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 62819 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 62820 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 62821 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 62822 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 62823 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\ListTailoring.txt:  added to current with ID: 57171 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\ProgramView.txt:  added to current with ID: 57172 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Storage-spec.txt:  added to current with ID: 57173 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\StorageSpec.txt:  added to current with ID: 57174 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\StorageSpec2.txt:  added to current with ID: 57175 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\StorageSpec3.txt:  added to current with ID: 57176 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** current_data\StorageSpec4.txt:  added to current with ID: 57177 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56550 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\ProgramView.txt:  added to differences with ID: 56551 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Storage-spec.txt:  added to differences with ID: 56552 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\StorageSpec.txt:  added to differences with ID: 56553 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 56554 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 56555 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 56556 and scriptID of: 18939 *** 
+8/3/2015 11:25:43 AM:  *** Script instance created *** 
+8/3/2015 11:25:43 AM:  *** Script r009 added to script table with ID: 18940 and suiteID of: 2183 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62824 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 62825 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 62826 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 62827 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62828 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 62829 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 62830 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57178 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** current_data\ListTailoring.txt:  added to current with ID: 57179 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** current_data\ListTailoring2.txt:  added to current with ID: 57180 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** current_data\ListTailoring3.txt:  added to current with ID: 57181 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56557 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56558 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 56559 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 56560 and scriptID of: 18940 *** 
+8/3/2015 11:25:43 AM:  *** Suite-log matched query *** 
+8/3/2015 11:25:43 AM:  *** Results for [800] successfully completed. *** 
+8/3/2015 11:25:43 AM:  *** *************************Publish Results Ended **************************** *** 
+8/3/2015 3:22:05 PM:  *** ********************************************************************************************************* *** 
+8/3/2015 3:22:05 PM:  *** Starting MAP Publisher.. *** 
+8/3/2015 3:22:05 PM:  *** ********************************************************************************************************* *** 
+8/3/2015 3:22:05 PM:  *** Publishing to Database: `MAP2` *** 
+8/3/2015 3:22:37 PM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+8/3/2015 3:22:37 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+8/3/2015 3:22:37 PM:  *** OS version: 8 - z/OS - 2.10 *** 
+8/3/2015 3:22:37 PM:  *** LPAR: 2 - SYSQ -   *** 
+8/3/2015 3:22:37 PM:  *** Subsytem: 8 - CICS - 5.1 *** 
+8/3/2015 3:22:37 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+8/3/2015 3:22:37 PM:  *** BuildInfo: 800 *** 
+8/3/2015 3:22:37 PM:  *** Build Name:  PTF PP00792 TS52 CMP 4.2 *** 
+8/3/2015 3:22:37 PM:  ***  PTF PP00792 TS52 CMP 4.2:  added to regression table with ID: 289 and productID of: 74 *** 
+8/3/2015 3:22:37 PM:  *** Script instance created *** 
+8/3/2015 3:22:37 PM:  *** Suite: cics added to suite table with ID: 2184 and regressionID of: 289 *** 
+8/3/2015 3:22:37 PM:  *** Inserting Suite cics with ID: 2184 *** 
+8/3/2015 3:22:37 PM:  *** Script r007 added to script table with ID: 18941 and suiteID of: 2184 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62831 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 62832 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 62833 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 62834 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 62835 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 62836 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 62837 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 62838 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 62839 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 62840 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 62841 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 62842 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 62843 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 62844 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57182 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 57183 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 57184 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 57185 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 57186 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 57187 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56561 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 56562 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 56563 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 56564 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 56565 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 56566 and scriptID of: 18941 *** 
+8/3/2015 3:22:37 PM:  *** Script instance created *** 
+8/3/2015 3:22:37 PM:  *** Script r008 added to script table with ID: 18942 and suiteID of: 2184 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62845 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 62846 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 62847 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 62848 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 62849 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 62850 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 62851 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57188 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\ProgramView.txt:  added to current with ID: 57189 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 57190 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 57191 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 57192 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 57193 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 57194 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56567 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 56568 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 56569 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 56570 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 56571 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 56572 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 56573 and scriptID of: 18942 *** 
+8/3/2015 3:22:37 PM:  *** Script instance created *** 
+8/3/2015 3:22:37 PM:  *** Script r009 added to script table with ID: 18943 and suiteID of: 2184 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 62852 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 62853 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 62854 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 62855 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 62856 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 62857 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 62858 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 57195 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 57196 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 57197 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 57198 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 56574 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 56575 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 56576 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 56577 and scriptID of: 18943 *** 
+8/3/2015 3:22:37 PM:  *** Suite-log matched query *** 
+8/3/2015 3:22:37 PM:  *** Results for [800] successfully completed. *** 
+8/3/2015 3:22:37 PM:  *** *************************Publish Results Ended **************************** *** 
+10/30/2015 1:35:47 PM:  *** ********************************************************************************************************* *** 
+10/30/2015 1:35:47 PM:  *** Starting MAP Publisher.. *** 
+10/30/2015 1:35:47 PM:  *** ********************************************************************************************************* *** 
+10/30/2015 1:35:47 PM:  *** Publishing to Database: `MAP2` *** 
+10/30/2015 1:36:28 PM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+10/30/2015 1:36:28 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+10/30/2015 1:36:28 PM:  *** OS version: 7 - z/OS - 2.01 *** 
+10/30/2015 1:36:28 PM:  *** LPAR: 2 - SYSQ -   *** 
+10/30/2015 1:36:28 PM:  *** Subsytem: 43 - CICS - TS52 *** 
+10/30/2015 1:36:28 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+10/30/2015 1:36:28 PM:  *** BuildInfo: Release 800 May Cumm maint *** 
+10/30/2015 1:36:28 PM:  *** Build Name: Regression  Sept Cumm *** 
+10/30/2015 1:36:29 PM:  *** Regression  Sept Cumm:  added to regression table with ID: 311 and productID of: 74 *** 
+10/30/2015 1:36:29 PM:  *** Script instance created *** 
+10/30/2015 1:36:30 PM:  *** Suite: db2 added to suite table with ID: 2501 and regressionID of: 311 *** 
+10/30/2015 1:36:30 PM:  *** Inserting Suite db2 with ID: 2501 *** 
+10/30/2015 1:36:31 PM:  *** Script r011 added to script table with ID: 22260 and suiteID of: 2501 *** 
+10/30/2015 1:36:32 PM:  *** Suite-log matched query *** 
+10/30/2015 1:36:32 PM:  *** Results for [Release 800 May Cumm maint] successfully completed. *** 
+10/30/2015 1:36:32 PM:  *** *************************Publish Results Ended **************************** *** 
+11/4/2015 2:50:38 PM:  *** ********************************************************************************************************* *** 
+11/4/2015 2:50:38 PM:  *** Starting MAP Publisher.. *** 
+11/4/2015 2:50:38 PM:  *** ********************************************************************************************************* *** 
+11/4/2015 2:50:38 PM:  *** Publishing to Database: `MAP2` *** 
+11/4/2015 2:52:05 PM:  *** ********************************************************************************************************* *** 
+11/4/2015 2:52:05 PM:  *** Starting MAP Publisher.. *** 
+11/4/2015 2:52:05 PM:  *** ********************************************************************************************************* *** 
+11/4/2015 2:52:05 PM:  *** Publishing to Database: `MAP2-TEST` *** 
+4/27/2016 4:28:48 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:28:48 PM:  *** Starting MAP Publisher.. *** 
+4/27/2016 4:28:48 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:28:48 PM:  *** Publishing to Database: `MAP2` *** 
+4/27/2016 4:31:43 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:31:43 PM:  *** Starting MAP Publisher.. *** 
+4/27/2016 4:31:43 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:31:43 PM:  *** Publishing to Database: `MAP2-TEST` *** 
+4/27/2016 4:31:44 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:31:44 PM:  *** Starting MAP Publisher.. *** 
+4/27/2016 4:31:44 PM:  *** ********************************************************************************************************* *** 
+4/27/2016 4:31:44 PM:  *** Publishing to Database: `MAP2` *** 
+4/27/2016 4:33:03 PM:  *** Creating Regression for product: 86 - ESW-SMARTTEST - 810 *** 
+4/27/2016 4:33:03 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+4/27/2016 4:33:03 PM:  *** OS version: 8 - z/OS - 2.10 *** 
+4/27/2016 4:33:03 PM:  *** LPAR: 2 - SYSQ -   *** 
+4/27/2016 4:33:03 PM:  *** Subsytem: 43 - CICS - TS52 *** 
+4/27/2016 4:33:03 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+4/27/2016 4:33:03 PM:  *** BuildInfo: Release 810 GA Build 3 *** 
+4/27/2016 4:33:03 PM:  *** Build Name: Release 810 GA Build 3 *** 
+4/27/2016 4:33:03 PM:  *** Release 810 GA Build 3:  added to regression table with ID: 334 and productID of: 86 *** 
+4/27/2016 4:33:03 PM:  *** Script instance created *** 
+4/27/2016 4:33:03 PM:  *** Suite: batch added to suite table with ID: 2797 and regressionID of: 334 *** 
+4/27/2016 4:33:03 PM:  *** Inserting Suite batch with ID: 2797 *** 
+4/27/2016 4:33:03 PM:  *** Script r004 added to script table with ID: 25069 and suiteID of: 2797 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\backflag.txt:  added to exp_files with ID: 75314 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\backflagvalue.txt:  added to exp_files with ID: 75315 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\backflagvalue2.txt:  added to exp_files with ID: 75316 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\backflagvalue3.txt:  added to exp_files with ID: 75317 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\backflagvalue4.txt:  added to exp_files with ID: 75318 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\FindValuebreak.txt:  added to exp_files with ID: 75319 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\FindValuebreak2.txt:  added to exp_files with ID: 75320 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\IEFBR14Break.txt:  added to exp_files with ID: 75321 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\IEFBR14Step.txt:  added to exp_files with ID: 75322 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 75323 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListCountAsc.txt:  added to exp_files with ID: 75324 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListCountDesc.txt:  added to exp_files with ID: 75325 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListCountDPara.txt:  added to exp_files with ID: 75326 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListCountLine.txt:  added to exp_files with ID: 75327 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 75328 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\Listtracking.txt:  added to exp_files with ID: 75329 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\Nosource.txt:  added to exp_files with ID: 75330 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\StopFix.txt:  added to exp_files with ID: 75331 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\backflag.txt:  added to current with ID: 67478 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\backflagvalue.txt:  added to current with ID: 67479 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\backflagvalue2.txt:  added to current with ID: 67480 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\backflagvalue3.txt:  added to current with ID: 67481 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\backflagvalue4.txt:  added to current with ID: 67482 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\FindValuebreak.txt:  added to current with ID: 67483 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\FindValuebreak2.txt:  added to current with ID: 67484 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\IEFBR14Step.txt:  added to current with ID: 67485 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListAddStop.txt:  added to current with ID: 67486 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListCountAsc.txt:  added to current with ID: 67487 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListCountDesc.txt:  added to current with ID: 67488 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListCountDPara.txt:  added to current with ID: 67489 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListCountLine.txt:  added to current with ID: 67490 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListTrack.txt:  added to current with ID: 67491 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\Nosource.txt:  added to current with ID: 67492 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** current_data\StopFix.txt:  added to current with ID: 67493 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\backflag.txt:  added to differences with ID: 67628 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\backflagvalue.txt:  added to differences with ID: 67629 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\backflagvalue2.txt:  added to differences with ID: 67630 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\backflagvalue3.txt:  added to differences with ID: 67631 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\backflagvalue4.txt:  added to differences with ID: 67632 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\FindValuebreak.txt:  added to differences with ID: 67633 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\FindValuebreak2.txt:  added to differences with ID: 67634 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\IEFBR14Step.txt:  added to differences with ID: 67635 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListAddStop.txt:  added to differences with ID: 67636 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListCountAsc.txt:  added to differences with ID: 67637 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListCountDesc.txt:  added to differences with ID: 67638 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListCountDPara.txt:  added to differences with ID: 67639 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListCountLine.txt:  added to differences with ID: 67640 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 67641 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\Nosource.txt:  added to differences with ID: 67642 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Differences\StopFix.txt:  added to differences with ID: 67643 and scriptID of: 25069 *** 
+4/27/2016 4:33:03 PM:  *** Script instance created *** 
+4/27/2016 4:33:03 PM:  *** Script r005 added to script table with ID: 25070 and suiteID of: 2797 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75332 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 75333 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 75334 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 75335 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67494 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** current_data\S0C4.txt:  added to current with ID: 67495 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** current_data\SC07.txt:  added to current with ID: 67496 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** current_data\Stepover.txt:  added to current with ID: 67497 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67644 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** Differences\S0C4.txt:  added to differences with ID: 67645 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** Differences\SC07.txt:  added to differences with ID: 67646 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** Differences\Stepover.txt:  added to differences with ID: 67647 and scriptID of: 25070 *** 
+4/27/2016 4:33:03 PM:  *** Script instance created *** 
+4/27/2016 4:33:03 PM:  *** Script r006 added to script table with ID: 25071 and suiteID of: 2797 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 75336 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListTailor.txt:  added to exp_files with ID: 75337 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 75338 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 75339 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 75340 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 75341 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListTailor.txt:  added to current with ID: 67498 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** current_data\ListTrack.txt:  added to current with ID: 67499 and scriptID of: 25071 *** 
+4/27/2016 4:33:03 PM:  *** Differences\ListTailor.txt:  added to differences with ID: 67648 and scriptID of: 25071 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 67649 and scriptID of: 25071 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Suite: cics added to suite table with ID: 2798 and regressionID of: 334 *** 
+4/27/2016 4:33:04 PM:  *** Inserting Suite cics with ID: 2798 *** 
+4/27/2016 4:33:04 PM:  *** Script r007 added to script table with ID: 25072 and suiteID of: 2798 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 75342 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 75343 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 75344 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 75345 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 75346 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 75347 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 75348 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 75349 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 75350 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 75351 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 75352 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 75353 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 75354 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 75355 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67500 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 67501 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 67502 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 67503 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 67504 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 67505 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 67650 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 67651 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 67652 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 67653 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 67654 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 67655 and scriptID of: 25072 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Script r008 added to script table with ID: 25073 and suiteID of: 2798 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75356 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 75357 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 75358 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 75359 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 75360 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 75361 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 75362 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67506 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\ProgramView.txt:  added to current with ID: 67507 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 67508 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 67509 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 67510 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 67511 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 67512 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67656 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 67657 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 67658 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 67659 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 67660 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 67661 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 67662 and scriptID of: 25073 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Script r009 added to script table with ID: 25074 and suiteID of: 2798 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 75363 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 75364 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 75365 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 75366 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75367 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 75368 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 75369 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67513 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67514 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 67515 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 67516 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 67663 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67664 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 67665 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 67666 and scriptID of: 25074 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Suite: misc added to suite table with ID: 2799 and regressionID of: 334 *** 
+4/27/2016 4:33:04 PM:  *** Inserting Suite misc with ID: 2799 *** 
+4/27/2016 4:33:04 PM:  *** Script r003 added to script table with ID: 25075 and suiteID of: 2799 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\NewAKR.txt:  added to exp_files with ID: 75370 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\NewAKR2.txt:  added to exp_files with ID: 75371 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** current_data\NewAKR.txt:  added to current with ID: 67517 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** current_data\NewAKR2.txt:  added to current with ID: 67518 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** Differences\NewAKR.txt:  added to differences with ID: 67667 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** Differences\NewAKR2.txt:  added to differences with ID: 67668 and scriptID of: 25075 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Suite: tca added to suite table with ID: 2800 and regressionID of: 334 *** 
+4/27/2016 4:33:04 PM:  *** Inserting Suite tca with ID: 2800 *** 
+4/27/2016 4:33:04 PM:  *** Script r015 added to script table with ID: 25076 and suiteID of: 2800 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Totalstats.txt:  added to exp_files with ID: 75372 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Totalstats2.txt:  added to exp_files with ID: 75373 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** exp_data\Totalstats3.txt:  added to exp_files with ID: 75374 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Totalstats.txt:  added to current with ID: 67519 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Totalstats2.txt:  added to current with ID: 67520 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** current_data\Totalstats3.txt:  added to current with ID: 67521 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Totalstats.txt:  added to differences with ID: 67669 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Totalstats2.txt:  added to differences with ID: 67670 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** Differences\Totalstats3.txt:  added to differences with ID: 67671 and scriptID of: 25076 *** 
+4/27/2016 4:33:04 PM:  *** Script instance created *** 
+4/27/2016 4:33:04 PM:  *** Script r015a added to script table with ID: 25077 and suiteID of: 2800 *** 
+4/27/2016 4:33:04 PM:  *** Suite-log matched query *** 
+4/27/2016 4:33:04 PM:  *** Results for [Release 810 Component 1] successfully completed. *** 
+4/27/2016 4:33:04 PM:  *** *************************Publish Results Ended **************************** *** 
+4/28/2016 11:19:22 AM:  *** ********************************************************************************************************* *** 
+4/28/2016 11:19:22 AM:  *** Starting MAP Publisher.. *** 
+4/28/2016 11:19:22 AM:  *** ********************************************************************************************************* *** 
+4/28/2016 11:19:22 AM:  *** Publishing to Database: `MAP2` *** 
+4/28/2016 11:20:19 AM:  *** Creating Regression for product: 86 - ESW-SMARTTEST - 810 *** 
+4/28/2016 11:20:19 AM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+4/28/2016 11:20:19 AM:  *** OS version: 7 - z/OS - 2.01 *** 
+4/28/2016 11:20:19 AM:  *** LPAR: 2 - SYSQ -   *** 
+4/28/2016 11:20:19 AM:  *** Subsytem: 43 - CICS - TS52 *** 
+4/28/2016 11:20:19 AM:  *** Site: 1 - MGH - Morgan Hill *** 
+4/28/2016 11:20:19 AM:  *** BuildInfo: 810 GA BUILD 3 *** 
+4/28/2016 11:20:19 AM:  *** Build Name: TS52 with Cobol 6 *** 
+4/28/2016 11:20:19 AM:  *** TS52 with Cobol 6:  added to regression table with ID: 335 and productID of: 86 *** 
+4/28/2016 11:20:19 AM:  *** Script instance created *** 
+4/28/2016 11:20:19 AM:  *** Suite: db2 added to suite table with ID: 2801 and regressionID of: 335 *** 
+4/28/2016 11:20:19 AM:  *** Inserting Suite db2 with ID: 2801 *** 
+4/28/2016 11:20:19 AM:  *** Script r011 added to script table with ID: 25078 and suiteID of: 2801 *** 
+4/28/2016 11:20:19 AM:  *** Suite-log matched query *** 
+4/28/2016 11:20:19 AM:  *** Results for [810 GA BUILD 3] successfully completed. *** 
+4/28/2016 11:20:19 AM:  *** *************************Publish Results Ended **************************** *** 
+4/29/2016 4:05:50 PM:  *** ********************************************************************************************************* *** 
+4/29/2016 4:05:50 PM:  *** Starting MAP Publisher.. *** 
+4/29/2016 4:05:50 PM:  *** ********************************************************************************************************* *** 
+4/29/2016 4:05:50 PM:  *** Publishing to Database: `MAP2` *** 
+4/29/2016 4:07:14 PM:  *** Creating Regression for product: 86 - ESW-SMARTTEST - 810 *** 
+4/29/2016 4:07:14 PM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+4/29/2016 4:07:14 PM:  *** OS version: 7 - z/OS - 2.01 *** 
+4/29/2016 4:07:14 PM:  *** LPAR: 2 - SYSQ -   *** 
+4/29/2016 4:07:14 PM:  *** Subsytem: 7 - CICS - 4.2 *** 
+4/29/2016 4:07:14 PM:  *** Site: 1 - MGH - Morgan Hill *** 
+4/29/2016 4:07:14 PM:  *** BuildInfo:  GA BUILD 4 *** 
+4/29/2016 4:07:14 PM:  *** Build Name: TS42 - Cobol 4.1  *** 
+4/29/2016 4:07:15 PM:  *** TS42 - Cobol 4.1 :  added to regression table with ID: 336 and productID of: 86 *** 
+4/29/2016 4:07:15 PM:  *** Script instance created *** 
+4/29/2016 4:07:16 PM:  *** Suite: batch added to suite table with ID: 2802 and regressionID of: 336 *** 
+4/29/2016 4:07:16 PM:  *** Inserting Suite batch with ID: 2802 *** 
+4/29/2016 4:07:17 PM:  *** Script r004 added to script table with ID: 25079 and suiteID of: 2802 *** 
+4/29/2016 4:07:17 PM:  *** exp_data\backflag.txt:  added to exp_files with ID: 75375 and scriptID of: 25079 *** 
+4/29/2016 4:07:17 PM:  *** exp_data\backflagvalue.txt:  added to exp_files with ID: 75376 and scriptID of: 25079 *** 
+4/29/2016 4:07:17 PM:  *** exp_data\backflagvalue2.txt:  added to exp_files with ID: 75377 and scriptID of: 25079 *** 
+4/29/2016 4:07:18 PM:  *** exp_data\backflagvalue3.txt:  added to exp_files with ID: 75378 and scriptID of: 25079 *** 
+4/29/2016 4:07:18 PM:  *** exp_data\backflagvalue4.txt:  added to exp_files with ID: 75379 and scriptID of: 25079 *** 
+4/29/2016 4:07:18 PM:  *** exp_data\FindValuebreak.txt:  added to exp_files with ID: 75380 and scriptID of: 25079 *** 
+4/29/2016 4:07:18 PM:  *** exp_data\FindValuebreak2.txt:  added to exp_files with ID: 75381 and scriptID of: 25079 *** 
+4/29/2016 4:07:19 PM:  *** exp_data\IEFBR14Break.txt:  added to exp_files with ID: 75382 and scriptID of: 25079 *** 
+4/29/2016 4:07:19 PM:  *** exp_data\IEFBR14Step.txt:  added to exp_files with ID: 75383 and scriptID of: 25079 *** 
+4/29/2016 4:07:19 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 75384 and scriptID of: 25079 *** 
+4/29/2016 4:07:20 PM:  *** exp_data\ListCountAsc.txt:  added to exp_files with ID: 75385 and scriptID of: 25079 *** 
+4/29/2016 4:07:20 PM:  *** exp_data\ListCountDesc.txt:  added to exp_files with ID: 75386 and scriptID of: 25079 *** 
+4/29/2016 4:07:20 PM:  *** exp_data\ListCountDPara.txt:  added to exp_files with ID: 75387 and scriptID of: 25079 *** 
+4/29/2016 4:07:21 PM:  *** exp_data\ListCountLine.txt:  added to exp_files with ID: 75388 and scriptID of: 25079 *** 
+4/29/2016 4:07:21 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 75389 and scriptID of: 25079 *** 
+4/29/2016 4:07:21 PM:  *** exp_data\Listtracking.txt:  added to exp_files with ID: 75390 and scriptID of: 25079 *** 
+4/29/2016 4:07:22 PM:  *** exp_data\Nosource.txt:  added to exp_files with ID: 75391 and scriptID of: 25079 *** 
+4/29/2016 4:07:22 PM:  *** exp_data\StopFix.txt:  added to exp_files with ID: 75392 and scriptID of: 25079 *** 
+4/29/2016 4:07:22 PM:  *** current_data\backflag.txt:  added to current with ID: 67522 and scriptID of: 25079 *** 
+4/29/2016 4:07:22 PM:  *** current_data\backflagvalue.txt:  added to current with ID: 67523 and scriptID of: 25079 *** 
+4/29/2016 4:07:23 PM:  *** current_data\backflagvalue2.txt:  added to current with ID: 67524 and scriptID of: 25079 *** 
+4/29/2016 4:07:23 PM:  *** current_data\backflagvalue3.txt:  added to current with ID: 67525 and scriptID of: 25079 *** 
+4/29/2016 4:07:23 PM:  *** current_data\backflagvalue4.txt:  added to current with ID: 67526 and scriptID of: 25079 *** 
+4/29/2016 4:07:23 PM:  *** current_data\FindValuebreak.txt:  added to current with ID: 67527 and scriptID of: 25079 *** 
+4/29/2016 4:07:24 PM:  *** current_data\FindValuebreak2.txt:  added to current with ID: 67528 and scriptID of: 25079 *** 
+4/29/2016 4:07:24 PM:  *** current_data\IEFBR14Step.txt:  added to current with ID: 67529 and scriptID of: 25079 *** 
+4/29/2016 4:07:24 PM:  *** current_data\ListAddStop.txt:  added to current with ID: 67530 and scriptID of: 25079 *** 
+4/29/2016 4:07:24 PM:  *** current_data\ListCountAsc.txt:  added to current with ID: 67531 and scriptID of: 25079 *** 
+4/29/2016 4:07:25 PM:  *** current_data\ListCountDesc.txt:  added to current with ID: 67532 and scriptID of: 25079 *** 
+4/29/2016 4:07:25 PM:  *** current_data\ListCountDPara.txt:  added to current with ID: 67533 and scriptID of: 25079 *** 
+4/29/2016 4:07:25 PM:  *** current_data\ListCountLine.txt:  added to current with ID: 67534 and scriptID of: 25079 *** 
+4/29/2016 4:07:25 PM:  *** current_data\ListTrack.txt:  added to current with ID: 67535 and scriptID of: 25079 *** 
+4/29/2016 4:07:26 PM:  *** current_data\Nosource.txt:  added to current with ID: 67536 and scriptID of: 25079 *** 
+4/29/2016 4:07:26 PM:  *** current_data\StopFix.txt:  added to current with ID: 67537 and scriptID of: 25079 *** 
+4/29/2016 4:07:26 PM:  *** Differences\backflag.txt:  added to differences with ID: 67672 and scriptID of: 25079 *** 
+4/29/2016 4:07:26 PM:  *** Differences\backflagvalue.txt:  added to differences with ID: 67673 and scriptID of: 25079 *** 
+4/29/2016 4:07:26 PM:  *** Differences\backflagvalue2.txt:  added to differences with ID: 67674 and scriptID of: 25079 *** 
+4/29/2016 4:07:27 PM:  *** Differences\backflagvalue3.txt:  added to differences with ID: 67675 and scriptID of: 25079 *** 
+4/29/2016 4:07:27 PM:  *** Differences\backflagvalue4.txt:  added to differences with ID: 67676 and scriptID of: 25079 *** 
+4/29/2016 4:07:27 PM:  *** Differences\FindValuebreak.txt:  added to differences with ID: 67677 and scriptID of: 25079 *** 
+4/29/2016 4:07:27 PM:  *** Differences\FindValuebreak2.txt:  added to differences with ID: 67678 and scriptID of: 25079 *** 
+4/29/2016 4:07:28 PM:  *** Differences\IEFBR14Step.txt:  added to differences with ID: 67679 and scriptID of: 25079 *** 
+4/29/2016 4:07:28 PM:  *** Differences\ListAddStop.txt:  added to differences with ID: 67680 and scriptID of: 25079 *** 
+4/29/2016 4:07:28 PM:  *** Differences\ListCountAsc.txt:  added to differences with ID: 67681 and scriptID of: 25079 *** 
+4/29/2016 4:07:28 PM:  *** Differences\ListCountDesc.txt:  added to differences with ID: 67682 and scriptID of: 25079 *** 
+4/29/2016 4:07:29 PM:  *** Differences\ListCountDPara.txt:  added to differences with ID: 67683 and scriptID of: 25079 *** 
+4/29/2016 4:07:29 PM:  *** Differences\ListCountLine.txt:  added to differences with ID: 67684 and scriptID of: 25079 *** 
+4/29/2016 4:07:29 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 67685 and scriptID of: 25079 *** 
+4/29/2016 4:07:29 PM:  *** Differences\Nosource.txt:  added to differences with ID: 67686 and scriptID of: 25079 *** 
+4/29/2016 4:07:30 PM:  *** Differences\StopFix.txt:  added to differences with ID: 67687 and scriptID of: 25079 *** 
+4/29/2016 4:07:30 PM:  *** Script instance created *** 
+4/29/2016 4:07:30 PM:  *** Script r005 added to script table with ID: 25080 and suiteID of: 2802 *** 
+4/29/2016 4:07:31 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75393 and scriptID of: 25080 *** 
+4/29/2016 4:07:31 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 75394 and scriptID of: 25080 *** 
+4/29/2016 4:07:31 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 75395 and scriptID of: 25080 *** 
+4/29/2016 4:07:31 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 75396 and scriptID of: 25080 *** 
+4/29/2016 4:07:32 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67538 and scriptID of: 25080 *** 
+4/29/2016 4:07:32 PM:  *** current_data\S0C4.txt:  added to current with ID: 67539 and scriptID of: 25080 *** 
+4/29/2016 4:07:32 PM:  *** current_data\SC07.txt:  added to current with ID: 67540 and scriptID of: 25080 *** 
+4/29/2016 4:07:32 PM:  *** current_data\Stepover.txt:  added to current with ID: 67541 and scriptID of: 25080 *** 
+4/29/2016 4:07:33 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67688 and scriptID of: 25080 *** 
+4/29/2016 4:07:33 PM:  *** Differences\S0C4.txt:  added to differences with ID: 67689 and scriptID of: 25080 *** 
+4/29/2016 4:07:33 PM:  *** Differences\SC07.txt:  added to differences with ID: 67690 and scriptID of: 25080 *** 
+4/29/2016 4:07:33 PM:  *** Differences\Stepover.txt:  added to differences with ID: 67691 and scriptID of: 25080 *** 
+4/29/2016 4:07:33 PM:  *** Script instance created *** 
+4/29/2016 4:07:34 PM:  *** Script r006 added to script table with ID: 25081 and suiteID of: 2802 *** 
+4/29/2016 4:07:34 PM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 75397 and scriptID of: 25081 *** 
+4/29/2016 4:07:35 PM:  *** exp_data\ListTailor.txt:  added to exp_files with ID: 75398 and scriptID of: 25081 *** 
+4/29/2016 4:07:35 PM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 75399 and scriptID of: 25081 *** 
+4/29/2016 4:07:35 PM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 75400 and scriptID of: 25081 *** 
+4/29/2016 4:07:36 PM:  *** exp_data\SC07.txt:  added to exp_files with ID: 75401 and scriptID of: 25081 *** 
+4/29/2016 4:07:36 PM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 75402 and scriptID of: 25081 *** 
+4/29/2016 4:07:36 PM:  *** current_data\ListTailor.txt:  added to current with ID: 67542 and scriptID of: 25081 *** 
+4/29/2016 4:07:36 PM:  *** current_data\ListTrack.txt:  added to current with ID: 67543 and scriptID of: 25081 *** 
+4/29/2016 4:07:37 PM:  *** Differences\ListTailor.txt:  added to differences with ID: 67692 and scriptID of: 25081 *** 
+4/29/2016 4:07:37 PM:  *** Differences\ListTrack.txt:  added to differences with ID: 67693 and scriptID of: 25081 *** 
+4/29/2016 4:07:37 PM:  *** Script instance created *** 
+4/29/2016 4:07:37 PM:  *** Suite: cics added to suite table with ID: 2803 and regressionID of: 336 *** 
+4/29/2016 4:07:37 PM:  *** Inserting Suite cics with ID: 2803 *** 
+4/29/2016 4:07:38 PM:  *** Script r007 added to script table with ID: 25082 and suiteID of: 2803 *** 
+4/29/2016 4:07:38 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 75403 and scriptID of: 25082 *** 
+4/29/2016 4:07:38 PM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 75404 and scriptID of: 25082 *** 
+4/29/2016 4:07:39 PM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 75405 and scriptID of: 25082 *** 
+4/29/2016 4:07:39 PM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 75406 and scriptID of: 25082 *** 
+4/29/2016 4:07:39 PM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 75407 and scriptID of: 25082 *** 
+4/29/2016 4:07:39 PM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 75408 and scriptID of: 25082 *** 
+4/29/2016 4:07:40 PM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 75409 and scriptID of: 25082 *** 
+4/29/2016 4:07:40 PM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 75410 and scriptID of: 25082 *** 
+4/29/2016 4:07:40 PM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 75411 and scriptID of: 25082 *** 
+4/29/2016 4:07:40 PM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 75412 and scriptID of: 25082 *** 
+4/29/2016 4:07:41 PM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 75413 and scriptID of: 25082 *** 
+4/29/2016 4:07:41 PM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 75414 and scriptID of: 25082 *** 
+4/29/2016 4:07:41 PM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 75415 and scriptID of: 25082 *** 
+4/29/2016 4:07:41 PM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 75416 and scriptID of: 25082 *** 
+4/29/2016 4:07:41 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67544 and scriptID of: 25082 *** 
+4/29/2016 4:07:42 PM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 67545 and scriptID of: 25082 *** 
+4/29/2016 4:07:42 PM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 67546 and scriptID of: 25082 *** 
+4/29/2016 4:07:42 PM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 67547 and scriptID of: 25082 *** 
+4/29/2016 4:07:43 PM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 67548 and scriptID of: 25082 *** 
+4/29/2016 4:07:43 PM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 67549 and scriptID of: 25082 *** 
+4/29/2016 4:07:43 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 67694 and scriptID of: 25082 *** 
+4/29/2016 4:07:43 PM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 67695 and scriptID of: 25082 *** 
+4/29/2016 4:07:43 PM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 67696 and scriptID of: 25082 *** 
+4/29/2016 4:07:44 PM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 67697 and scriptID of: 25082 *** 
+4/29/2016 4:07:44 PM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 67698 and scriptID of: 25082 *** 
+4/29/2016 4:07:44 PM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 67699 and scriptID of: 25082 *** 
+4/29/2016 4:07:44 PM:  *** Script instance created *** 
+4/29/2016 4:07:45 PM:  *** Script r008 added to script table with ID: 25083 and suiteID of: 2803 *** 
+4/29/2016 4:07:45 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75417 and scriptID of: 25083 *** 
+4/29/2016 4:07:45 PM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 75418 and scriptID of: 25083 *** 
+4/29/2016 4:07:46 PM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 75419 and scriptID of: 25083 *** 
+4/29/2016 4:07:46 PM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 75420 and scriptID of: 25083 *** 
+4/29/2016 4:07:46 PM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 75421 and scriptID of: 25083 *** 
+4/29/2016 4:07:46 PM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 75422 and scriptID of: 25083 *** 
+4/29/2016 4:07:47 PM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 75423 and scriptID of: 25083 *** 
+4/29/2016 4:07:47 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67550 and scriptID of: 25083 *** 
+4/29/2016 4:07:47 PM:  *** current_data\ProgramView.txt:  added to current with ID: 67551 and scriptID of: 25083 *** 
+4/29/2016 4:07:47 PM:  *** current_data\Storage-spec.txt:  added to current with ID: 67552 and scriptID of: 25083 *** 
+4/29/2016 4:07:48 PM:  *** current_data\StorageSpec.txt:  added to current with ID: 67553 and scriptID of: 25083 *** 
+4/29/2016 4:07:48 PM:  *** current_data\StorageSpec2.txt:  added to current with ID: 67554 and scriptID of: 25083 *** 
+4/29/2016 4:07:48 PM:  *** current_data\StorageSpec3.txt:  added to current with ID: 67555 and scriptID of: 25083 *** 
+4/29/2016 4:07:48 PM:  *** current_data\StorageSpec4.txt:  added to current with ID: 67556 and scriptID of: 25083 *** 
+4/29/2016 4:07:49 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67700 and scriptID of: 25083 *** 
+4/29/2016 4:07:49 PM:  *** Differences\ProgramView.txt:  added to differences with ID: 67701 and scriptID of: 25083 *** 
+4/29/2016 4:07:49 PM:  *** Differences\Storage-spec.txt:  added to differences with ID: 67702 and scriptID of: 25083 *** 
+4/29/2016 4:07:49 PM:  *** Differences\StorageSpec.txt:  added to differences with ID: 67703 and scriptID of: 25083 *** 
+4/29/2016 4:07:50 PM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 67704 and scriptID of: 25083 *** 
+4/29/2016 4:07:50 PM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 67705 and scriptID of: 25083 *** 
+4/29/2016 4:07:50 PM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 67706 and scriptID of: 25083 *** 
+4/29/2016 4:07:50 PM:  *** Script instance created *** 
+4/29/2016 4:07:51 PM:  *** Script r009 added to script table with ID: 25084 and suiteID of: 2803 *** 
+4/29/2016 4:07:51 PM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 75424 and scriptID of: 25084 *** 
+4/29/2016 4:07:51 PM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 75425 and scriptID of: 25084 *** 
+4/29/2016 4:07:52 PM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 75426 and scriptID of: 25084 *** 
+4/29/2016 4:07:52 PM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 75427 and scriptID of: 25084 *** 
+4/29/2016 4:07:52 PM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 75428 and scriptID of: 25084 *** 
+4/29/2016 4:07:53 PM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 75429 and scriptID of: 25084 *** 
+4/29/2016 4:07:53 PM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 75430 and scriptID of: 25084 *** 
+4/29/2016 4:07:53 PM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67557 and scriptID of: 25084 *** 
+4/29/2016 4:07:54 PM:  *** current_data\ListTailoring.txt:  added to current with ID: 67558 and scriptID of: 25084 *** 
+4/29/2016 4:07:54 PM:  *** current_data\ListTailoring2.txt:  added to current with ID: 67559 and scriptID of: 25084 *** 
+4/29/2016 4:07:54 PM:  *** current_data\ListTailoring3.txt:  added to current with ID: 67560 and scriptID of: 25084 *** 
+4/29/2016 4:07:55 PM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 67707 and scriptID of: 25084 *** 
+4/29/2016 4:07:55 PM:  *** Differences\ListTailoring.txt:  added to differences with ID: 67708 and scriptID of: 25084 *** 
+4/29/2016 4:07:55 PM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 67709 and scriptID of: 25084 *** 
+4/29/2016 4:07:55 PM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 67710 and scriptID of: 25084 *** 
+4/29/2016 4:07:55 PM:  *** Script instance created *** 
+4/29/2016 4:07:56 PM:  *** Suite: misc added to suite table with ID: 2804 and regressionID of: 336 *** 
+4/29/2016 4:07:56 PM:  *** Inserting Suite misc with ID: 2804 *** 
+4/29/2016 4:07:56 PM:  *** Script r003 added to script table with ID: 25085 and suiteID of: 2804 *** 
+4/29/2016 4:07:56 PM:  *** exp_data\NewAKR.txt:  added to exp_files with ID: 75431 and scriptID of: 25085 *** 
+4/29/2016 4:07:56 PM:  *** exp_data\NewAKR2.txt:  added to exp_files with ID: 75432 and scriptID of: 25085 *** 
+4/29/2016 4:07:57 PM:  *** current_data\NewAKR.txt:  added to current with ID: 67561 and scriptID of: 25085 *** 
+4/29/2016 4:07:57 PM:  *** current_data\NewAKR2.txt:  added to current with ID: 67562 and scriptID of: 25085 *** 
+4/29/2016 4:07:57 PM:  *** Differences\NewAKR.txt:  added to differences with ID: 67711 and scriptID of: 25085 *** 
+4/29/2016 4:07:57 PM:  *** Differences\NewAKR2.txt:  added to differences with ID: 67712 and scriptID of: 25085 *** 
+4/29/2016 4:07:57 PM:  *** Script instance created *** 
+4/29/2016 4:07:58 PM:  *** Suite: tca added to suite table with ID: 2805 and regressionID of: 336 *** 
+4/29/2016 4:07:58 PM:  *** Inserting Suite tca with ID: 2805 *** 
+4/29/2016 4:07:58 PM:  *** Script r015 added to script table with ID: 25086 and suiteID of: 2805 *** 
+4/29/2016 4:07:59 PM:  *** exp_data\Totalstats.txt:  added to exp_files with ID: 75433 and scriptID of: 25086 *** 
+4/29/2016 4:07:59 PM:  *** exp_data\Totalstats2.txt:  added to exp_files with ID: 75434 and scriptID of: 25086 *** 
+4/29/2016 4:07:59 PM:  *** exp_data\Totalstats3.txt:  added to exp_files with ID: 75435 and scriptID of: 25086 *** 
+4/29/2016 4:07:59 PM:  *** current_data\Totalstats.txt:  added to current with ID: 67563 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** current_data\Totalstats2.txt:  added to current with ID: 67564 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** current_data\Totalstats3.txt:  added to current with ID: 67565 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** Differences\Totalstats.txt:  added to differences with ID: 67713 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** Differences\Totalstats2.txt:  added to differences with ID: 67714 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** Differences\Totalstats3.txt:  added to differences with ID: 67715 and scriptID of: 25086 *** 
+4/29/2016 4:08:00 PM:  *** Script instance created *** 
+4/29/2016 4:08:01 PM:  *** Script r015a added to script table with ID: 25087 and suiteID of: 2805 *** 
+4/29/2016 4:08:02 PM:  *** Suite-log matched query *** 
+4/29/2016 4:08:02 PM:  *** Results for [810 GA BUILD 3] successfully completed. *** 
+4/29/2016 4:08:02 PM:  *** *************************Publish Results Ended **************************** *** 
+5/11/2016 11:16:38 AM:  *** ********************************************************************************************************* *** 
+5/11/2016 11:16:38 AM:  *** Starting MAP Publisher.. *** 
+5/11/2016 11:16:38 AM:  *** ********************************************************************************************************* *** 
+5/11/2016 11:16:38 AM:  *** Publishing to Database: `MAP2` *** 
+5/11/2016 11:19:13 AM:  *** Creating Regression for product: 74 - ESW-SMARTTEST - 800 *** 
+5/11/2016 11:19:13 AM:  *** Using Suite log: C:\Users\scottba\MAP\workspace\trunk\PHX\ESW\smartTest\mainframe\suite\suitelog.txt *** 
+5/11/2016 11:19:13 AM:  *** OS version: 8 - z/OS - 2.10 *** 
+5/11/2016 11:19:13 AM:  *** LPAR: 2 - SYSQ -   *** 
+5/11/2016 11:19:13 AM:  *** Subsytem: 43 - CICS - TS52 *** 
+5/11/2016 11:19:13 AM:  *** Site: 1 - MGH - Morgan Hill *** 
+5/11/2016 11:19:13 AM:  *** BuildInfo: 800 GA April Cumm *** 
+5/11/2016 11:19:13 AM:  *** Build Name: TS52 - Cobol 5.2 *** 
+5/11/2016 11:19:13 AM:  *** TS52 - Cobol 5.2:  added to regression table with ID: 339 and productID of: 74 *** 
+5/11/2016 11:19:13 AM:  *** Script instance created *** 
+5/11/2016 11:19:13 AM:  *** Suite: batch added to suite table with ID: 2851 and regressionID of: 339 *** 
+5/11/2016 11:19:13 AM:  *** Inserting Suite batch with ID: 2851 *** 
+5/11/2016 11:19:13 AM:  *** Script r004 added to script table with ID: 25568 and suiteID of: 2851 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\backflag.txt:  added to exp_files with ID: 76196 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\backflagvalue.txt:  added to exp_files with ID: 76197 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\backflagvalue2.txt:  added to exp_files with ID: 76198 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\backflagvalue3.txt:  added to exp_files with ID: 76199 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\backflagvalue4.txt:  added to exp_files with ID: 76200 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\FindValuebreak.txt:  added to exp_files with ID: 76201 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\FindValuebreak2.txt:  added to exp_files with ID: 76202 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\IEFBR14Break.txt:  added to exp_files with ID: 76203 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\IEFBR14Step.txt:  added to exp_files with ID: 76204 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 76205 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListCountAsc.txt:  added to exp_files with ID: 76206 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListCountDesc.txt:  added to exp_files with ID: 76207 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListCountDPara.txt:  added to exp_files with ID: 76208 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListCountLine.txt:  added to exp_files with ID: 76209 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 76210 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\Listtracking.txt:  added to exp_files with ID: 76211 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\Nosource.txt:  added to exp_files with ID: 76212 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\StopFix.txt:  added to exp_files with ID: 76213 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\backflag.txt:  added to current with ID: 67821 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\backflagvalue.txt:  added to current with ID: 67822 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\backflagvalue2.txt:  added to current with ID: 67823 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\backflagvalue3.txt:  added to current with ID: 67824 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\backflagvalue4.txt:  added to current with ID: 67825 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\FindValuebreak.txt:  added to current with ID: 67826 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\FindValuebreak2.txt:  added to current with ID: 67827 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\IEFBR14Step.txt:  added to current with ID: 67828 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListAddStop.txt:  added to current with ID: 67829 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListCountAsc.txt:  added to current with ID: 67830 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListCountDesc.txt:  added to current with ID: 67831 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListCountDPara.txt:  added to current with ID: 67832 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListCountLine.txt:  added to current with ID: 67833 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListTrack.txt:  added to current with ID: 67834 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\Nosource.txt:  added to current with ID: 67835 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** current_data\StopFix.txt:  added to current with ID: 67836 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\backflag.txt:  added to differences with ID: 68392 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\backflagvalue.txt:  added to differences with ID: 68393 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\backflagvalue2.txt:  added to differences with ID: 68394 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\backflagvalue3.txt:  added to differences with ID: 68395 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\backflagvalue4.txt:  added to differences with ID: 68396 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\FindValuebreak.txt:  added to differences with ID: 68397 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\FindValuebreak2.txt:  added to differences with ID: 68398 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\IEFBR14Step.txt:  added to differences with ID: 68399 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListAddStop.txt:  added to differences with ID: 68400 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListCountAsc.txt:  added to differences with ID: 68401 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListCountDesc.txt:  added to differences with ID: 68402 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListCountDPara.txt:  added to differences with ID: 68403 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListCountLine.txt:  added to differences with ID: 68404 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListTrack.txt:  added to differences with ID: 68405 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\Nosource.txt:  added to differences with ID: 68406 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Differences\StopFix.txt:  added to differences with ID: 68407 and scriptID of: 25568 *** 
+5/11/2016 11:19:13 AM:  *** Script instance created *** 
+5/11/2016 11:19:13 AM:  *** Script r005 added to script table with ID: 25569 and suiteID of: 2851 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 76214 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 76215 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\SC07.txt:  added to exp_files with ID: 76216 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 76217 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListTailoring.txt:  added to current with ID: 67837 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** current_data\S0C4.txt:  added to current with ID: 67838 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** current_data\SC07.txt:  added to current with ID: 67839 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** current_data\Stepover.txt:  added to current with ID: 67840 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListTailoring.txt:  added to differences with ID: 68408 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** Differences\S0C4.txt:  added to differences with ID: 68409 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** Differences\SC07.txt:  added to differences with ID: 68410 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** Differences\Stepover.txt:  added to differences with ID: 68411 and scriptID of: 25569 *** 
+5/11/2016 11:19:13 AM:  *** Script instance created *** 
+5/11/2016 11:19:13 AM:  *** Script r006 added to script table with ID: 25570 and suiteID of: 2851 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListAddStop.txt:  added to exp_files with ID: 76218 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListTailor.txt:  added to exp_files with ID: 76219 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\ListTrack.txt:  added to exp_files with ID: 76220 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\S0C4.txt:  added to exp_files with ID: 76221 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\SC07.txt:  added to exp_files with ID: 76222 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\Stepover.txt:  added to exp_files with ID: 76223 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListTailor.txt:  added to current with ID: 67841 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** current_data\ListTrack.txt:  added to current with ID: 67842 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListTailor.txt:  added to differences with ID: 68412 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** Differences\ListTrack.txt:  added to differences with ID: 68413 and scriptID of: 25570 *** 
+5/11/2016 11:19:13 AM:  *** Script instance created *** 
+5/11/2016 11:19:13 AM:  *** Suite: cics added to suite table with ID: 2852 and regressionID of: 339 *** 
+5/11/2016 11:19:13 AM:  *** Inserting Suite cics with ID: 2852 *** 
+5/11/2016 11:19:13 AM:  *** Script r007 added to script table with ID: 25571 and suiteID of: 2852 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 76224 and scriptID of: 25571 *** 
+5/11/2016 11:19:13 AM:  *** exp_data\AKR-Directory-List.txt:  added to exp_files with ID: 76225 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\AKR-Directory-Popup.txt:  added to exp_files with ID: 76226 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Assembler-Demonstration-Program.txt:  added to exp_files with ID: 76227 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\CICS-Splash-Screen.txt:  added to exp_files with ID: 76228 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\COBOL-Completed.txt:  added to exp_files with ID: 76229 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\COBOL-Demo-PGM.txt:  added to exp_files with ID: 76230 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Environment-Selection.txt:  added to exp_files with ID: 76231 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Execution-Tracking.txt:  added to exp_files with ID: 76232 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Prepare-Progam-Popup.txt:  added to exp_files with ID: 76233 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Test-Limits-Options.txt:  added to exp_files with ID: 76234 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Test-Session-Tailoring.txt:  added to exp_files with ID: 76235 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Test-Session-Tailoring1.txt:  added to exp_files with ID: 76236 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Welcome-Screen.txt:  added to exp_files with ID: 76237 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67843 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\AKR-Directory-List.txt:  added to current with ID: 67844 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Assembler-Demonstration-Program.txt:  added to current with ID: 67845 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\COBOL-Completed.txt:  added to current with ID: 67846 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\COBOL-Demo-PGM.txt:  added to current with ID: 67847 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Environment-Selection.txt:  added to current with ID: 67848 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Execution-Tracking.txt:  added to current with ID: 67849 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Welcome-Screen.txt:  added to current with ID: 67850 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 68414 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\AKR-Directory-List.txt:  added to differences with ID: 68415 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Assembler-Demonstration-Program.txt:  added to differences with ID: 68416 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\COBOL-Completed.txt:  added to differences with ID: 68417 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\COBOL-Demo-PGM.txt:  added to differences with ID: 68418 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Environment-Selection.txt:  added to differences with ID: 68419 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Execution-Tracking.txt:  added to differences with ID: 68420 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Welcome-Screen.txt:  added to differences with ID: 68421 and scriptID of: 25571 *** 
+5/11/2016 11:19:14 AM:  *** Script instance created *** 
+5/11/2016 11:19:14 AM:  *** Script r008 added to script table with ID: 25572 and suiteID of: 2852 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 76238 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\ProgramView.txt:  added to exp_files with ID: 76239 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Storage-spec.txt:  added to exp_files with ID: 76240 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\StorageSpec.txt:  added to exp_files with ID: 76241 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\StorageSpec2.txt:  added to exp_files with ID: 76242 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\StorageSpec3.txt:  added to exp_files with ID: 76243 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\StorageSpec4.txt:  added to exp_files with ID: 76244 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\ListTailoring.txt:  added to current with ID: 67851 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\ProgramView.txt:  added to current with ID: 67852 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Storage-spec.txt:  added to current with ID: 67853 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\StorageSpec.txt:  added to current with ID: 67854 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\StorageSpec2.txt:  added to current with ID: 67855 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\StorageSpec3.txt:  added to current with ID: 67856 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** current_data\StorageSpec4.txt:  added to current with ID: 67857 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\ListTailoring.txt:  added to differences with ID: 68422 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\ProgramView.txt:  added to differences with ID: 68423 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Storage-spec.txt:  added to differences with ID: 68424 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\StorageSpec.txt:  added to differences with ID: 68425 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\StorageSpec2.txt:  added to differences with ID: 68426 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\StorageSpec3.txt:  added to differences with ID: 68427 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Differences\StorageSpec4.txt:  added to differences with ID: 68428 and scriptID of: 25572 *** 
+5/11/2016 11:19:14 AM:  *** Script instance created *** 
+5/11/2016 11:19:14 AM:  *** Script r009 added to script table with ID: 25573 and suiteID of: 2852 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\Address-Stop-Entry.txt:  added to exp_files with ID: 76245 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\INQRUNAWAYPanel.txt:  added to exp_files with ID: 76246 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\INQRUNAWAYPanel2.txt:  added to exp_files with ID: 76247 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\INQRUNAWAYPanel3.txt:  added to exp_files with ID: 76248 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\ListTailoring.txt:  added to exp_files with ID: 76249 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\ListTailoring2.txt:  added to exp_files with ID: 76250 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\ListTailoring3.txt:  added to exp_files with ID: 76251 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** current_data\Address-Stop-Entry.txt:  added to current with ID: 67858 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** current_data\ListTailoring.txt:  added to current with ID: 67859 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** current_data\ListTailoring2.txt:  added to current with ID: 67860 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** current_data\ListTailoring3.txt:  added to current with ID: 67861 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** Differences\Address-Stop-Entry.txt:  added to differences with ID: 68429 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** Differences\ListTailoring.txt:  added to differences with ID: 68430 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** Differences\ListTailoring2.txt:  added to differences with ID: 68431 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** Differences\ListTailoring3.txt:  added to differences with ID: 68432 and scriptID of: 25573 *** 
+5/11/2016 11:19:14 AM:  *** Script instance created *** 
+5/11/2016 11:19:14 AM:  *** Suite: misc added to suite table with ID: 2853 and regressionID of: 339 *** 
+5/11/2016 11:19:14 AM:  *** Inserting Suite misc with ID: 2853 *** 
+5/11/2016 11:19:14 AM:  *** Script r003 added to script table with ID: 25574 and suiteID of: 2853 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\NewAKR.txt:  added to exp_files with ID: 76252 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** exp_data\NewAKR2.txt:  added to exp_files with ID: 76253 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** current_data\NewAKR.txt:  added to current with ID: 67862 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** current_data\NewAKR2.txt:  added to current with ID: 67863 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** Differences\NewAKR.txt:  added to differences with ID: 68433 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** Differences\NewAKR2.txt:  added to differences with ID: 68434 and scriptID of: 25574 *** 
+5/11/2016 11:19:14 AM:  *** Script instance created *** 
+5/11/2016 11:19:14 AM:  *** Suite: tca added to suite table with ID: 2854 and regressionID of: 339 *** 
+5/11/2016 11:19:14 AM:  *** Inserting Suite tca with ID: 2854 *** 
+5/11/2016 11:19:14 AM:  *** Script r015a added to script table with ID: 25575 and suiteID of: 2854 *** 
+5/11/2016 11:19:14 AM:  *** Script instance created *** 
+5/11/2016 11:19:14 AM:  *** Suite: db2 added to suite table with ID: 2855 and regressionID of: 339 *** 
+5/11/2016 11:19:14 AM:  *** Inserting Suite db2 with ID: 2855 *** 
+5/11/2016 11:19:14 AM:  *** Script r011 added to script table with ID: 25576 and suiteID of: 2855 *** 
+5/11/2016 11:19:14 AM:  *** Suite-log matched query *** 
+5/11/2016 11:19:14 AM:  *** Results for [800 GA April Cumm] successfully completed. *** 
+5/11/2016 11:19:14 AM:  *** *************************Publish Results Ended **************************** *** 

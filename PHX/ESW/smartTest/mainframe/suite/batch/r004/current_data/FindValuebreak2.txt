@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ '''''1      BREAK.                                                             
+ >>>>>>      IF FIND-VALUE IS NOT EQUAL TO RETURN-CODE THEN             DATA USE
+ 000872 *---------------------------------------------------------------*       
+ 000873 *                                                               *       
+ 000874 * NOW, ENTER 'RUN' TO EXECUTE UP TO THE BREAKPOINT THAT WAS     *       
+ 000875 * ESTABLISHED WITH THE PRIOR 'BREAK' COMMAND.                   *       
+ 000876 *                                                               *       
+ 000877 * ENTER 'RUN' TO CONTINUE THE DEMONSTRATION.                    *       
+ 000878 *                                                               *       
+ 000879 *---------------------------------------------------------------*       
+ 000880         MOVE RETURN-CODE TO FIND-VALUE                          DATA MOD
+ 000881         MOVE +0 TO RETURN-CODE.                                         
+ 000882      GO TO MAIN-ROUTINE-CHECK-ALL.                                      
+ 000883                                                                         
+ 000884  BACKTRACK-DEMO.                                                        
+ 000885 *  PAUSE HERE                                                           
+ '''''1      BREAK.                                                             
+ 000886      MOVE +0 TO RETURN-CODE.                                            
+ 000887 *---------------------------------------------------------------*       
+ 000888 *                                                               *       
+ 000889 * THIS EXAMPLE SHOWS SMARTTEST'S 'BACKTRACK' FEATURE.  WHILE    *       
+ 000890 * YOU ARE EXECUTING YOUR TEST PROGRAM, SMARTTEST CAN COLLECT    *       
+ 000891 * INFORMATION ON EXECUTION SEQUENCE AND DATA MODIFICATIONS.     *       
+ 000892 * LATER, YOU CAN REVIEW THE EXECUTION HISTORY IN REVERSE.  THIS *       
+ 000893 * HELPS YOU UNDERSTAND HOW A PARTICULAR VALUE WAS SET, OR UNDER *       
+ 000894 * WHICH CONDITIONS A SUBROUTINE GAINED CONTROL.                 *       
+ 000895 *                                                               *       
+ 000896 * TO ENABLE THE COLLECTION OF DATA, ENTER 'SET BACKTRACK ON'.   *       
+ 000897 *                                                               *       
+ 000898 * NOTE THAT THE STATUS BOX INFORMATION NOW INDICATES THAT WE    *       
+ 000899 * ARE IN BACKTRACK 'RECORD' MODE, WHICH MEANS THAT SMARTTEST    *       
+ 000900 * IS RECORDING ALL STATEMENTS THAT EXECUTE, AND KEEPING TRACK   *       
+ 000901 * OF DATA VALUES BEFORE THEY ARE MODIFIED.  THESE VALUES CAN    *       
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: 07FEB2017 |
+ |  STMT: 000871  OFF: 000C58  AMODE: 31     MODULE: VIAPCOB   TIME: 09:27:10  |
+ |SOURCE: IF FIND-VALUE IS NOT EQUAL TO RETURN-CODE THEN                       |
+ +-----------------------------------------------------------------------------+

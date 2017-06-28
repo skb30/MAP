@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ ''''''   10 BACK-FLAG                       PIC X                              
+ ''''''        VALUE > Y <                                                      
+ -------------------------------------------------------------------------------
+ 000966      MOVE BACK-SUB TO RETURN-CODE.                                      
+ BKTR=>      PERFORM BACK-PARA6.                                                
+ 000968 *---------------------------------------------------------------*       
+ 000969 *                                                               *       
+ 000970 * THE DIRECTION OF THE STEP AND RUN COMMANDS DEFAULTS TO THE    *       
+ 000971 * DIRECTION IN WHICH YOU WERE REVIEWING EXECUTION.  FOR EXAMPLE,*       
+ 000972 * IF YOU EXECUTE A 'STEP BACKWARD' COMMAND, THE STEP COMMAND    *       
+ 000973 * WILL CONTINUE TO EXECUTE IN A BACKWARD DIRECTION UNTIL YOU    *       
+ 000974 * CHANGE DIRECTIONS.  SMARTTEST WILL AUTOMATICALLY CHANGE       *       
+ 000975 * DIRECTIONS AT THE TOP OF THE EXECUTION HISTORY.               *       
+ 000976 *                                                               *       
+ 000977 * NOTE THAT YOUR TEST IS SUSPENDED AT THIS TIME.  NO DATA VALUES*       
+ 000978 * ARE BEING CHANGED BECAUSE YOU ARE REVIEWING THE EXECUTION     *       
+ 000979 * HISTORY.  YOU CAN REVIEW THE ENTIRE HISTORY UP TO THE POINT   *       
+ 000980 * WHERE YOU 'SET BACKTRACK ON'.                                 *       
+ 000981 *                                                               *       
+ 000982 * LET'S FIND OUT HOW THE VALUE 'Y' WAS PLACED IN BACK-FLAG.     *       
+ 000983 * TO RUN BACKWARDS TO WHERE THE PRIOR MODIFICATION TOOK PLACE,  *       
+ 000984 * ENTER 'RUN TO BACK-FLAG MOD' (THE DEFAULT DIRECTION IS STILL  *       
+ 000985 * BACKWARDS BECAUSE OF THE PRIOR 'STEP BACK 4 COMMAND').        *       
+ 000986 *                                                               *       
+ 000987 *---------------------------------------------------------------*       
+ 000988      IF BACK-SUB >   9 THEN                                             
+ 000989         MOVE 'N' TO BACK-FLAG                                           
+ 000990 *---------------------------------------------------------------*       
+ 000991 *                                                               *       
+ 000992 * THIS IS THE MOST RECENT MODIFICATION OF 'BACK-FLAG'.  TO SEE  *       
+ 000993 * WHAT VALUE 'BACK-FLAG' CONTAINED BEFORE IT WAS MODIFIED,      *       
+ 000994 * ENTER 'KEEP BACK-FLAG'.                                       *       
+ 000995 *                                                               *       
+ +-----------------------------------------------------------------------------+
+ |STATUS: * REVIEWING EssssssssssssssssssssssssssssssssN COB   DIRECTION: BWD  |
+ |  STMT: ######  OFF e ASG2163I STEP 4 OF 4 EXECUTED. e COB    SEQ# -346      |
+ |SOURCE: PERFORM BAC DssssssssssssssssssssssssssssssssM                       |
+ +-----------------------------------------------------------------------------+

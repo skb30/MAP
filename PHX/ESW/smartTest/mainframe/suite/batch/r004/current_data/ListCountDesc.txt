@@ -1,0 +1,43 @@
+ VPPSCNT                       Execution Counts               SORTED DESCENDING 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+ VIAPCOB   Total STMTS:   243  100%     VIAPCOB   Execution count: 980          
+        Executed STMTS:   173   71%                 Highest count: 150          
+      Unexecuted STMTS:   70    29%            Highest count line: 1097         
+                                                                                
+ S LINE   COUNT   %.........50%........100%  STMTS SORTED BY DESCENDING COUNT   
+ - ------ ------- ------------------------- ----------------------------------- 
+ _ 001097     150 *************************     IF SUB2 > +7 THEN               
+ _ 001057     121 ********************          IF RETURN-CODE > 4096 THEN      
+ _ 001098      45 ********                         MOVE +0 TO RETURN-CODE.      
+ _ 001191      18 ***                           ADD +1 TO SUB1.                 
+ _ 001192      18 ***                           IF SUB1 NOT > VALID-PARMS-COUNT 
+ _ 001093      15 ***                           PERFORM LOOP-INNER              
+ _ 000638      14 **                            MOVE 0 TO STOP-10-NUMBERS (STOP-
+ _ 000456      11 **                            MOVE S0C4-CORE (S0C4-INDEX) TO S
+ _ 000486      10 **                            SET S0C4-INDEX UP BY S0C4-INDEX-
+ _ 000966      10 **                            MOVE BACK-SUB TO RETURN-CODE.   
+ _ 000967      10 **                            PERFORM BACK-PARA6.             
+ _ 000988      10 **                            IF BACK-SUB >   9 THEN          
+ _ 001005      10 **                            PERFORM BACK-PARA6.             
+ _ 001012      10 **                            IF RETURN-CODE NOT = BACK-SUB TH
+ _ 001015      10 **                            PERFORM BACK-PARA6.             
+ _ 001018      10 **                            MOVE BACK-SUB TO RETURN-CODE.   
+ _ 001019      10 **                            PERFORM BACK-PARA6.             
+ _ 001020      10 **                            IF BACK-SUB > 20 THEN           
+ _ 001023      10 **                               ADD 1 TO RETURN-CODE.        
+ _ 001024      10 **                            PERFORM BACK-PARA6.             
+ _ 001025      10 **                            IF RETURN-CODE NOT = BACK-SUB TH
+ _ 001026      10 **                               IF RETURN-CODE < 0 THEN      
+ _ 001028      10 **                            PERFORM BACK-PARA6.             
+ _ 001031      10 **                            MOVE BACK-SUB TO RETURN-CODE.   
+ _ 001032      10 **                            PERFORM BACK-PARA6.             
+ _ 001033      10 **                            IF BACK-SUB > 30 THEN           
+ _ 001036      10 **                               ADD 1 TO RETURN-CODE.        
+ _ 001037      10 **                            PERFORM BACK-PARA6.             
+ _ 001038      10 **                            IF RETURN-CODE NOT = BACK-SUB TH
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: 07FEB2017 |
+ |  STMT: 001066  OFF: 0010AE  AMODE: 31     MODULE: VIAPCOB   TIME: 09:27:24  |
+ |SOURCE: GO TO MAIN-ROUTINE-CHECK-ALL.                                        |
+ +-----------------------------------------------------------------------------+

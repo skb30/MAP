@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ '''''1      BREAK.                                                             
+ >>>>>>      CALL IEFBR14-PGM-NAME.                                             
+ 000491 *---------------------------------------------------------------*       
+ 000492 *                                                               *       
+ 000493 * THIS EXAMPLE SHOWS DISASSEMBLED OBJECT CODE SUPPORT.          *       
+ 000494 *                                                               *       
+ 000495 * WE ARE ABOUT TO CALL 'IEFBR14'.  WE WILL BE ABLE TO STEP      *       
+ 000496 * THROUGH IT AN INSTRUCTION AT A TIME, EVEN THOUGH YOU DON'T    *       
+ 000497 * HAVE THE SOURCE CODE ASSEMBLED AND ANALYZED.                  *       
+ 000498 *                                                               *       
+ 000499 * 'SET ASMVIEW ON' TO ENABLE THE DISPLAY OF THE DISASSEMBLED    *       
+ 000500 * OBJECT CODE FOR ANY NON-ANALYZED PROGRAM.  THE PROGRAMS CAN   *       
+ 000501 * BE WRITTEN IN ANY LANGUAGE.                                   *       
+ 000502 *                                                               *       
+ 000503 * WITH 'ASMVIEW' SET ON, SMARTTEST WILL AUTOMATICALLY DISPLAY   *       
+ 000504 * REGISTERS IN THE STATUS BOX, AND STEP BY MACHINE INSTRUCTION  *       
+ 000505 * IN PROGRAMS THAT HAVE NO SOURCE ON THE AKR.                   *       
+ 000506 *                                                               *       
+ 000507 * ENTER 'RUN' TO BREAK AT ENTRY TO 'IEFBR14'. THEN, ENTER       *       
+ 000508 * 'STEP 2 AUTO' TO STEP THROUGH IEFBR14'S DISASSEMBLED OBJECT   *       
+ 000509 * CODE, AND BACK TO THIS PROGRAM.                               *       
+ 000510 *                                                               *       
+ 000511 *---------------------------------------------------------------*       
+ 000512                                                                         
+ 000513      MOVE +1 TO RETURN-CODE.                                            
+ 000514 *---------------------------------------------------------------*       
+ 000515 *                                                               *       
+ 000516 * WHEN 'ASMVIEW' IS SET 'ON', THE EXECUTION TRACKING SCREEN     *       
+ 000517 * SHOWS SOURCE STATEMENTS FOR PROGRAMS THAT HAVE BEEN ANALYZED, *       
+ 000518 * AND INSTRUCTION OFFSETS FOR THOSE PROGRAMS THAT ARE NOT ON THE*       
+ 000519 * AKR (WHICH INCLUDES COBOL RUNTIME ROUTINES...ILBO* AND IGZ*). *       
+ 000520 *                                                               *       
+ 000521 * ENTER 'LIST TRACKING', THEN 'END' TO RETURN TO THIS SCREEN.   *       
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: 07FEB2017 |
+ |  STMT: 000490  OFF: 000682  AMODE: 31     MODULE: VIAPCOB   TIME: 09:27:17  |
+ |SOURCE: CALL IEFBR14-PGM-NAME.                                               |
+ +-----------------------------------------------------------------------------+

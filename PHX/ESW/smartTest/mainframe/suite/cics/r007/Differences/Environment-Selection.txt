@@ -1,0 +1,13 @@
+       1- VPPSMENU                  Environment Selection
+       2- Command ===> ___________________________________________________________
+-------------------------------------------------------------
+       4- C - Use Current Environment:
+       2+ 
+       3+ VPPSMENU                  Environment Selection       ENVIRONMENT REQUIRED
+       4+ Command ===> _________________________________         _________________
+       5+ 
+       6+ C - Use Current Environment:  NONE
+-------------------------------------------------------------
+      20- 
+      21- (Only available options are highlighted)
+-------------------------------------------------------------

@@ -1,0 +1,43 @@
+ VPPEXTRK                     Execution Tracking            VIAPPLI.VIAPPLI1 -A 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+    ADSTOP_DEMO OF VIAPPLI                                                      
+       000641          PAYEE = PAYEE + 1;                                       
+       000642       END;                                                        
+       000640          CALL COMPUTE_SALARY;                                     
+    COMPUTE_SALARY OF VIAPPLI                                                   
+       000675    COMPUTE_SALARY: PROC;                                          
+       000677       PAY_AMOUNT (PAYEE) =                                        
+       000681    END COMPUTE_SALARY;                                            
+    ADSTOP_DEMO OF VIAPPLI                                                      
+       000641          PAYEE = PAYEE + 1;                                       
+       000642       END;                                                        
+       000644       PAYEE = 1;                                                  
+       000646          CALL COMPUTE_AVERAGE;                                    
+    COMPUTE_AVERAGE OF VIAPPLI                                                  
+       000684    COMPUTE_AVERAGE: PROC;                                         
+       000686       PAY_TOTAL = PAY_TOTAL                                       
+       000704       PAY_AVERAGE = PAY_TOTAL / PAYEE;                            
+       000706    END COMPUTE_AVERAGE;                                           
+    ADSTOP_DEMO OF VIAPPLI                                                      
+       000647          PAYEE = PAYEE + 1;                                       
+       000648       END;                                                        
+       000646          CALL COMPUTE_AVERAGE;                                    
+    COMPUTE_AVERAGE OF VIAPPLI                                                  
+       000684    COMPUTE_AVERAGE: PROC;                                         
+       000686       PAY_TOTAL = PAY_TOTAL                                       
+       000704       PAY_AVERAGE = PAY_TOTAL / PAYEE;                            
+       000706    END COMPUTE_AVERAGE;                                           
+    ADSTOP_DEMO OF VIAPPLI                                                      
+       000647          PAYEE = PAYEE + 1;                                       
+       000648       END;                                                        
+       000646          CALL COMPUTE_AVERAGE;                                    
+    COMPUTE_AVERAGE OF VIAPPLI                                                  
+       000684    COMPUTE_AVERAGE: PROC;                                         
+       000686       PAY_TOTAL = PAY_TOTAL                                       
+ ******************************* BOTTOM OF DATA ********************************
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED BEFORE ADDRESS MODIFIED   PROGRAM: VIAPPLI1  DATE: 10MAY2016 |
+ |  STMT: 000686  OFF: 00227C  AMODE: 31     MODULE: VIAPPLI   TIME: 19:51:43  |
+ |SOURCE: PAY_TOTAL = PAY_TOTAL                                                |
+ +-----------------------------------------------------------------------------+

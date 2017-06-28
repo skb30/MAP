@@ -1,0 +1,43 @@
+ VPPSESSN                   Test Session Tailoring                              
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+                          Monitor Track Count Break Break Break Pseudo Single   
+      Module.Program        Act    Act   Act   Act  Entry  Rtn   Act    Step    
+      -----------------     ---    ---   ---   ---  -----  ---   ---    -----   
+ **** **************************** TOP OF DATA ******************************   
+ '''' VIA*.VIA*             YES    YES   YES   YES   YES   NO    YES    YES     
+ '''' IEFBR14.IEFBR14       YES    YES   YES   YES   YES   NO    YES    YES     
+ '''' VIAPLIS.VIAPLIS       YES    YES   YES   YES   YES   NO    YES    YES     
+ **** ************************** BOTTOM OF DATA *****************************   
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

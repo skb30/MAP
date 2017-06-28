@@ -1,0 +1,206 @@
+Tue May 10 16:49:11 2016 ------- Test Case r005.pl.pl Started -------
+*** 2016-05-10 16:49:14 'r005.pl' 40 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 16:49:14 'r005.pl' 40 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-05-10 16:49:15 'r005.pl' 40 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-05-10 16:49:15 'r005.pl' 40 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-05-10 16:49:15 'r005.pl' 40 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-05-10 16:49:16 'r005.pl' 40 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-05-10 16:49:16 'r005.pl' 40 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-05-10 16:49:16 'r005.pl' 40 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:16 'r005.pl' 43 - write2CommandLine "6" Passed ***
+*** 2016-05-10 16:49:16 'r005.pl' 43 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-05-10 16:49:17 'r005.pl' 43 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SCNXCLST)'" Passed ***
+*** 2016-05-10 16:49:17 'r005.pl' 43 - pressKey "[enter]" Passed ***
+*** 2016-05-10 16:49:17 'r005.pl' 43 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SESWCLST)'" Passed ***
+*** 2016-05-10 16:49:17 'r005.pl' 43 - pressKey "[enter]" Passed ***
+*** 2016-05-10 16:49:18 'r005.pl' 45 - write2CommandLine "CENTER" Passed ***
+*** 2016-05-10 16:49:19 'r005.pl' 46 - write2CommandLine "ST " Passed ***
+*** 2016-05-10 16:49:19 'r005.pl' 49 - write2CommandLine "AN " Passed ***
+*** 2016-05-10 16:49:20 'r005.pl' 67 - write2CommandLine "S" Passed ***
+*** 2016-05-10 16:49:23 'r005.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 16:49:27 'r005.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 16:49:27 'r005.pl' 70 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:27 'r005.pl' 71 - write2CommandLine "AKR" Passed ***
+*** 2016-05-10 16:49:27 'r005.pl' 82 - write2CommandLine "ENV" Passed ***
+*** 2016-05-10 16:49:27 'r005.pl' 86 - write2CommandLine "T1" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 87 - write2CommandLine "SET DEFAULT" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 88 - write2CommandLine "SET TRACK 9999" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 89 - write2CommandLine "LIST TAILOR" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 92 - pressKey "[HOME]" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 94 - pressKeys: YESYES Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 95 - pressKeys: YESYES Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 96 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 98 - pressKeys: I Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 99 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 101 - pressKeys: IEFBR14.IEFBR14   Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 103 - pressKeys: YESYESYES Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 104 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:28 'r005.pl' 107 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 109 - write2CommandLine "LIST INTERCEPT" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 111 - pressKeys: IEFBR14 Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 112 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 114 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 116 - write2CommandLine "ENV" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 120 - pressKey "[tab]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 121 - pressKeys: 'QAL.PHX.esw800au.AKR' Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 122 - pressKey "[enter]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 126 - pressKey "[tab]" Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 127 - pressKeys: 'QAL.PHX.esw800au.LOADPDSE' Passed ***
+*** 2016-05-10 16:49:29 'r005.pl' 128 - pressKey "[enter]" Passed ***
+*** 2016-05-10 16:49:30 'r005.pl' 129 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:30 'r005.pl' 131 - write2CommandLine "C" Passed ***
+*** 2016-05-10 16:49:30 'r005.pl' 144 - write2CommandLine "C" Passed ***
+*** 2016-05-10 16:49:30 'r005.pl' 161 - write2CommandLine "C" Passed ***
+*** 2016-05-10 16:49:30 'r005.pl' 163 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:31 'r005.pl' 165 - write2CommandLine "R" Passed ***
+*** 2016-05-10 16:49:31 'r005.pl' 166 - findStringOnPanel "DEMONSTRATION OF: S0C7" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 168 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 169 - findStringOnPanel "ALLOCATION SUCCESSFUL" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 172 - write2CommandLine "li comp" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 172 - Compiler  : MACRO HIGH LEVEL ASSEMBLER  Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 176 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 181 - write2CommandLine "BREAK BEFORE PAUSE ALL;RUN" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 184 - pressKeys: 1 Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 185 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 186 - findStringOnPanel "SUCCESSFUL MEMORY UPDATE" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 187 - verifyPanelMask SC07.txt Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 189 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:49:32 'r005.pl' 190 - findStringOnPanel "DEMONSTRATION OF: S0C4" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 191 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 192 - verifyPanelMask S0C4.txt Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 195 - write2CommandLine "GO TO S0C4FIX;RUN" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 196 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 204 - write2CommandLine "LIST TRACK" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 207 - pressKeys: S Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 208 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:33 'r005.pl' 216 - pressKeys: ZA Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 217 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 221 - pressKeys: L Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 222 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 223 - findStringOnPanel "58F0C5B0" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 226 - pressKeys: 41 Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 227 - findStringOnPanel "41F0C5B0" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 228 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 230 - write2CommandLine "Reset Zoom" Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 232 - pressKeys: GO Passed ***
+*** 2016-05-10 16:49:34 'r005.pl' 233 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:35 'r005.pl' 236 - write2CommandLine "RUN" Passed ***
+*** 2016-05-10 16:49:35 'r005.pl' 237 - findStringOnPanel "DEMONSTRATION OF: STEP" Passed ***
+*** 2016-05-10 16:49:35 'r005.pl' 238 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:35 'r005.pl' 239 - findStringOnPanel "PAUSE005 LA    R14,1" Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 240 - write2CommandLine "STEP 5 AUTO" Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 241 - findStringOnPanel "STEP 5 OF 5 EXECUTED" Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 243 - write2CommandLine "STEP OVER" Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 244 - verifyPanel Stepover.txt Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 245 - write2CommandLine "LIST TRACKING" Passed ***
+*** 2016-05-10 16:49:39 'r005.pl' 246 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 248 - pressKey "[F8]" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 249 - findStringOnPanel "SR    R15,R15                'RUN TO' THIS INSTRUCTION" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 252 - write2CommandLine "RUN TO" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 254 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 256 - write2CommandLine "SET GEN ON" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 257 - findStringOnPanel "GENERATED ON" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 259 - write2CommandLine "STEP LABEL" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 260 - findStringOnPanel "STEP LABEL" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 262 - write2CommandLine "SET GEN OFF" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 263 - findStringOnPanel "GENERATED OFF" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 265 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:49:40 'r005.pl' 266 - findStringOnPanel "DEMONSTRATION OF: ADDREXP" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 267 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 274 - write2CommandLine "KEEP R14? LEN 16" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 275 - findStringOnPanel "R14?                               DS CL16" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 276 - write2CommandLine "KEEP R14?+4? LEN 16" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 277 - findStringOnPanel "R14?+4?                            DS CL16" Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 278 - write2CommandLine "KEEP R14?+0?+8 CHAR LEN 8 " Passed ***
+*** 2016-05-10 16:49:41 'r005.pl' 279 - findStringOnPanel "R14?+0?+8                          DS CL8" Passed ***
+*** 2016-05-10 16:49:42 'r005.pl' 282 - write2CommandLine "STEP 2 AUTO " Passed ***
+*** 2016-05-10 16:49:42 'r005.pl' 283 - findStringOnPanel "STEP 2 OF 2 EXECUTED" Passed ***
+*** 2016-05-10 16:49:42 'r005.pl' 286 - write2CommandLine "DISPLAY R13%+4%+24%%+2 CHAR LEN 8" Passed ***
+*** 2016-05-10 16:49:42 'r005.pl' 287 - findStringOnPanel "ASG2172I R13%+4%+24%%+2='ALL....." Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 289 - write2CommandLine "ZD R15%%+X'C4'%+X'10' CHAR" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 290 - findStringOnPanel "R15%%+X'C4'%+X'10'                 DS CL4" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 292 - write2CommandLine "RESET KEEP;RESET ZOOM;RUN " Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 293 - findStringOnPanel "DEMONSTRATION OF: DSECT" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 294 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 295 - findStringOnPanel "PAUSE999 ST    R0,LOOPCTR            SAVE LOOP COUNTER" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 300 - write2CommandLine "LIST REGS" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 301 - findStringOnPanel "Reg    High       Low       Address identification      Data at address    >" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 302 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 304 - write2CommandLine "SET REGS ON" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 305 - findStringOnPanel "REGISTERS ON" Passed ***
+*** 2016-05-10 16:49:43 'r005.pl' 308 - pressKeys: L Passed ***
+*** 2016-05-10 16:49:44 'r005.pl' 309 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:44 'r005.pl' 310 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:44 'r005.pl' 313 - write2CommandLine "SET REGS OFF" Passed ***
+*** 2016-05-10 16:49:44 'r005.pl' 314 - findStringOnPanel "REGISTERS OFF" Passed ***
+*** 2016-05-10 16:49:44 'r005.pl' 316 - write2CommandLine "KEEP CPYDSECT" Passed ***
+*** 2016-05-10 16:49:58 'r005.pl' 320 - write2CommandLine "SET OPERANDS ON;STEP 15 AUTO" Passed ***
+*** 2016-05-10 16:49:58 'r005.pl' 322 - write2CommandLine "SET OPERANDS OFF;RESET KEEP;RUN" Passed ***
+*** 2016-05-10 16:49:58 'r005.pl' 323 - findStringOnPanel "DEMONSTRATION OF: STOP   " Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 324 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 329 - write2CommandLine "STOP R12? LENGTH 256" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 332 - write2CommandLine "LIST ADSTOP" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 333 - findStringOnPanel "Address Stop Entry" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 334 - findStringOnPanel "R12?" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 335 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 340 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 341 - findStringOnPanel "STOPPED BEFORE ADDRESS MODIFIED" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 343 - write2CommandLine "WHERE R14" Passed ***
+*** 2016-05-10 16:49:59 'r005.pl' 344 - findStringOnPanel "STC   R14,0(,R14)            CORRUPT THIS PROGRAM" Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 346 - write2CommandLine "GO TO STOPFIX;RUN" Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 347 - findStringOnPanel "DEMONSTRATION OF: NOSOURCE " Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 348 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 351 - write2CommandLine "SET ASMVIEW ON" Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 352 - findStringOnPanel "ASMVIEW ON" Passed ***
+*** 2016-05-10 16:50:00 'r005.pl' 356 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:01 'r005.pl' 359 - write2CommandLine "STEP 2 AUTO" Passed ***
+*** 2016-05-10 16:50:01 'r005.pl' 360 - findStringOnPanel "LTR   R15,R15                DID WE GET ZERO RETURN" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 363 - write2CommandLine "LIST TRACKING" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 364 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 366 - write2CommandLine "SET ASMVIEW OFF" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 367 - findStringOnPanel "ASMVIEW OFF" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 369 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 370 - findStringOnPanel "DEMONSTRATION OF: LOOP" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 371 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 373 - write2CommandLine "LIST COUNTS DESCENDING" Passed ***
+*** 2016-05-10 16:50:02 'r005.pl' 374 - findStringOnPanel "SORTED BY DESCENDING COUNT" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 376 - write2CommandLine "LIST COUNTS ASCENDING" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 377 - findStringOnPanel "SORTED BY ASCENDING COUNT" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 379 - write2CommandLine "LIST COUNTS LINE" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 380 - findStringOnPanel "SORTED BY LINE NUMBER" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 382 - write2CommandLine "LIST COUNTS LABEL D" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 383 - findStringOnPanel "LABELS SORTED BY DESCENDING COUNT  " Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 384 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 386 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 387 - findStringOnPanel "DEMONSTRATION OF: DATASPC" Passed ***
+*** 2016-05-10 16:50:03 'r005.pl' 388 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 393 - write2CommandLine "SET GEN OFF" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 394 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 395 - findStringOnPanel "PAUSE011 DSPSERV CREATE" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 397 - write2CommandLine "KEEP DSPNAME" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 399 - pressKeys: CAROL01  Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 400 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 401 - findStringOnPanel "SUCCESSFUL MEMORY UPDATE" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 402 - findStringOnPanel "DSPNAME                               DS CL8" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 403 - findStringOnPanel "VALUE > CAROL01  <" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 404 - pressKey "[F6]" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 406 - write2CommandLine "LIST REGS" Passed ***
+*** 2016-05-10 16:50:04 'r005.pl' 407 - findStringOnPanel "R15  00000010 - 00000000" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 408 - pressKey "[F3]" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 410 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 411 - findStringOnPanel "PAUSE012 MVC   DSPCHAR(7),=CL7'ASG'" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 414 - write2CommandLine "KEEP DSPCHAR" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 415 - findStringOnPanel "DSPCHAR                USING AR6      DS CL8" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 416 - findStringOnPanel "VALUE > ........ <" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 418 - pressKey "[F4]" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 419 - findStringOnPanel ">>>>>>           MVC   DSPCHAR(4),=C'XXXX'   SHOULD S0C4" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 420 - findStringOnPanel "STATUS: PROTECTION EXCEPTION (0C4)" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 422 - write2CommandLine "GO ALESERV;RUN" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 423 - findStringOnPanel "INPUT PARAMETER WAS: ALL" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 424 - findStringOnPanel "*COMPLETED*" Passed ***
+*** 2016-05-10 16:50:05 'r005.pl' 425 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 16:50:06 'r005.pl' 427 - write2CommandLine "CAN;Q CAN ALL" Passed ***
+*** 2016-05-10 16:50:07 'r005.pl' 428 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 16:50:07 'r005.pl' 428 - Ended with a status of:  Passed ***
+Tue May 10 16:50:07 2016 ------- Test Case r005.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 56 Sec(s). ------
+

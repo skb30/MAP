@@ -1,0 +1,57 @@
+Wed Sep 16 13:38:40 2015 ------- Test Case r004A.pl.pl Started -------
+*** 2015-09-16 13:38:43 'r004A.pl' 0 - navigate2Panel-ISP@MST1 Passed ***
+*** 2015-09-16 13:38:43 'r004A.pl' 0 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2015-09-16 13:38:44 'r004A.pl' 0 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSQ'" Passed ***
+*** 2015-09-16 13:38:44 'r004A.pl' 0 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2015-09-16 13:38:44 'r004A.pl' 0 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2015-09-16 13:38:44 'r004A.pl' 0 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2015-09-16 13:38:44 'r004A.pl' 0 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2015-09-16 13:38:45 'r004A.pl' 0 - pressKey "[ENTER]" Passed ***
+*** 2015-09-16 13:38:45 'r004A.pl' 44 - write2CommandLine "6" Passed ***
+*** 2015-09-16 13:38:45 'r004A.pl' 44 - findStringOnPanel "ISRTSO" Passed ***
+*** 2015-09-16 13:38:45 'r004A.pl' 44 - write2CommandLine "ex 'QAL.PHX.ESW800AU.SCNXCLST(VIASPROC)' 'ADD(QAL.PHX.ESW800AU.SCNXCLST)'" Passed ***
+*** 2015-09-16 13:38:45 'r004A.pl' 44 - pressKey "[enter]" Passed ***
+*** 2015-09-16 13:38:46 'r004A.pl' 44 - write2CommandLine "ex 'QAL.PHX.ESW800AU.SCNXCLST(VIASPROC)' 'ADD(QAL.PHX.ESW800AU.SESWCLST)'" Passed ***
+*** 2015-09-16 13:38:46 'r004A.pl' 44 - pressKey "[enter]" Passed ***
+*** 2015-09-16 13:38:47 'r004A.pl' 46 - write2CommandLine "CENTER" Passed ***
+*** 2015-09-16 13:38:48 'r004A.pl' 47 - write2CommandLine "ST" Passed ***
+*** 2015-09-16 13:38:48 'r004A.pl' 49 - write2CommandLine "AN " Passed ***
+*** 2015-09-16 13:38:49 'r004A.pl' 68 - write2CommandLine "S" Passed ***
+*** 2015-09-16 13:38:52 'r004A.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2015-09-16 13:38:55 'r004A.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2015-09-16 13:38:58 'r004A.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2015-09-16 13:39:01 'r004A.pl' checkBatchStatus: JOB ENDED ***
+*** 2015-09-16 13:39:01 'r004A.pl' 71 - pressKey "[F3]" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 74 - write2CommandLine "AKR" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 86 - findStringOnPanel "16SEP2015" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 89 - pressKey "[F3]" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 92 - write2CommandLine "ENV" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 95 - write2CommandLine "L" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 96 - pressKey "[TAB]" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 100 - pressKeys: 'QAL.PHX.ESW800AU.AKR' Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 103 - pressKeys: 'QAL.PHX.ESW800AU.LOADPDSE' Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 104 - pressKey "[tab]" Passed ***
+*** 2015-09-16 13:39:02 'r004A.pl' 105 - pressKey "[F3]" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 109 - write2CommandLine "T1" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 122 - write2CommandLine "C" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 141 - write2CommandLine "C" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 142 - findStringOnPanel "CLIST GENERATED" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 145 - pressKey "[F3]" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 149 - pressKeys: ALL/ALL31(OFF) STACK(,,BELOW) Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 151 - write2CommandLine "SET LE ON" Passed ***
+*** 2015-09-16 13:39:03 'r004A.pl' 152 - findStringOnPanel "LE ON" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 154 - write2CommandLine "R" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 157 - write2CommandLine "UP MAX" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 163 - write2CommandLine "SET TRACK 9999" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 168 - write2CommandLine "LI TA" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 170 - pressKeys: YESYES Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 172 - pressKey "[HOME]" Passed ***
+*** 2015-09-16 13:39:05 'r004A.pl' 176 - pressKey "[F3]" Passed ***
+*** 2015-09-16 13:39:08 'r004A.pl' 181 - write2CommandLine "BREAK BEFORE PAUSE ALL;RUN" Passed ***
++++ 2015-09-16 13:39:08 'r004A.pl' 185 - write2PanelField:  ===> not found on Panel. Failed! +++
++++ 2015-09-16 13:39:08 'r004A.pl' 185 - write2CommandLine "li comp" Failed! +++
+*** 2015-09-16 13:39:08 'r004A.pl' 185 - 0 Passed ***
+*** 2015-09-16 13:39:09 'r004A.pl' 202 - navigate2Panel-ISP@MST1 Passed ***
++++ 2015-09-16 13:39:09 'r004A.pl' 202 - Ended with a status of:  Failed! +++
+Wed Sep 16 13:39:09 2015 ------- Test Case r004A.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 29 Sec(s). ------
+

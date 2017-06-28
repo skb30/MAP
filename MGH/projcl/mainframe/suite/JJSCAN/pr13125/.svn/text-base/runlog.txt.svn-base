@@ -1,0 +1,27 @@
+Thu May 30 10:13:00 2013 ------- Test Case pr13125.pl.pl Started -------
+*** 2013-05-30 10:13:01 'pr13125.pl' started ***
+*** 2013-05-30 10:13:07 'pr13125.pl' 0 - navigate2Panel  Passed ***
+*** 2013-05-30 10:13:08 'pr13125.pl' 0 - findStringOnPanel "D0JPMAI0" Passed ***
+*** 2013-05-30 10:13:08 'pr13125.pl' 0 - navigate2Panel D0JPMAI0 Passed ***
+*** 2013-05-30 10:13:09 'pr13125.pl' 0 - findStringOnPanel "D0SPDIA1" Passed ***
+*** 2013-05-30 10:13:09 'pr13125.pl' 0 - navigate2Panel D0SPDIA1 Passed ***
+*** 2013-05-30 10:13:09 'pr13125.pl' 0 - findStringOnPanel "D0SPDIA8" Passed ***
+*** 2013-05-30 10:13:09 'pr13125.pl' 0 - navigate2Panel D0SPDIA8 Passed ***
+*** 2013-05-30 10:13:10 'pr13125.pl' 0 - panelListAction QA027ART found on panel Passed ***
+*** 2013-05-30 10:13:12 'pr13125.pl' 0 - findStringOnPanel "D0JPJVAL" Passed ***
+*** 2013-05-30 10:13:12 'pr13125.pl' 0 - navigate2Panel D0JPJVAL Passed ***
+*** 2013-05-30 10:13:13 'pr13125.pl' 0 - navigate2DropDownList "Settings" Passed ***
+*** 2013-05-30 10:13:13 'pr13125.pl' 0 - navigate2DropDownList "File" Passed ***
+*** 2013-05-30 10:13:15 'pr13125.pl' 30 - navigate2Panel  Passed ***
+*** 2013-05-30 10:13:16 'pr13125.pl' 33 - findStringOnPanel "D0JPMAI0" Passed ***
+*** 2013-05-30 10:13:16 'pr13125.pl' 33 - navigate2Panel D0JPMAI0 Passed ***
+*** 2013-05-30 10:13:17 'pr13125.pl' 35 - findStringOnPanel "D0JPJVAL" Passed ***
+*** 2013-05-30 10:13:17 'pr13125.pl' 35 - navigate2Panel D0JPJVAL Passed ***
+*** 2013-05-30 10:13:21 'pr13125.pl' 80 - findStringOnPanel "No CHARS 'DSS03041'" Passed ***
+*** 2013-05-30 10:13:25 'pr13125.pl' 105 - Creating  /pr13125Jmpmsg. CFG parameter InitExpFile is on ! Passed ***
+*** 2013-05-30 10:13:25 'pr13125.pl' 105 - verifyPanel pr13125Jmpmsg Passed ***
+*** 2013-05-30 10:13:25 'pr13125.pl' 110 - findStringOnPanel "No CHARS 'DSS03041'" Passed ***
+*** 2013-05-30 10:13:28 'pr13125.pl' 138 - findStringOnPanel "No CHARS 'DSS03041'" Passed ***
+*** 2013-05-30 10:13:32 'pr13125.pl' 159 - Ended with a status of:  Passed ***
+Thu May 30 10:13:32 2013 ------- Test Case pr13125.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 0 Min(s). 32 Sec(s). ------
+

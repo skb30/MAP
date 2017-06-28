@@ -1,0 +1,154 @@
+###############################################################################
+#
+# TEST SCRIPT: Batch-prep for batch cobol, assembler and PLI
+#		
+# Script  
+# DESCRIPTION: Batch-prep for batch cobol510, assembler and PLI.
+# CJM 
+#################################################################################
+use lib 'C:\Users\scottba\MAP\workspace\trunk\lib';
+use Hllapi;
+use PROJCL::ProJcl;
+use Tie::IxHash;
+use MAP;
+use ESW::Eswtool;
+use ESW::PanelsMap; 
+
+my $configRef 		  = Cfg::getcfg();
+my $sessionID  		  = $configRef->{'SessionID'};
+my $userID            = $configRef->{'UserID'};
+my $release            = $configRef->{'Release'};
+my $execclist         = $configRef->{'Exec'};
+my $cntlLib 	      = $configRef->{'CntlLib'};
+my $hlq               = $configRef->{'TestDataHLQ'. '.'};
+my $akrcob            = uc($configRef->{'AKRCOB'}); 
+my $akrasm            = uc($configRef->{'AKRASM'}); 
+my $akrpli            = uc($configRef->{'AKRPLI'});         
+my $loadcob           = uc($configRef->{'LOADCOB'});                
+my $loadasm           = uc($configRef->{'LOADASM'});              
+my $loadpli           = uc($configRef->{'LOADPLI'});
+my $jcllib            = "QAL.PHX.ESWAUTO.JCL2";
+my $template;
+## cobol variables
+my $cobmemb           = "VIAPCOB";
+my $coblib            = "CEE.SCEELKED";
+my $compilr           = "IGYCRCTL";
+
+#my $cobcomp           = "SYSP.IGY340.SIGYCOMP";
+#my $cobcomp           = "SYSP.IGY410.SIGYCOMP";      
+#my $cobcomp           = "SYSP.IGY420.SIGYCOMP";
+#my $cobcomp           = "SYSP.IGY510.SIGYCOMP";      # support released in ESW790
+#my $cobcomp           = "SYSP.IGY511.SIGYCOMP";
+#my $cobcomp           = "SYSP.IGY520.SIGYCOMP";      # support released in ESW800
+my $cobcomp           = "SYSP.IGY610.SIGYCOMP";      # support released in ESW810
+
+# Hi level and middle nodes
+my $hinode	    	  = "QAL";
+my $middlenode        = "PHX.ESW810AU";
+## Assembler variable
+my $asmname           = "ASMA90";
+## PLI variables
+my $plicomp           = 'SYSP.PLI450.SIBMZCMP';
+my $plipgm            = 'IBMZPLI';
+my $plilib            = 'CEE.SCEELKED';
+
+package MAP;
+
+# Setup appropriate JCL templaLte for this release.
+$template =  $release < 800 ? "tiapcobc" : "tiapcob5"; print ("*** Preping for release: $release - Compiler: $cobcomp ***\n");
+
+init;
+$session = startSession($sessionID);
+ln __LINE__; $status = execPanelCmd( $session, "Edit", "ISREDM01" )if ( not $status );
+
+
+############# Cobol JCL prep.
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(VIAPCOBC)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPCOBC Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy $template", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *LIBORDER $jcllib all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB  $loadcob all", '[enter]',"Command ===> " ) if ( not $status );
+                                                                                                                                  
+ln __LINE__; $status = write2CommandLine( $session, "c *COBMEMB $cobmemb all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *HI-NODE $hinode all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *MIDDLE-NODE $middlenode all", '[enter]',"Command ===> " ) if ( not $status );
+
+ln __LINE__; $status = write2CommandLine( $session, "c *COMPILR $compilr all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *COBCOMP $cobcomp all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *COBLIB $coblib all", '[enter]',"Command ===> " ) if ( not $status );
+
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(viapcobj)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPCOBJ Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy TiapcobJ", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB $loadcob all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+
+############ Assembler JCL prep.
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(viapasma)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPASMJ Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy Tiapasma", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *HI-NODE $hinode all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *MIDDLE-NODE $middlenode all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB $loadasm all",'[enter]' ,"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ASMNAME $asmname", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+#
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(viapasmj)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPASMJ Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy TiapasmJ", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB $loadasm all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+
+############ PLI JCL prep.
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(viapplic)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPPLIC Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy Tiapplic", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *LIBORDER $cntlLib all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *HI-NODE $hinode all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *MIDDLE-NODE $middlenode all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB $loadasm all",'[enter]' ,"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *PLICOMP $plicomp all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *PLIPGM $plipgm all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *PLILIB $plilib all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+
+ln __LINE__; $status = write2PanelField( $session, "Name . . . . . ","'$jcllib(viapplij)'", '[enter]' ) if ( not $status );
+# delete previous member
+ln __LINE__; $status = write2CommandLine( $session, "delete nx all", '[enter]',"Command ===> " ) if ( not $status );
+# copy TIAPPLIJ Template to the empty member and make the necessary changes to run the job.
+ln __LINE__; $status = write2CommandLine( $session, "copy TIAPPLIJ", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "c *ULIB $loadpli all", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = write2CommandLine( $session, "SUB", '[enter]',"Command ===> " ) if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "SUBMITTED") if ( not $status );
+ln __LINE__; $status = checkBatchStatus( $session, "ENDED") if ( not $status );
+ln __LINE__; $status = pressKey( $session, '[F3]')  if ( not $status );
+
+ln __LINE__; navigateBack2Panel( $session, 'ISP@MST1' );
+end ($status); 1;
+

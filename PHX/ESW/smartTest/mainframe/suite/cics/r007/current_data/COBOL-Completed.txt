@@ -1,0 +1,24 @@
+ VCOB                                                                           
+                                                                                
+                                                                                
+                                                                                
+                                ASG-SMARTTEST                                   
+                                                                                
+                             COBOL DEMONSTRATION                                
+                                                                                
+                                 *COMPLETED*                                    
+                                                                                
+                                                                                
+                                                                                
+                       THANK YOU FOR YOUR PARTICIPATION                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Enter = Start test over   Clear = Remain in CICS                               

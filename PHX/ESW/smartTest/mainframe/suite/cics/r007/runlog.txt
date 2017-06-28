@@ -1,0 +1,349 @@
+Tue May 10 17:07:45 2016 ------- Test Case r007.pl.pl Started -------
+*** 2016-05-10 17:07:48 'r007.pl' 0 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:07:48 'r007.pl' 0 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-05-10 17:07:49 'r007.pl' 0 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-05-10 17:07:49 'r007.pl' 0 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 0 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 0 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 0 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 0 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 41 - write2CommandLine "6" Passed ***
+*** 2016-05-10 17:07:50 'r007.pl' 41 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-05-10 17:07:51 'r007.pl' 41 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SCNXCLST)'" Passed ***
+*** 2016-05-10 17:07:51 'r007.pl' 41 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:07:51 'r007.pl' 41 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SESWCLST)'" Passed ***
+*** 2016-05-10 17:07:51 'r007.pl' 41 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:07:53 'r007.pl' 43 - write2CommandLine "center" Passed ***
+*** 2016-05-10 17:07:53 'r007.pl' 45 - write2CommandLine "st" Passed ***
+*** 2016-05-10 17:07:54 'r007.pl' 46 - write2CommandLine "an" Passed ***
+*** 2016-05-10 17:07:54 'r007.pl' 62 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:07:57 'r007.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 17:08:00 'r007.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:08:04 'r007.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:08:07 'r007.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:08:10 'r007.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:08:13 'r007.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 17:08:13 'r007.pl' 66 - write2CommandLine "akr" Passed ***
+*** 2016-05-10 17:08:13 'r007.pl' 74 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:08:14 'r007.pl' 76 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:08:14 'r007.pl' 78 - write2CommandLine "an" Passed ***
+*** 2016-05-10 17:08:14 'r007.pl' 97 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:08:15 'r007.pl' 98 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:08:18 'r007.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 17:08:21 'r007.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 17:08:21 'r007.pl' 102 - write2CommandLine "akr" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 111 - write2CommandLine "env" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 113 - write2CommandLine "l" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 116 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 117 - pressKeys: 'QAL.PHX.esw800au.AKR' Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 121 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 122 - pressKeys: 'QAL.PHX.esw800au.LOADPDSE'  Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 123 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 124 - pressKeys: 'QAL.PHX.esw800au.LOADPDSE'         Passed ***
+*** 2016-05-10 17:08:21 'r007.pl' 125 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:08:22 'r007.pl' 126 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:08:22 'r007.pl' 127 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:08:22 'r007.pl' 129 - write2CommandLine "s1" Passed ***
+*** 2016-05-10 17:08:23 'r007.pl' 142 - write2CommandLine "c" Passed ***
+*** 2016-05-10 17:08:24 'r007.pl' 144 - findStringOnPanel "TS52" Passed ***
+*** 2016-05-10 17:08:25 'r007.pl' 147 - pressKey "[clear]" Passed ***
+*** 2016-05-10 17:08:29 'r007.pl' 149 - pressKey "[f12]" Passed ***
+*** 2016-05-10 17:08:34 'r007.pl' 151 - findStringOnPanel "ASG-SmartTest-CICS is active." Passed ***
+*** 2016-05-10 17:08:35 'r007.pl' 154 - pressKey "[clear]" Passed ***
+*** 2016-05-10 17:08:36 'r007.pl' 156 - pressKey "[f12]" Passed ***
+*** 2016-05-10 17:08:36 'r007.pl' 158 - write2CommandLine "NEWCOPY VIACCOB" Passed ***
+*** 2016-05-10 17:08:36 'r007.pl' 159 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:08:37 'r007.pl' 160 - write2CommandLine "NEWCOPY VIACCOB2" Passed ***
+*** 2016-05-10 17:08:37 'r007.pl' 161 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:08:37 'r007.pl' 163 - write2CommandLine "NEWCOPY VIACASM" Passed ***
+*** 2016-05-10 17:08:37 'r007.pl' 164 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:08:37 'r007.pl' 166 - write2CommandLine "t" Passed ***
+*** 2016-05-10 17:08:38 'r007.pl' 169 - write2CommandLine "vcob" Passed ***
+*** 2016-05-10 17:08:38 'r007.pl' 170 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 172 - write2CommandLine "SET DEFAULT" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 173 - findStringOnPanel "TEST OPTIONS DEFAULTED" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 174 - findStringOnPanel "BREAK AT START OF TEST SESSION" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 177 - write2CommandLine "SET TRACK 2000" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 178 - findStringOnPanel "TRACK SIZE SET" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 179 - findStringOnPanel "BREAK AT START OF TEST SESSION" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 182 - write2CommandLine "LIST TAILOR" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 185 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 186 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 187 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 188 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 189 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 190 - pressKeys: no  Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 191 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 192 - pressKeys: yes Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 193 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 195 - findStringOnPanel "VIA*.VIA*             YES    YES   YES   YES   YES   NO    YES    YES" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 197 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 198 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 200 - write2CommandLine "LIST LIMIT" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 201 - findStringOnPanel "Maximum calls" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 202 - findStringOnPanel "Storage protection" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 203 - findStringOnPanel "Intercept abends" Passed ***
+*** 2016-05-10 17:08:39 'r007.pl' 204 - findStringOnPanel "Instruction count" Passed ***
+*** 2016-05-10 17:08:40 'r007.pl' 214 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:08:40 'r007.pl' 215 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:08:40 'r007.pl' 217 - write2CommandLine "BREAK BEFORE PAUSE ALL;RUN" Passed ***
+*** 2016-05-10 17:08:51 'r007.pl' 220 - write2CommandLine "1" Passed ***
+*** 2016-05-10 17:08:51 'r007.pl' 221 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:08:51 'r007.pl' 224 - write2CommandLine "li comp" Passed ***
+*** 2016-05-10 17:08:51 'r007.pl' 224 - Compiler  : Enterprise COBOL 5.2    Passed ***
+*** 2016-05-10 17:08:52 'r007.pl' 228 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:08:53 'r007.pl' 232 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:09:13 'r007.pl' 238 - findStringOnPanel "DATA EXCEPTION (0C7)" Passed ***
+*** 2016-05-10 17:09:13 'r007.pl' 239 - write2CommandLine "1" Passed ***
+*** 2016-05-10 17:09:13 'r007.pl' 240 - findStringOnPanel "SUCCESSFUL MEMORY UPDATE" Passed ***
+*** 2016-05-10 17:09:14 'r007.pl' 243 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:09:24 'r007.pl' 245 - findStringOnPanel "SET ADDRESS OF BLL1-DATA TO NULL." Passed ***
+*** 2016-05-10 17:09:24 'r007.pl' 246 - findStringOnPanel "STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:09:24 'r007.pl' 249 - write2CommandLine "GO TO S0C4FIX" Passed ***
+*** 2016-05-10 17:09:24 'r007.pl' 250 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:09:34 'r007.pl' 252 - findStringOnPanel "PERFORM STEP-VALUE-SUBROUTINE." Passed ***
+*** 2016-05-10 17:09:34 'r007.pl' 253 - findStringOnPanel "STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:09:34 'r007.pl' 256 - write2CommandLine "KEEP STEP-VALUE" Passed ***
+*** 2016-05-10 17:09:34 'r007.pl' 258 - findStringOnPanel "PERFORM STEP-VALUE-SUBROUTINE." Passed ***
+*** 2016-05-10 17:09:34 'r007.pl' 259 - findStringOnPanel "STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:09:37 'r007.pl' 262 - write2CommandLine "STEP 4 AUTO" Passed ***
+*** 2016-05-10 17:09:37 'r007.pl' 263 - findStringOnPanel "ASG2163I STEP 4 OF 4 EXECUTED." Passed ***
+*** 2016-05-10 17:09:37 'r007.pl' 265 - findStringOnPanel "PERFORM STEP-VALUE-SUBROUTINE" Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 267 - write2CommandLine "STEP OVER " Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 268 - findStringOnPanel "VALUE > +5" Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 271 - write2CommandLine "STEP OVER" Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 272 - findStringOnPanel "MOVE +0 TO STEP-VALUE." Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 273 - findStringOnPanel "STOPPED BY STEP REQUEST" Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 276 - write2CommandLine "SET OPERANDS ON" Passed ***
+*** 2016-05-10 17:09:38 'r007.pl' 277 - findStringOnPanel "OPERANDS ON" Passed ***
+*** 2016-05-10 17:09:42 'r007.pl' 279 - write2CommandLine "STEP 5 AUTO" Passed ***
+*** 2016-05-10 17:09:42 'r007.pl' 280 - findStringOnPanel "ASG2163I STEP 5 OF 5 EXECUTED." Passed ***
+*** 2016-05-10 17:09:43 'r007.pl' 283 - write2CommandLine "SET DELAY 3" Passed ***
+*** 2016-05-10 17:09:43 'r007.pl' 284 - findStringOnPanel "DELAY TIME SET" Passed ***
+*** 2016-05-10 17:09:55 'r007.pl' 288 - write2CommandLine "STEP 5 AUTO" Passed ***
+*** Delay time set to 15 seconds. Actual delay was 12 seconds.***
+*** 2016-05-10 17:09:55 'r007.pl' 298 - findStringOnPanel "ADD +1 TO STEP-VALUE" Passed ***
+*** 2016-05-10 17:09:55 'r007.pl' 300 - write2CommandLine "RUN TO" Passed ***
+*** 2016-05-10 17:09:55 'r007.pl' 302 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:09:55 'r007.pl' 303 - findStringOnPanel "ASG2172I STEP-VALUE=+11" Passed ***
+*** 2016-05-10 17:09:56 'r007.pl' 305 - write2CommandLine "run" Passed ***
+*** 2016-05-10 17:09:56 'r007.pl' 306 - findStringOnPanel "ASG2172I STEP-SUB=+12" Passed ***
+*** 2016-05-10 17:09:56 'r007.pl' 308 - write2CommandLine "STEP PARA" Passed ***
+*** 2016-05-10 17:09:56 'r007.pl' 309 - findStringOnPanel "ASG2172I STEP-VALUE=+6" Passed ***
+*** 2016-05-10 17:10:02 'r007.pl' 311 - write2CommandLine "STEP 3 PARA AUTO" Passed ***
+*** 2016-05-10 17:10:02 'r007.pl' 312 - findStringOnPanel "ASG2172I STEP-VALUE=+3" Passed ***
+*** 2016-05-10 17:10:03 'r007.pl' 314 - write2CommandLine "SET DEFAULTS;RUN" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 316 - findStringOnPanel "PERFORM STOP-BUILD-PAYEE-TABLE" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 319 - write2CommandLine "STOP STOP-PAY-TOTAL" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 320 - findStringOnPanel "ASG2324I ADDRESS STOP AT" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 321 - findStringOnPanel "FOR A LENGTH OF 11 HAS BEEN ASSIGNED" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 323 - write2CommandLine "LIST ADSTOP" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 324 - verifyPanelMask Address-Stop-Entry.txt Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 326 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 327 - findStringOnPanel "PERFORM STOP-BUILD-PAYEE-TABLE" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 329 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 330 - findStringOnPanel "ADD STOP-PAY-AMOUNT (STOP-PAYEE)" Passed ***
+*** 2016-05-10 17:10:13 'r007.pl' 333 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 335 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 337 - write2CommandLine "LIST TRACK" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 338 - verifyPanelMask Execution-Tracking.txt Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 340 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 341 - findStringOnPanel "ADD STOP-PAY-AMOUNT (STOP-PAYEE)" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 343 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 344 - findStringOnPanel "MOVE 0 TO STOP-10-NUMBERS (STOP-PAYEE)." Passed ***
+*** 2016-05-10 17:10:14 'r007.pl' 346 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:10:24 'r007.pl' 348 - findStringOnPanel "MOVE +0 TO RETURN-CODE" Passed ***
+*** 2016-05-10 17:10:24 'r007.pl' 350 - write2CommandLine "SET BACKTRACK 500K" Passed ***
+*** 2016-05-10 17:10:24 'r007.pl' 351 - findStringOnPanel "BACKTRACK SIZE=500K" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 353 - write2CommandLine "SET BACKTRACK ON" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 354 - findStringOnPanel "BACKTRACK ON" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 356 - write2CommandLine "RUN" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 357 - findStringOnPanel "STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 359 - write2CommandLine "RUN BACKWARD TO BACK-FLAG MOD" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 360 - findStringOnPanel "REVIEWING BACKTRACK HISTORY" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 362 - write2CommandLine "KEEP BACK-FLAG" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 363 - findStringOnPanel "10 BACK-FLAG                       PIC X " Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 365 - write2CommandLine "STEP FORWARD" Passed ***
+*** 2016-05-10 17:10:25 'r007.pl' 366 - findStringOnPanel "DIRECTION: FWD" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 368 - write2CommandLine "STEP BACK 4 AUTO" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 369 - findStringOnPanel "STEP 4 OF 4 EXECUTED" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 371 - write2CommandLine "RUN TO BACK-FLAG MOD" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 372 - findStringOnPanel "MOVE 'Y' TO BACK-REDEFINED-FLAG" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 373 - findStringOnPanel "REVIEWING BACKTRACK HISTORY" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 375 - write2CommandLine "RESET KEEP" Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 376 - findStringOnPanel "MOVE 'Y' TO BACK-REDEFINED-FLAG." Passed ***
+*** 2016-05-10 17:10:29 'r007.pl' 378 - write2CommandLine "SET BACKTRACK OFF;RUN" Passed ***
+*** 2016-05-10 17:10:39 'r007.pl' 380 - findStringOnPanel "CALL 'VIACBR14'" Passed ***
+*** 2016-05-10 17:10:39 'r007.pl' 382 - write2CommandLine "SET ASMVIEW ON" Passed ***
+*** 2016-05-10 17:10:39 'r007.pl' 383 - findStringOnPanel "ASMVIEW ON" Passed ***
+*** 2016-05-10 17:10:40 'r007.pl' 385 - write2CommandLine "RUN" Passed ***
+*** 2016-05-10 17:10:50 'r007.pl' 387 - findStringOnPanel "VIACCOB.VIACBR14" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 389 - write2CommandLine "STEP 2 AUTO" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 390 - findStringOnPanel "GO TO MAIN-ROUTINE-CHECK-ALL" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 391 - findStringOnPanel "ASG2163I STEP 2 OF 2 EXECUTED" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 393 - write2CommandLine "SET ASMVIEW OFF" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 394 - findStringOnPanel "ASMVIEW OFF" Passed ***
+*** 2016-05-10 17:10:51 'r007.pl' 396 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:11:01 'r007.pl' 398 - findStringOnPanel "GO TO MAIN-ROUTINE-CHECK-ALL" Passed ***
+*** 2016-05-10 17:11:01 'r007.pl' 400 - write2CommandLine "LIST COUNTS DESCENDING" Passed ***
+*** 2016-05-10 17:11:01 'r007.pl' 401 - findStringOnPanel "GO TO MAIN-ROUTINE-CHECK-ALL." Passed ***
+*** 2016-05-10 17:11:01 'r007.pl' 403 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:11:01 'r007.pl' 404 - findStringOnPanel "GO TO MAIN-ROUTINE-CHECK-ALL." Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 406 - write2CommandLine "LIST COUNTS ASCENDING" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 407 - findStringOnPanel "SORTED ASCENDING" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 409 - write2CommandLine "M" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 410 - pressKey "[f8]" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 411 - findStringOnPanel "STMTS SORTED BY ASCENDING COUNT    " Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 413 - write2CommandLine "LIST COUNTS DESCENDING PARA" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 414 - findStringOnPanel "PARAS SORTED BY DESCENDING COUNT" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 416 - write2CommandLine "LIST COUNTS LINE" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 417 - findStringOnPanel "PARAS SORTED BY LINE NUMBER" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 419 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:11:02 'r007.pl' 420 - findStringOnPanel "GO TO MAIN-ROUTINE-CHECK-ALL" Passed ***
+*** 2016-05-10 17:11:03 'r007.pl' 422 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:11:03 'r007.pl' _LINE__ - verifyPanel COBOL-Demo-PGM.txt Passed ***
+*** 2016-05-10 17:11:04 'r007.pl' 425 - write2CommandLine "9" Passed ***
+*** 2016-05-10 17:11:04 'r007.pl' 427 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:11:07 'r007.pl' 429 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID" Passed ***
+*** 2016-05-10 17:11:07 'r007.pl' 431 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:11:10 'r007.pl' 433 - findStringOnPanel "012900 PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:11:10 'r007.pl' 435 - write2CommandLine "BREAK BEFORE PAUSE ALL;RUN" Passed ***
+*** 2016-05-10 17:11:20 'r007.pl' 437 - findStringOnPanel "018700     MOVE +49 TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 439 - write2CommandLine "LIST LIMITS" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 440 - findStringOnPanel "Storage protection NO" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 448 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 449 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 450 - findStringOnPanel "MOVE +49 TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:11:21 'r007.pl' 452 - write2CommandLine "run" Passed ***
+*** 2016-05-10 17:11:31 'r007.pl' 454 - findStringOnPanel "MOVE BLL1-BYTE (COUNTER) TO BLL1-BYTE" Passed ***
+*** 2016-05-10 17:11:31 'r007.pl' 456 - write2CommandLine "GO TO SVFIX;RUN" Passed ***
+*** 2016-05-10 17:11:41 'r007.pl' 458 - verifyPanel COBOL-Demo-Pgm.txt Passed ***
+*** 2016-05-10 17:11:42 'r007.pl' 460 - write2CommandLine "10" Passed ***
+*** 2016-05-10 17:11:43 'r007.pl' 462 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:11:53 'r007.pl' 464 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID" Passed ***
+*** 2016-05-10 17:11:53 'r007.pl' 466 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:12:03 'r007.pl' 468 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:12:03 'r007.pl' 470 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 472 - findStringOnPanel "CICS GETMAIN SET(ADDRESS OF BLL1-DATA)" Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 476 - pressKey "i" Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 477 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 479 - pressKeys:       MOVE 'YES' TO MONITORING. Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 480 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:12:13 'r007.pl' 482 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:12:23 'r007.pl' 484 - findStringOnPanel "INVALID FREEMAIN" Passed ***
+*** 2016-05-10 17:12:23 'r007.pl' 486 - write2CommandLine "GO FMEXIT;RUN" Passed ***
+*** 2016-05-10 17:12:25 'r007.pl' 488 - write2CommandLine "11" Passed ***
+*** 2016-05-10 17:12:35 'r007.pl' 490 - findStringOnPanel "STATUS: BREAK AT START OF TEST SESSION" Passed ***
+*** 2016-05-10 17:12:35 'r007.pl' 492 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:12:45 'r007.pl' 494 - findStringOnPanel "STATUS: STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:12:45 'r007.pl' 496 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:12:55 'r007.pl' 498 - findStringOnPanel "STATUS: BREAK ON ENTRY TO A PROGRAM       PROGRAM: VIACCOB2" Passed ***
+*** 2016-05-10 17:12:55 'r007.pl' 500 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 502 - findStringOnPanel "    MOVE +1001 TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 505 - write2CommandLine "LIST LIMITS" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 506 - findStringOnPanel "Maximum calls  . . " Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 515 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 516 - findStringOnPanel "EXEC CICS ASKTIME END-EXEC" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 517 - findStringOnPanel "POSSIBLE CICS CALL LOOP" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 519 - write2CommandLine "LIST LIMITS" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 528 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:13:05 'r007.pl' 529 - findStringOnPanel "EXEC CICS ASKTIME END-EXEC" Passed ***
+*** 2016-05-10 17:13:06 'r007.pl' 531 - write2CommandLine "run" Passed ***
+*** 2016-05-10 17:13:07 'r007.pl' 533 - write2CommandLine "12" Passed ***
+*** 2016-05-10 17:13:17 'r007.pl' 536 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:13:27 'r007.pl' 538 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID." Passed ***
+*** 2016-05-10 17:13:27 'r007.pl' 540 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:13:37 'r007.pl' 542 - findStringOnPanel "STATUS: BREAK ON ENTRY TO A PROGRAM       PROGRAM: VIACCOB2" Passed ***
+*** 2016-05-10 17:13:37 'r007.pl' 544 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:13:47 'r007.pl' 546 - findStringOnPanel ">>>>>> 031100     MOVE +50   TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:13:47 'r007.pl' 548 - write2CommandLine "LIST LIMITS" Passed ***
+*** 2016-05-10 17:13:48 'r007.pl' 557 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:13:48 'r007.pl' 559 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 561 - findStringOnPanel "EXEC CICS GETMAIN SET(ADDRESS OF BLL2-DATA)" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 562 - findStringOnPanel "STATUS: GETMAIN MAX-ENTER "LIST LIMITS"   PROGRAM: VIACCOB2" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 564 - write2CommandLine "LIST LIMITS" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 572 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 573 - findStringOnPanel "034200     EXEC CICS GETMAIN SET(ADDRESS OF BLL2-DATA)" Passed ***
+*** 2016-05-10 17:13:58 'r007.pl' 575 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:14:00 'r007.pl' 578 - write2CommandLine "13" Passed ***
+*** 2016-05-10 17:14:10 'r007.pl' 580 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:14:10 'r007.pl' 581 - findStringOnPanel "STATUS: BREAK AT START OF TEST SESSION    PROGRAM: VIACCOB" Passed ***
+*** 2016-05-10 17:14:10 'r007.pl' 583 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:14:20 'r007.pl' 585 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID" Passed ***
+*** 2016-05-10 17:14:20 'r007.pl' 587 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:14:30 'r007.pl' 589 - findStringOnPanel ">>>>>> 012900 PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:14:30 'r007.pl' 590 - findStringOnPanel "STATUS: BREAK ON ENTRY TO A PROGRAM       PROGRAM: VIACCOB2" Passed ***
+*** 2016-05-10 17:14:30 'r007.pl' 592 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:14:40 'r007.pl' 594 - findStringOnPanel "   MOVE +0      TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:14:40 'r007.pl' 595 - findStringOnPanel "STATUS: STOPPED AFTER BREAK" Passed ***
+*** 2016-05-10 17:14:40 'r007.pl' 597 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:14:50 'r007.pl' 599 - findStringOnPanel "     EXEC CICS READ DATASET('VIACXXXX')" Passed ***
+*** 2016-05-10 17:14:50 'r007.pl' 600 - findStringOnPanel "ASG2850I EXECUTION MAY NOT BE CONTINUED FOR THIS "ABENDED" TRANSACTION" Passed ***
+*** 2016-05-10 17:14:51 'r007.pl' 602 - write2CommandLine "CANCEL;RUN VCOB" Passed ***
+*** 2016-05-10 17:15:01 'r007.pl' 604 - findStringOnPanel "PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:15:01 'r007.pl' 605 - findStringOnPanel "STATUS: BREAK AT START OF TEST SESSION    PROGRAM: VIACCOB" Passed ***
+*** 2016-05-10 17:15:01 'r007.pl' 607 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:15:12 'r007.pl' 610 - write2CommandLine "14" Passed ***
+*** 2016-05-10 17:15:22 'r007.pl' 612 - findStringOnPanel ">>>>>>  PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:15:22 'r007.pl' 613 - findStringOnPanel "STATUS: BREAK AT START OF TEST SESSION    PROGRAM: VIACCOB" Passed ***
+*** 2016-05-10 17:15:22 'r007.pl' 615 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:15:32 'r007.pl' 617 - findStringOnPanel ">>>>>>      MOVE 'VIACCOB2' TO PGMID" Passed ***
+*** 2016-05-10 17:15:32 'r007.pl' 618 - findStringOnPanel "STATUS: STOPPED AFTER BREAK               PROGRAM: VIACCOB" Passed ***
+*** 2016-05-10 17:15:32 'r007.pl' 620 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:15:42 'r007.pl' 622 - findStringOnPanel " PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:15:42 'r007.pl' 623 - findStringOnPanel "BREAK ON ENTRY TO A PROGRAM" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 625 - write2CommandLine "LI TAIL" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 627 - findStringOnPanel "VIA*.VIA*             YES    YES   YES   YES   YES   NO    YES    YES" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 630 - pressKey "i" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 631 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 634 - pressKey "[eof]" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 635 - pressKeys: VIACASM.VIACASM Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 636 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 637 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 639 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 640 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 641 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 642 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 643 - pressKeys: no  Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 644 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 645 - pressKeys: yes Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 647 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 648 - findStringOnPanel "BREAK ON ENTRY TO A PROGRAM" Passed ***
+*** 2016-05-10 17:15:43 'r007.pl' 650 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:15:53 'r007.pl' 652 - findStringOnPanel "MOVE 'LINK'   TO ASMEIB." Passed ***
+*** 2016-05-10 17:15:53 'r007.pl' 655 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:16:03 'r007.pl' 657 - findStringOnPanel "VIACASM.VIACASM" Passed ***
+*** 2016-05-10 17:16:03 'r007.pl' 658 - findStringOnPanel ">>>>>>  VIACASM  DFHEIENT CODEREG=(12,8)" Passed ***
+*** 2016-05-10 17:16:04 'r007.pl' 661 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:16:14 'r007.pl' 663 - verifyPanel Assembler-Demonstration-Program.txt Passed ***
+*** 2016-05-10 17:16:17 'r007.pl' 665 - write2CommandLine "X" Passed ***
+*** 2016-05-10 17:16:18 'r007.pl' 667 - write2CommandLine "15" Passed ***
+*** 2016-05-10 17:16:18 'r007.pl' 668 - findStringOnPanel ">>>>>>  PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:16:18 'r007.pl' 670 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:16:28 'r007.pl' 671 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID" Passed ***
+*** 2016-05-10 17:16:38 'r007.pl' 674 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:16:48 'r007.pl' 676 - findStringOnPanel " PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:16:48 'r007.pl' 678 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:16:58 'r007.pl' 680 - findStringOnPanel "  PERFORM STARTASYNC" Passed ***
+*** 2016-05-10 17:16:58 'r007.pl' 682 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:17:08 'r007.pl' 684 - findStringOnPanel "** PROGRAM (VIACCOB3) ASYNCHRONOUSLY STARTED **" Passed ***
+*** 2016-05-10 17:17:10 'r007.pl' 686 - write2CommandLine "X" Passed ***
+*** 2016-05-10 17:17:10 'r007.pl' 687 - findStringOnPanel ">>>>>>  PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:17:10 'r007.pl' 689 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:17:20 'r007.pl' 691 - verifyPanel COBOL-Completed.txt Passed ***
+*** 2016-05-10 17:17:21 'r007.pl' 693 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:17:21 'r007.pl' 694 - findStringOnPanel "STATUS: BREAK AT START OF TEST SESSION    PROGRAM: VIACCOB" Passed ***
+*** 2016-05-10 17:17:22 'r007.pl' 696 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:17:33 'r007.pl' 699 - write2CommandLine "16" Passed ***
+*** 2016-05-10 17:17:33 'r007.pl' 700 - findStringOnPanel ">>>>>>  PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:17:33 'r007.pl' 702 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:17:43 'r007.pl' 704 - findStringOnPanel "MOVE 'VIACCOB2' TO PGMID." Passed ***
+*** 2016-05-10 17:17:43 'r007.pl' 706 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:17:53 'r007.pl' 708 - findStringOnPanel " PROCEDURE DIVISION" Passed ***
+*** 2016-05-10 17:17:53 'r007.pl' 710 - pressKey "[f4]" Passed ***
+*** 2016-05-10 17:18:03 'r007.pl' 712 - findStringOnPanel "     MOVE +0      TO MAX-COUNTER" Passed ***
+*** 2016-05-10 17:18:03 'r007.pl' 713 - write2CommandLine "CAN" Passed ***
+*** 2016-05-10 17:18:05 'r007.pl' 715 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:18:05 'r007.pl' 715 - Ended with a status of:  Passed ***
+Tue May 10 17:18:05 2016 ------- Test Case r007.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 10 Min(s). 20 Sec(s). ------
+

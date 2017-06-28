@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ '''''1      BREAK.                                                             
+ >>>>>>      MOVE +0 TO FIND-VALUE.                                             
+ 000829 *---------------------------------------------------------------*       
+ 000830 *                                                               *       
+ 000831 * THIS EXAMPLE SHOWS SOME APPLICATIONS OF THE EXTENDED FIND     *       
+ 000832 * COMMAND ('FX').                                               *       
+ 000833 *                                                               *       
+ 000834 * AFTER EACH OF THE FOLLOWING EXAMPLES, ENTER THE FOLLOWING TO  *       
+ 000835 * RESTORE THE SOURCE DISPLAY TO THE CURRENT LINE:               *       
+ 000836 *        'RESET;LOCATE *'  (OR, 'RES;L *')                      *       
+ 000837 *                                                               *       
+ 000838 * TO SEE EVERY REFERENCE TO THE FIELD 'FIND-VALUE', ENTER THE   *       
+ 000839 * FOLLOWING COMMAND:   (SEE ABOVE TO RESET AFTER THE DISPLAY)   *       
+ 000840 *       'X ALL;FX FIND-VALUE'      (THEN RESET)                 *       
+ 000841 *                                                               *       
+ 000842 * TO SEE ONLY THE FIELD'S MODIFICATIONS, ENTER THE FOLLOWING:   *       
+ 000843 *       'X ALL;FX FIND-VALUE MOD'  (THEN RESET)                 *       
+ 000844 *                                                               *       
+ 000845 * TO SEE ONLY THE FIELD'S REFERENCES IN CONDITIONAL STATEMENTS: *       
+ 000846 *       'X ALL;FX FIND-VALUE USE IN COND'  (THEN RESET)         *       
+ 000847 *                                                               *       
+ 000848 * IF THIS PROGRAM WAS ANALYZED WITH THE 'EXTENDED ANALYSIS'     *       
+ 000849 * OPTION SET TO 'Y', YOU CAN VIEW ALL DEADCODE (CODE THAT IS    *       
+ 000850 * NOT REACHABLE BY ANY OTHER CODE).                             *       
+ 000851 *       'X ALL;FX DEADCODE' (THEN RESET)                        *       
+ 000852 *                                                               *       
+ 000853 * NOTE THAT THE PERCENT SIGN ('%') CAN BE USED AS A CURSOR      *       
+ 000854 * SUBSTITUTION CHARACTER.  TYPE 'FX %', THEN PLACE THE CURSOR   *       
+ 000855 * UNDER A DATA NAME (IN THIS EXAMPLE, UNDER 'FIND-VALUE') AND   *       
+ 000856 * PRESS ENTER.  CURSOR SUBSTITUTION CAN SAVE SEVERAL KEYSTROKES.*       
+ 000857 *                                                               *       
+ 000858 * THE POWER OF THE 'FX' COMMAND IS AVAILABLE IN SMARTTEST'S     *       
+ 000859 * INTELLIGENT BREAKPOINT COMMAND.  TO AUTOMATICALLY SET A       *       
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPCOB   DATE: 07FEB2017 |
+ |  STMT: 000828  OFF: 000C50  AMODE: 31     MODULE: VIAPCOB   TIME: 09:27:03  |
+ |SOURCE: MOVE +0 TO FIND-VALUE.                                               |
+ +-----------------------------------------------------------------------------+

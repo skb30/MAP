@@ -1,0 +1,43 @@
+ VPPTCARC               T.C.A. - DETAIL STATEMENT LIST          VIAPCOB.VIAPCOB 
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+     Enter G           - To generate hardcopy report to LIST FILE.              
+           RIGHT/LEFT  - To shift result columns.                               
+           SR/SL       - To shift source lines.                                 
+           T           - To apply tested/untested results to the AKR.           
+           CLR         - To clear tested/untested results in the AKR.           
+                                                                                
+     TCA AKR Name.. 'QAL.PHX.ESW800AU.TCA.AKR'                                  
+ TCA PLAN Name. QAPLANB1  No.of tests. 1                                        
+ TEST TYPE..... COVERAGE                                                        
+ *Line  - 1                           Tally ---- Source Stmts                   
+                                                                                
+ TOTL     ** TOTAL STATEMENTS **        243                                     
+ DEAD     ** TOTAL DEAD CODE  **          5                                     
+ XCTB     ** TOTAL EXECUTABLE **        238                                     
+ EXEC     ** TOTAL EXECUTED   **        110                                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

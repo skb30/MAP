@@ -1,0 +1,165 @@
+Fri Apr 29 15:25:18 2016 ------- Test Case r015.pl.pl Started -------
+*** 2016-04-29 15:25:21 'r015.pl' 0 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-04-29 15:25:22 'r015.pl' 0 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-04-29 15:25:23 'r015.pl' 0 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-04-29 15:25:23 'r015.pl' 0 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-04-29 15:25:23 'r015.pl' 0 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-04-29 15:25:24 'r015.pl' 0 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-04-29 15:25:24 'r015.pl' 0 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-04-29 15:25:24 'r015.pl' 0 - pressKey "[ENTER]" Passed ***
+*** 2016-04-29 15:25:24 'r015.pl' 40 - write2CommandLine "6" Passed ***
+*** 2016-04-29 15:25:24 'r015.pl' 40 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-04-29 15:25:25 'r015.pl' 40 - write2CommandLine "ex 'QAL.PHX.CNX810au.SCNXCLST(VIASPROC)' 'ADD(QAL.PHX.CNX810au.SCNXCLST)'" Passed ***
+*** 2016-04-29 15:25:25 'r015.pl' 40 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:25:26 'r015.pl' 40 - write2CommandLine "ex 'QAL.PHX.CNX810au.SCNXCLST(VIASPROC)' 'ADD(QAL.PHX.esw810au.SESWCLST)'" Passed ***
+*** 2016-04-29 15:25:26 'r015.pl' 40 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:25:27 'r015.pl' 42 - write2CommandLine "CENTER" Passed ***
+*** 2016-04-29 15:25:28 'r015.pl' 43 - write2CommandLine "ST" Passed ***
+*** 2016-04-29 15:25:29 'r015.pl' 46 - write2CommandLine "AN " Passed ***
+*** 2016-04-29 15:25:30 'r015.pl' 63 - write2CommandLine "S" Passed ***
+*** 2016-04-29 15:25:33 'r015.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-04-29 15:25:36 'r015.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-04-29 15:25:39 'r015.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-04-29 15:25:40 'r015.pl' 67 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:25:40 'r015.pl' 70 - write2CommandLine "AKR" Passed ***
+*** 2016-04-29 15:25:40 'r015.pl' 71 - findStringOnPanel "ASG-ESW - AKR Utility" Passed ***
+*** 2016-04-29 15:25:40 'r015.pl' 85 - findStringOnPanel "29APR2016" Passed ***
+*** 2016-04-29 15:25:42 'r015.pl' 104 - panelListAction ##QAPLANB1 found on panel Passed ***
+*** 2016-04-29 15:25:43 'r015.pl' 111 - navigate2Panel-VPIPRTME Passed ***
+*** 2016-04-29 15:25:43 'r015.pl' 114 - write2CommandLine "LIST TCA" Passed ***
+*** 2016-04-29 15:25:43 'r015.pl' 115 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-04-29 15:25:43 'r015.pl' 118 - pressKeys: 1 Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 122 - findStringOnPanel "Environment Selection" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 126 - write2CommandLine "L" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 127 - findStringOnPanel "Library Specification" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 129 - pressKey "[TAB]" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 134 - pressKey "[tab]" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 135 - pressKeys: 'QAL.PHX.esw810au.AKR' Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 138 - pressKey "[tab]" Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 139 - pressKeys: 'QAL.PHX.esw810au.LOADPDSE'  Passed ***
+*** 2016-04-29 15:25:44 'r015.pl' 140 - pressKey "[ENTER]" Passed ***
+*** 2016-04-29 15:25:45 'r015.pl' 143 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:25:45 'r015.pl' 144 - findStringOnPanel "Environment Selection" Passed ***
+*** 2016-04-29 15:25:45 'r015.pl' 147 - write2CommandLine "T1" Passed ***
+*** 2016-04-29 15:25:45 'r015.pl' 148 - findStringOnPanel "TSO Session Setup" Passed ***
+*** 2016-04-29 15:25:46 'r015.pl' 162 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-04-29 15:25:47 'r015.pl' 165 - navigate2DropDownList "File" Passed ***
+*** 2016-04-29 15:25:47 'r015.pl' 166 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-04-29 15:25:47 'r015.pl' 172 - pressKey "[tab]" Passed ***
+*** 2016-04-29 15:25:47 'r015.pl' 173 - pressKeys: 2 Passed ***
+*** 2016-04-29 15:25:50 'r015.pl' 174 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:25:50 'r015.pl' 175 - findStringOnPanel "T.C.A. - COVERAGE PLAN" Passed ***
+*** 2016-04-29 15:25:50 'r015.pl' 176 - findStringOnPanel "ENV SYSTEM VARIABLES AND PARMS RESTORED" Passed ***
+*** 2016-04-29 15:25:51 'r015.pl' 182 - write2CommandLine "S" Passed ***
+*** 2016-04-29 15:25:51 'r015.pl' 183 - findStringOnPanel "TCA PLAN UPDATED" Passed ***
+*** 2016-04-29 15:25:51 'r015.pl' 200 - findStringOnPanel "TSO Session Setup" Passed ***
+*** 2016-04-29 15:25:51 'r015.pl' 201 - findStringOnPanel "*** TCA ACTIVE ***" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 202 - write2CommandLine "C" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 220 - findStringOnPanel "Convert Batch JCL" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 223 - write2CommandLine "C" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 224 - findStringOnPanel "CLIST GENERATED" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 227 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:25:52 'r015.pl' 228 - findStringOnPanel "TSO Session Setup" Passed ***
+*** 2016-04-29 15:25:53 'r015.pl' 231 - write2CommandLine "R" Passed ***
+*** 2016-04-29 15:25:53 'r015.pl' 232 - findStringOnPanel "File - TCA Test Plan Run" Passed ***
+*** 2016-04-29 15:25:53 'r015.pl' 237 - pressKeys: 1 Passed ***
+*** 2016-04-29 15:25:59 'r015.pl' 238 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:25:59 'r015.pl' 239 - findStringOnPanel "DEMONSTRATION CLOCK TIME IN SECS/100:" Passed ***
+*** 2016-04-29 15:25:59 'r015.pl' 242 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:25:59 'r015.pl' 243 - findStringOnPanel "TEST ENDED, RC=0" Passed ***
+*** 2016-04-29 15:25:59 'r015.pl' 244 - findStringOnPanel "T.C.A. - COVERAGE PLAN" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 247 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 248 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 251 - pressKeys: 1 Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 252 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 253 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 256 - pressKeys: A Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 257 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:00 'r015.pl' 260 - pressKeys: P Passed ***
+*** 2016-04-29 15:26:01 'r015.pl' 261 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:01 'r015.pl' 262 - findStringOnPanel "T.C.A. - PROGRAM SELECTION" Passed ***
+*** 2016-04-29 15:26:01 'r015.pl' 265 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:01 'r015.pl' 267 - pressKeys: VIAPCOB Passed ***
+*** 2016-04-29 15:26:02 'r015.pl' 268 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:02 'r015.pl' 269 - findStringOnPanel "T.C.A. - DETAIL STATEMENT LIST" Passed ***
+*** 2016-04-29 15:26:04 'r015.pl' 277 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:04 'r015.pl' 278 - findStringOnPanel "1006 LINE(S) PRINTED" Passed ***
+*** 2016-04-29 15:26:05 'r015.pl' 281 - write2CommandLine "T" Passed ***
+*** 2016-04-29 15:26:05 'r015.pl' 282 - findStringOnPanel "RESULTS APPLIED" Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 285 - navigate2Panel-VPIPRTME Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 288 - navigate2DropDownList "Options" Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 291 - findStringOnPanel "LIST FILE IS ALLOCATED" Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 293 - pressKeys: //QA056AAL JOB (ACCOUNT),NAME,   Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 294 - pressKey "[TAB]" Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 295 - pressKeys: //         MSGCLASS=A Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 297 - write2CommandLine "2" Passed ***
+*** 2016-04-29 15:26:09 'r015.pl' 299 - pressKeys: PK Passed ***
+*** 2016-04-29 15:26:10 'r015.pl' 300 - pressKey "[ENTER]" Passed ***
+*** 2016-04-29 15:26:11 'r015.pl' 303 - pressKey "[ENTER]" Passed ***
+*** 2016-04-29 15:26:11 'r015.pl' 304 - findStringOnPanel "LIST OPTIONS PROCESSED" Passed ***
+*** 2016-04-29 15:26:11 'r015.pl' 307 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:11 'r015.pl' 308 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 311 - navigate2DropDownList "List" Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 312 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 315 - pressKeys: 5 Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 316 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 317 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-04-29 15:26:12 'r015.pl' 320 - pressKeys: 2 Passed ***
+*** 2016-04-29 15:26:13 'r015.pl' 321 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:13 'r015.pl' 322 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:13 'r015.pl' 325 - write2CommandLine "A" Passed ***
+*** 2016-04-29 15:26:14 'r015.pl' 328 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:14 'r015.pl' 329 - findStringOnPanel "T.C.A. - DETAIL STATEMENT LIST" Passed ***
+*** 2016-04-29 15:26:15 'r015.pl' 330 - write2CommandLine "bottom" Passed ***
+*** 2016-04-29 15:26:15 'r015.pl' 331 - verifyPanelMask Totalstats.txt Passed ***
+*** 2016-04-29 15:26:16 'r015.pl' 334 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:16 'r015.pl' 335 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:17 'r015.pl' 338 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:17 'r015.pl' 339 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-04-29 15:26:17 'r015.pl' 342 - pressKeys: 3 Passed ***
+*** 2016-04-29 15:26:17 'r015.pl' 343 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:17 'r015.pl' 344 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:18 'r015.pl' 347 - write2CommandLine "A" Passed ***
+*** 2016-04-29 15:26:19 'r015.pl' 350 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:19 'r015.pl' 351 - findStringOnPanel "T.C.A. - PROGRAM - LABEL  LIST" Passed ***
+*** 2016-04-29 15:26:19 'r015.pl' 352 - write2CommandLine "bottom" Passed ***
+*** 2016-04-29 15:26:19 'r015.pl' 353 - verifyPanelMask Totalstats2.txt Passed ***
+*** 2016-04-29 15:26:20 'r015.pl' 356 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:20 'r015.pl' 357 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:21 'r015.pl' 360 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:21 'r015.pl' 361 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-04-29 15:26:21 'r015.pl' 364 - pressKeys: 4 Passed ***
+*** 2016-04-29 15:26:21 'r015.pl' 365 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:21 'r015.pl' 366 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:22 'r015.pl' 369 - write2CommandLine "A" Passed ***
+*** 2016-04-29 15:26:23 'r015.pl' 372 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:23 'r015.pl' 373 - findStringOnPanel "T.C.A. - PROGRAM - LABEL  LIST" Passed ***
+*** 2016-04-29 15:26:24 'r015.pl' 376 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:24 'r015.pl' 377 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:24 'r015.pl' 380 - pressKey "[F3]" Passed ***
+*** 2016-04-29 15:26:24 'r015.pl' 381 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-04-29 15:26:24 'r015.pl' 384 - pressKeys: 5 Passed ***
+*** 2016-04-29 15:26:25 'r015.pl' 385 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:25 'r015.pl' 386 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-04-29 15:26:25 'r015.pl' 389 - write2CommandLine "A" Passed ***
+*** 2016-04-29 15:26:26 'r015.pl' 392 - write2CommandLine "G" Passed ***
+*** 2016-04-29 15:26:26 'r015.pl' 393 - findStringOnPanel "T.C.A. - SUMMARY REPORT" Passed ***
+*** 2016-04-29 15:26:26 'r015.pl' 394 - verifyPanelMask Totalstats3.txt Passed ***
+*** 2016-04-29 15:26:28 'r015.pl' 397 - navigate2Panel-VPPTCADA Passed ***
+*** 2016-04-29 15:26:28 'r015.pl' 400 - pressKeys: 3 Passed ***
+*** 2016-04-29 15:26:30 'r015.pl' 401 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:30 'r015.pl' 402 - findStringOnPanel "TSO Session Setup" Passed ***
+*** 2016-04-29 15:26:30 'r015.pl' 419 - write2CommandLine "R" Passed ***
+*** 2016-04-29 15:26:30 'r015.pl' 420 - findStringOnPanel "File - TCA Test Plan Run" Passed ***
+*** 2016-04-29 15:26:30 'r015.pl' 424 - pressKeys: 2 Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 425 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 426 - findStringOnPanel "DEMONSTRATION CLOCK TIME IN SECS/100: 00000" Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 427 - pressKey "[enter]" Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 428 - findStringOnPanel "T.C.A. - COVERAGE PLA" Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 431 - write2CommandLine "L" Passed ***
+*** 2016-04-29 15:26:38 'r015.pl' 432 - findStringOnPanel "T.C.A. - TEST UTILITY" Passed ***
+*** 2016-04-29 15:26:39 'r015.pl' 435 - panelListAction DEFAULT DESCRIPTION found on panel Passed ***
+*** 2016-04-29 15:26:42 'r015.pl' 438 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-04-29 15:26:42 'r015.pl' 438 - Ended with a status of:  Passed ***
+Fri Apr 29 15:26:42 2016 ------- Test Case r015.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 1 Min(s). 24 Sec(s). ------
+

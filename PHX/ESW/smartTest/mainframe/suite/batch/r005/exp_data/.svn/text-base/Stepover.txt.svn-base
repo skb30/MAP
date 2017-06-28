@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View               VIAPASM.VIAPXESA -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ 000649  XSTEPOVR DS    0H                                                      
+ 000650           BAL   R14,XSTEPSUB           PERFORM SUBROUTINE               
+ 000651  *--------------------------------------------------------------------* 
+ 000652  *                                                                    * 
+ 000653  * OCCASSIONALLY, YOU MAY WANT TO AVOID STEPPING INTO SUBROUTINES     * 
+ 000654  * THAT YOU KNOW ARE WORKING PROPERLY (OR SO YOU THINK).  SMARTTEST   * 
+ 000655  * PROVIDES THE 'STEP OVER' COMMAND, WHICH CAN BE USED ON ANY         * 
+ 000656  * 'BRANCH AND LINK' TYPE INSTRUCTION ('BAL', 'BALR', ETC.).  IF THE  * 
+ 000657  * SUBROUTINE EXECUTES NORMALLY, SMARTTEST WILL STOP ON THE STATEMENT * 
+ 000658  * IMMEDIATELY FOLLOWING THE 'BRANCH AND LINK' INSTRUCTION.  IF THE   * 
+ 000659  * SUBROUTINE ABENDS, SMARTTEST WILL STOP ON THE ABEND.  IF IT DOESN'T* 
+ 000660  * RETURN TO THE STATEMENT FOLLOWING THE 'BRANCH AND LINK', SMARTTEST * 
+ 000661  * WILL TREAT IT LIKE A 'RUN' COMMAND, AND RUN TO THE NEXT BREAKPOINT,* 
+ 000662  * ABEND, OR THE END OF THE TEST.                                     * 
+ 000663  *                                                                    * 
+ 000664  * TO EXECUTE THE ROUTINE 'XSTEPSUB' AND RETURN TO THE NEXT STATEMENT,* 
+ 000665  * ENTER 'STEP OVER'.                                                 * 
+ 000666  *                                                                    * 
+ 000667  *--------------------------------------------------------------------* 
+ >>>>>>           LA    R15,0                  ZERO REGISTER 15                 
+ 000669  *--------------------------------------------------------------------* 
+ 000670  *                                                                    * 
+ 000671  * NOW, ENTER 'LIST TRACKING' TO SEE ALL OF THE STATEMENTS THAT       * 
+ 000672  * ACTUALLY EXECUTED, THEN 'END' TO RETURN TO THIS SCREEN.            * 
+ 000673  *                                                                    * 
+ 000674  * YOU CAN ALSO RUN TO A SPECIFIC LINE NUMBER, OR TO THE CURSOR       * 
+ 000675  * LOCATION, WITHOUT HAVING TO STEP THROUGH EACH INSTRUCTION.         * 
+ 000676  *                                                                    * 
+ 000677  * IN THIS EXAMPLE, THERE ARE SEVERAL 'LA    R14,1' INSTRUCTIONS IN A * 
+ 000678  * ROW.  SCROLL FORWARD UNTIL YOU FIND THE 'SR   R15,R15' INSTRUCTION,* 
+ 000679  * AND FOLLOW THE INSTRUCTIONS LISTED THERE.                          * 
+ 000680  *                                                                    * 
+ 000681  *--------------------------------------------------------------------* 
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED BY "STEP OVER" REQUEST        PGM: VIAPXESA  DATE: 09JAN2013 |
+ |  STMT: 000668  OFF: 0004EE  AMODE: 24 CC: 0  MOD: VIAPASM   TIME: 18:18:00  |
+ |SOURCE: LA    R15,0                  ZERO REGISTER 15                        |
+ +-----------------------------------------------------------------------------+

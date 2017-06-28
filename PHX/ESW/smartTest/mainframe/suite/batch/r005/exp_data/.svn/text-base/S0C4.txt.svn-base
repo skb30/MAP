@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View               VIAPASM.VIAPXESA -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ 000252           LA    R15,0                  POINT TO LOW MEMORY TO GET S0C4  
+ >>>>>>  S0C4     ST    R14,0(,R15)            TRY TO MODIFY MEMORY             
+ 000254  *--------------------------------------------------------------------* 
+ 000255  *                                                                    * 
+ 000256  * THIS EXAMPLE SHOWS A S0C4 ABEND.  THE PROGRAM TRIED TO MODIFY A    * 
+ 000257  * STORAGE PROTECTED AREA (ADDRESS 0).                                * 
+ 000258  *                                                                    * 
+ 000259  * THERE ARE SEVERAL WAYS TO FIX THIS S0C4:                           * 
+ 000260  *     1) R14 CONTAINS THE ADDRESS OF AN AREA THAT CAN BE MODIFIED.   * 
+ 000261  *        TO COPY THE CONTENTS OF R14 TO R15, ENTER THE FOLLOWING:    * 
+ 000262  *         A) 'MOVE R14 TO R15', THEN 'RUN', OR                       * 
+ 000263  *         B) 'SET REGS ON', THEN OVERTYPE R15'S VALUE, THEN 'RUN', OR* 
+ 000264  *         C) 'LIST REGS', THEN OVERTYPE R15'S VALUE, THEN 'RUN'.     * 
+ 000265  *     2) ENTER 'GO TO S0C4FIX;RUN' ON THE COMMAND LINE.              * 
+ 000266  *     3) ENTER 'GO' ON THE LINE CONTAINING 'S0C4FIX', THEN 'RUN'.    * 
+ 000267  *                                                                    * 
+ 000268  *--------------------------------------------------------------------* 
+ 000269           B     COMPLETE               FINISH THIS TEST                 
+ 000270  *                                                                      
+ 000271  S0C4FIX  DS    0H                     FIX THE S0C4 EXAMPLE             
+ 000272           LA    R15,DBLWORD            POINT TO MODIFIABLE WORK AREA    
+ 000273           B     S0C4                   GO RETRY THE 'ST' INSTRUCTION    
+ 000274  *                                                                      
+ 000275  XS0C7    DS    0H                                                      
+ 000276           MVC   S0C7WORK,S0C7CHAR      MAKE WORK FIELD NON-PACKED       
+ 000277  S0C7     AP    S0C7WORK,=P'1'         TRY TO INCREMENT A COUNTER       
+ '''''' +----------------------------------------------------------------------+
+ '''''' | S0C7WORK               USING R13      DS PL1           ADDR #########|
+ '''''' |      VALUE > +2                                <                     |
+ '''''' | =P'1'                                 DS PL1           ADDR #########|
+ '''''' |      VALUE > +1                                <                     |
+ '''''' +----------------------------------------------------------------------+
+ 000278  *--------------------------------------------------------------------* 
+ +-----------------------------------------------------------------------------+
+ |STATUS: PROTECTION EXCEPTION (0C4)            PGM: VIAPXESA  DATE: ######### |
+ |  STMT: 000253  OFF: 000282  AMODE: 24 CC: 0  MOD: VIAPASM   TIME: ######### |
+ |SOURCE: S0C4     ST    R14,0(,R15)            TRY TO MODIFY MEMORY           |
+ +-----------------------------------------------------------------------------+

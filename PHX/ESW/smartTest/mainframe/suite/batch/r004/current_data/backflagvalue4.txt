@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View                VIAPCOB.VIAPCOB -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ ''''''   10 BACK-FLAG                       PIC X                              
+ ''''''        VALUE > . <                                                      
+ -------------------------------------------------------------------------------
+ 000926  BACK-PARA1.                                                            
+ BKTR=>      MOVE 'Y' TO BACK-REDEFINED-FLAG.                                   
+ 000928 *---------------------------------------------------------------*       
+ 000929 *                                                               *       
+ 000930 * THIS IS THE PRIOR MODIFICATION OF 'BACK-FLAG'.  NOTE THAT IT  *       
+ 000931 * IS A REDEFINITION OF THE FIELD 'BACK-FLAG'.  SMARTTEST KEEPS  *       
+ 000932 * TRACK OF ALL MODIFICATIONS TO FIELDS, INCLUDING MANUAL        *       
+ 000933 * CHANGES YOU MAKE IN ZOOMDATA AND KEEP WINDOWS, AND ALL CHANGES*       
+ 000934 * MADE FROM WITHIN PSEUDO CODE STATEMENTS.                      *       
+ 000935 *                                                               *       
+ 000936 * AT THIS POINT, PLEASE FEEL FREE TO EXPERIMENT (PLAY?) WITH    *       
+ 000937 * SOME OF THE OTHER CAPABILITIES OF SMARTTEST'S BACKTRACK       *       
+ 000938 * FEATURE.  SOME POSSIBILITIES ARE LISTED BELOW.  AFTER YOU     *       
+ 000939 * ARE DONE EXPERIMENTING, ENTER THE FOLLOWING COMMAND TO        *       
+ 000940 * CONTINUE WITH THE GUIDED DEMONSTRATION:                       *       
+ 000941 *   'RESET KEEP'            (CLOSES KEEP WINDOW)                *       
+ 000942 *   'SET BACKTRACK OFF;RUN' (EXITS BACKTRACK MODE, CONTINUES)   *       
+ 000943 *                                                               *       
+ 000944 * OTHER POSSIBILITIES:                                          *       
+ 000945 *    STEP BACK 3              (OR FORWARD)                      *       
+ 000946 *    STEP BACK 9 PARA AUTO    (OR FORWARD)                      *       
+ 000947 *    RUN TO TOP               (OR BOTTOM OF EXECUTION HISTORY)  *       
+ 000948 *    RUN TO *                 (EXITS REVIEW MODE)               *       
+ 000949 *                                                               *       
+ 000950 *---------------------------------------------------------------*       
+ 000951      PERFORM BACK-PARA2                                                 
+ 000952              VARYING BACK-SUB FROM 1 BY 1                               
+ 000953              UNTIL BACK-SUB > 10.                                       
+ 000954      PERFORM BACK-PARA3                                                 
+ 000955              VARYING BACK-SUB FROM BACK-SUB BY 1                        
+ +-----------------------------------------------------------------------------+
+ |STATUS: * REVIEWING BACKTRACK HISTORY *   PROGRAM: VIAPCOB   DIRECTION: BWD  |
+ |  STMT: 000927  OFF: 000CAE  AMODE: 31     MODULE: VIAPCOB    SEQ# -448      |
+ |SOURCE: MOVE 'Y' TO BACK-REDEFINED-FLAG.                                     |
+ +-----------------------------------------------------------------------------+

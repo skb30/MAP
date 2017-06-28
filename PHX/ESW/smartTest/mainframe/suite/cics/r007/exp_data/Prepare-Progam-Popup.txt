@@ -1,0 +1,43 @@
+
+
+VSP03000               ASG-ESW - AKR Utility                         
+VSP03000               ASG-ESW - AKR Utility                         
+VSPANLZ3                 ASG-ESW - Prepare Program                         
+Command ===> ____________________________________________________________  
+                                                                           
+             E - Edit JCL     S - Submit JCL     D - Doc Options           
+                                                                           
+Compile and link JCL (PDS or sequential):                                  
+   Data set name  'QAL.PHX.ESWTEST.CNTL(VIACJCII)'                         
+                                                                           
+Analyze features (Y/N):                                                    
+   Understand:  Y   Test:  Y   Extended Analysis:  Y   Document:  N        
+   Re-engineer:  N                                                         
+AKR data set name QAL.PHX.ESWTEST.TS42CB42.AKR                             
+AKR program name  __________           (if overriding PROGRAM-ID)          
+                                                                           
+Analyze options:                                                           
+   ______________________________________________________________________  
+   ______________________________________________________________________  
+   ______________________________________________________________________  
+                                                                           
+Compile? (Y/N) . . . . . . . . . Y     (Y if needed by features)           
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         
+Link load module reusable? (Y/N) Y     (Test only)                         

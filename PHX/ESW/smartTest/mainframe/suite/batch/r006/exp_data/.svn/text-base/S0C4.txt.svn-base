@@ -1,0 +1,43 @@
+   File  View  Test  Search  List  Options  Help                                
+ ------------------------------------------------------------------------------ 
+ VPPTGVPL                        Program View               VIAPPLI.VIAPPLI1 -A 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ '''''1     BREAK.                                                              
+ >>>>>>    S0C7_DEMO: PROC;                   /* PAUSE HERE */                  
+ 000507                                                                         
+ 000508       S0C7_CHAR = ' ';                                                  
+ 000509                                                                         
+ 000510       DATA_PACKED_DEC = DATA_PACKED_DEC + 1;                            
+ 000511                                                                         
+ 000512       /**************************************************************** 
+ 000513       *                                                               * 
+ 000514       * THIS EXAMPLE SHOWS A S0C7 ABEND (DATA EXCEPTION).  THE DATA   * 
+ 000515       * VALUES INVOLVED IN THE ABENDS ARE AUTOMATICALLY DISPLAYED     * 
+ 000516       * BY ASG-SMARTTEST.                                             * 
+ 000517       *                                                               * 
+ 000518       * ENTER "RUN"/PF4 TO PRODUCE THE ERROR.                         * 
+ 000519       *                                                               * 
+ 000520       * THERE ARE SEVERAL WAYS TO FIX THIS S0C7:                      * 
+ 000521       *     1) OVERTYPE THE VALUE OF 'DATA_PACKED_DEC' IN THE ZOOMDATA* 
+ 000522       *        WINDOW WITH A VALID NUMERIC VALUE, THEN 'RUN'.         * 
+ 000523       *     2) ON THE COMMAND LINE, ENTER:                            * 
+ 000524       *          'MOVE 0 TO DATA_PACKED_DEC; RUN'                     * 
+ 000525       *     3) ENTER 'GO TO S0C7FIX1;RUN' ON THE COMMAND LINE.        * 
+ 000526       *     4) ENTER 'GO' ON THE LINE CONTAINING LABEL 'S0C7FIX1',    * 
+ 000527       *        THEN 'RUN' TO CONTINUE THE TEST.                       * 
+ 000528       *     5) 'SET HEX ON' TO DISPLAY THE ITEMS IN THE ZOOM DATA BOX * 
+ 000529       *        IN HEXADECIMAL FORMAT.  OVERTYPE THE INVALID DATA VALUE* 
+ 000530       *        WITH A X'1C' (VALID PACKED DATA).  TO CONTINUE THE     * 
+ 000531       *        DEMO, ENTER 'SET HEX OFF;RUN'.                         * 
+ 000532       *                                                               * 
+ 000533       ****************************************************************/ 
+ 000534                                                                         
+ 000535       S0C7FIX1:                                                         
+ 000536          RETURN;                                                        
+ 000537                                                                         
+ +-----------------------------------------------------------------------------+
+ |STATUS: STOPPED AFTER BREAK               PROGRAM: VIAPPLI1  DATE: 19DEC2012 |
+ |  STMT: 000506  OFF: 002838  AMODE: 31     MODULE: VIAPPLI   TIME: 11:20:00  |
+ |SOURCE: S0C7_DEMO: PROC;                   /* PAUSE HERE */                  |
+ +-----------------------------------------------------------------------------+

@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 117
+current_data
+Differences
+*.log
+*.out
+runlog.txt
+run-list.txt
+skip-list.txt
+historylog.txt
+suite*.txt
+rts.*
+
+END

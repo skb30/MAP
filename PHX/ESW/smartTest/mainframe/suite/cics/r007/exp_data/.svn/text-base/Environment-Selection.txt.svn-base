@@ -1,0 +1,22 @@
+VPPSMENU                  Environment Selection             #####################################              
+Command ===> ___________________________________________________________  
+                                                                          
+                C - Use Current Environment:  #########                   
+                P - View Test Profile Selection Panel                     
+                W - Test Session Setup Wizard                             
+                L - Specify Libraries                                     
+               DV - Specify Dump Context                                  
+                                                                          
+             Or select environment from menu options below:               
+                                                                          
+Environments:                  Batch      |   Transaction/                
+(PGM type to test)      TSO:   Connect:   |   Other Environments:         
+---------------------   ----   --------   |   -------------------         
+MVS    (PGM=program)    T1     B1         |   S1  - CICS                  
+DB2    (PGM=IKJEFTxx)   T2     B2         |   S2  - IMS/DC                
+IMS/DB (PGM=DFSRRCxx)   T3     B3         |   S3  - DB2 Stored Procedures 
+BTS    (PGM=BTSRCxxx)   T4     B4         |   S4  - ISPF Dialog Manager   
+                                                                          
+                                                                          
+               (Only available options are highlighted)                   
+                                                                          

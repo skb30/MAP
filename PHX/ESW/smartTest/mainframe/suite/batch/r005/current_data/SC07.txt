@@ -1,0 +1,43 @@
+   File  View  Test  Search  Logic  List  Options  Help                         
+ ------------------------------------------------------------------------------ 
+ VPITGMV                         Program View          SUCCESSFUL MEMORY UPDATE 
+ Command ===>                                                 Scroll ===> CSR   
+                                                                                
+ 000276           MVC   S0C7WORK,S0C7CHAR      MAKE WORK FIELD NON-PACKED       
+ >>>>>>  S0C7     AP    S0C7WORK,=P'1'         TRY TO INCREMENT A COUNTER       
+ '''''' +----------------------------------------------------------------------+
+ '''''' | S0C7WORK               USING R13      DS PL1           ADDR 000DAF0C |
+ '''''' |      VALUE > +1                                <                     |
+ '''''' | =P'1'                                 DS PL1           ADDR 000F68C7 |
+ '''''' |      VALUE > +1                                <                     |
+ '''''' +----------------------------------------------------------------------+
+ 000278  *--------------------------------------------------------------------* 
+ 000279  *                                                                    * 
+ 000280  * THIS EXAMPLE SHOWS A S0C7 ABEND (DATA EXCEPTION).  THE DATA FIELDS * 
+ 000281  * INVOLVED IN THE ABEND ARE AUTOMATICALLY DISPLAYED BY SMARTTEST.    * 
+ 000282  *                                                                    * 
+ 000283  * THERE ARE SEVERAL WAYS TO FIX THIS S0C7:                           * 
+ 000284  *     1) OVERTYPE THE VALUE OF 'S0C7WORK' IN THE ZOOM DATA BOX WITH  * 
+ 000285  *         A VALID NUMERIC VALUE (0), THEN 'RUN'.                     * 
+ 000286  *     2) ENTER 'MOVE 0 TO S0C7WORK;RUN' ON THE COMMAND LINE.         * 
+ 000287  *     3) ENTER 'GO TO S0C7FIX;RUN' ON THE COMMAND LINE.              * 
+ 000288  *     4) ENTER 'GO' ON THE LINE CONTAINING 'S0C7FIX', THEN 'RUN'.    * 
+ 000289  *     5) 'SET HEX ON' TO DISPLAY THE ITEMS IN THE ZOOM DATA BOX IN   * 
+ 000290  *        HEXADECIMAL FORMAT.  OVERTYPE THE VALUE OF 'S0C7WORK' WITH  * 
+ 000291  *        A X'1C' (VALID PACKED DATA), THEN 'SET HEX OFF;RUN'.        * 
+ 000292  *                                                                    * 
+ 000293  *--------------------------------------------------------------------* 
+ 000294           B     COMPLETE               FINISH THIS TEST                 
+ 000295  *                                                                      
+ 000296  S0C7FIX  DS    0H                     FIX THE S0C7 EXAMPLE             
+ 000297           MVC   S0C7WORK,S0C7PACK      COPY PACKED DECIMAL DATA         
+ 000298           B     S0C7                   GO RETRY THE 'AP' INSTRUCTION    
+ 000299  *                                                                      
+ 000300  XADDREXP DS    0H                     ADDRESS EXPRESSION EXAMPLES      
+ 000301           LA    R15,16                 POINT TO CVT ADDR (X'00000010')  
+ 000302           LA    R14,ADDREXP1           POINT TO 1ST IN CHAIN            
+ +-----------------------------------------------------------------------------+
+ |STATUS: DATA EXCEPTION (0C7)                  PGM: VIAPXESA  DATE: 28MAR2017 |
+ |  STMT: 000277  OFF: 000298  AMODE: 24 CC: 0  MOD: VIAPASM   TIME: 16:55:07  |
+ |SOURCE: S0C7     AP    S0C7WORK,=P'1'         TRY TO INCREMENT A COUNTER     |
+ +-----------------------------------------------------------------------------+

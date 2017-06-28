@@ -1,0 +1,43 @@
+
+
+VSP03000               ASG-ESW - AKR Utility                         
+VSP03000               ASG-ESW - AKR Utility                         
+VSP03100                  ASG-ESW - AKR Directory                          
+Command ===> ___________________________________________ Scroll ===> CSR   
+                                                                           
+AKR: QAL.PHX.ESWTEST.TS42CB42.AKR                               Row:      1
+M - Move     C - Copy        Total members:       4   Total entries:      4
+D - Delete   R - Rename      Total records:     516      Free space:  ##.#%
+                                                                           
+     Name     New name   Alias of    Type      Date    Time  Jobname  Space
+- ---------- ---------- ---------- --------- --------- ----- -------- -----
+_ VIACCOB    __________            IN,STX    ######### ##:## ######## ##.#%
+_ VIACCOB2   __________            IN,STX    ######### ##:## ######## ##.#%
+_ VIACCOB3   __________            IN,STX    ######### ##:## ######## ##.#%
+_ VIACDEMO   __________            IN,STX    ######### ##:## ######## ##.#%
+******************************* BOTTOM OF DATA ****************************
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+                                                                           

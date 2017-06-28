@@ -1,0 +1,171 @@
+Tue May 10 17:32:06 2016 ------- Test Case r015a.pl.pl Started -------
+*** 2016-05-10 17:32:10 'r015a.pl' 0 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:32:10 'r015a.pl' 0 - write2CommandLine "PFSHOW OFF" Passed ***
+*** 2016-05-10 17:32:10 'r015a.pl' 0 - write2CommandLine "tso ex 'QAL.phx.eswauto.CLIST(DELPROF)' 'SYSq'" Passed ***
+*** 2016-05-10 17:32:10 'r015a.pl' 0 - Delete Profile Members Clist: QAL.phx.eswauto.CLIST(DELPROF) Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 0 - write2CommandLine "TSO PROFILE INTERCOM" Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 0 - write2CommandLine "TSO PROFILE" Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 0 - verifyStringNotFoundOnPanel "NOINTERCOM" Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 0 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 42 - write2CommandLine "6" Passed ***
+*** 2016-05-10 17:32:11 'r015a.pl' 42 - findStringOnPanel "ISRTSO" Passed ***
+*** 2016-05-10 17:32:12 'r015a.pl' 42 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SCNXCLST)'" Passed ***
+*** 2016-05-10 17:32:12 'r015a.pl' 42 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:32:13 'r015a.pl' 42 - write2CommandLine "ex 'QAL.PHX.ESW800au.SCNXCLST(VIASPROC)' ' ADD(QAL.PHX.ESW800au.SESWCLST)'" Passed ***
+*** 2016-05-10 17:32:13 'r015a.pl' 42 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:32:14 'r015a.pl' 44 - write2CommandLine "CENTER" Passed ***
+*** 2016-05-10 17:32:15 'r015a.pl' 45 - write2CommandLine "ST" Passed ***
+*** 2016-05-10 17:32:15 'r015a.pl' 48 - write2CommandLine "AN " Passed ***
+*** 2016-05-10 17:32:16 'r015a.pl' 65 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:32:19 'r015a.pl' checkBatchStatus: JOB SUBMITTED ***
+*** 2016-05-10 17:32:22 'r015a.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:32:25 'r015a.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:32:28 'r015a.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:32:32 'r015a.pl' checkBatchStatus: Waiting for job to end. ***
+*** 2016-05-10 17:32:35 'r015a.pl' checkBatchStatus: JOB ENDED ***
+*** 2016-05-10 17:32:35 'r015a.pl' 70 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:32:35 'r015a.pl' 71 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-05-10 17:32:35 'r015a.pl' 74 - navigate2DropDownList "File" Passed ***
+*** 2016-05-10 17:32:35 'r015a.pl' 77 - pressKeys: 1 Passed ***
+*** 2016-05-10 17:32:35 'r015a.pl' 80 - findStringOnPanel "Environment Selection" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 83 - write2CommandLine "L" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 84 - findStringOnPanel "Library Specification" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 86 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 87 - pressKeys: 'QAL.PHX.esw800au.AKR' Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 90 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 91 - pressKeys: 'QAL.PHX.esw800au.LOADPDSE'  Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 92 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 94 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 95 - findStringOnPanel "Environment Selection" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 99 - write2CommandLine "S1" Passed ***
+*** 2016-05-10 17:32:36 'r015a.pl' 100 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 115 - write2CommandLine "SET DEFAULT" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 116 - findStringOnPanel "TEST OPTIONS DEFAULTED" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 119 - write2CommandLine "SET TRACK 2000" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 120 - findStringOnPanel "TRACK SIZE SET" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 123 - write2CommandLine "TA" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 124 - findStringOnPanel "Test Session Tailoring" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 128 - pressKeys: VIACCOB.VIACCOB Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 129 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 130 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 131 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 132 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 133 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 134 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 135 - pressKeys: no  Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 136 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 137 - pressKeys: yes Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 138 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 140 - findStringOnPanel "VIACCOB.VIACCOB       YES    YES   YES   YES   YES   NO    YES    YES" Passed ***
+*** 2016-05-10 17:32:37 'r015a.pl' 142 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 159 - navigate2DropDownList "File" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 160 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 165 - pressKey "[tab]" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 166 - pressKeys: 2 Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 167 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 168 - findStringOnPanel "T.C.A. - COVERAGE PLAN" Passed ***
+*** 2016-05-10 17:32:38 'r015a.pl' 169 - findStringOnPanel "ENV SYSTEM VARIABLES AND PARMS RESTORED" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 173 - findStringOnPanel "TCA PLAN UPDATED" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 177 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 178 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 183 - findStringOnPanel "T.C.A. - ACTIVE PLANS" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 184 - findStringOnPanel "QAPL810B" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 187 - panelListAction QAPL810B found on panel Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 188 - findStringOnPanel "T.C.A. - COVERAGE PLAN" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 191 - write2CommandLine "S" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 192 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:32:39 'r015a.pl' 193 - findStringOnPanel "TCA PLAN UPDATED" Passed ***
+*** 2016-05-10 17:32:40 'r015a.pl' 197 - write2CommandLine "C" Passed ***
+*** 2016-05-10 17:32:40 'r015a.pl' 198 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:32:40 'r015a.pl' 203 - pressKeys: 1 Passed ***
+*** 2016-05-10 17:32:41 'r015a.pl' 204 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:32:51 'r015a.pl' 206 - findStringOnPanel "WELCOME TO" Passed ***
+*** 2016-05-10 17:32:52 'r015a.pl' 209 - pressKey "[clear]" Passed ***
+*** 2016-05-10 17:32:56 'r015a.pl' 212 - pressKey "[F12]" Passed ***
+*** 2016-05-10 17:32:56 'r015a.pl' 213 - findStringOnPanel "ASG2733I ASG-SmartTest-CICS is active." Passed ***
+*** 2016-05-10 17:32:57 'r015a.pl' 216 - pressKey "[clear]" Passed ***
+*** 2016-05-10 17:32:58 'r015a.pl' 219 - pressKey "[F12]" Passed ***
+*** 2016-05-10 17:32:58 'r015a.pl' 220 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:32:58 'r015a.pl' 221 - findStringOnPanel "*** TCA ACTIVE ***" Passed ***
+*** 2016-05-10 17:32:58 'r015a.pl' 222 - findStringOnPanel "ASG2522I TOGGLE TO CONTINUE; DISCONNECT FROM SETUP TO END; OR SETUP RMF" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 223 - write2CommandLine "NEWCOPY VIACCOB" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 224 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 225 - write2CommandLine "NEWCOPY VIACCOB2" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 226 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 227 - write2CommandLine "NEWCOPY VIACASM" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 228 - findStringOnPanel "NEWCOPY SUCCESSFUL" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 230 - write2CommandLine "R" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 231 - findStringOnPanel "You may increase a limit or set it to 0 (no limit) during a test session." Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 234 - pressKey "[f3]" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 235 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 238 - write2CommandLine "T" Passed ***
+*** 2016-05-10 17:32:59 'r015a.pl' 241 - pressKeys: VCOB Passed ***
+*** 2016-05-10 17:33:01 'r015a.pl' 242 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:11 'r015a.pl' 244 - findStringOnPanel "COBOL Demonstration Program" Passed ***
+*** 2016-05-10 17:33:11 'r015a.pl' 247 - pressKeys: 4 Passed ***
+*** 2016-05-10 17:33:12 'r015a.pl' 248 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:12 'r015a.pl' 251 - pressKey "[back_tab]" Passed ***
+*** 2016-05-10 17:33:12 'r015a.pl' 252 - pressKeys: X Passed ***
+*** 2016-05-10 17:33:14 'r015a.pl' 253 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:24 'r015a.pl' 255 - findStringOnPanel "COBOL DEMONSTRATION" Passed ***
+*** 2016-05-10 17:33:24 'r015a.pl' 256 - findStringOnPanel "THANK YOU FOR YOUR PARTICIPATION" Passed ***
+*** 2016-05-10 17:33:25 'r015a.pl' 259 - pressKey "[clear]" Passed ***
+*** 2016-05-10 17:33:26 'r015a.pl' 262 - pressKey "[F12]" Passed ***
+*** 2016-05-10 17:33:26 'r015a.pl' 263 - findStringOnPanel "CICS Session Setup" Passed ***
+*** 2016-05-10 17:33:26 'r015a.pl' 266 - write2CommandLine "D" Passed ***
+*** 2016-05-10 17:33:26 'r015a.pl' 267 - findStringOnPanel "CICS SESSION ENDED" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 271 - findStringOnPanel "ASG-ESW - Testing/Debugging" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 274 - navigate2DropDownList "File" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 275 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 278 - pressKeys: 5 Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 279 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 280 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 281 - findStringOnPanel "TCA PLAN UPDATED" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 284 - pressKeys: 1 Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 285 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 286 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-05-10 17:33:27 'r015a.pl' 289 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:33:28 'r015a.pl' 292 - write2CommandLine "G" Passed ***
+*** 2016-05-10 17:33:28 'r015a.pl' 293 - findStringOnPanel "T.C.A. - DETAIL STATEMENT LIST" Passed ***
+*** 2016-05-10 17:33:28 'r015a.pl' 297 - write2CommandLine "T" Passed ***
+*** 2016-05-10 17:33:28 'r015a.pl' 298 - findStringOnPanel "RESULTS APPLIED" Passed ***
+*** 2016-05-10 17:33:28 'r015a.pl' 299 - pressKey "[F8]" Passed ***
+*** 2016-05-10 17:33:29 'r015a.pl' 303 - write2CommandLine "G" Passed ***
+*** 2016-05-10 17:33:29 'r015a.pl' 307 - pressKey "[F8]" Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 313 - navigate2DropDownList "Options" Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 316 - pressKeys: //QA056AAL JOB (ACCOUNT),NAME,   Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 317 - pressKey "[TAB]" Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 318 - pressKeys: //         MSGCLASS=A Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 320 - write2CommandLine "2" Passed ***
+*** 2016-05-10 17:33:30 'r015a.pl' 322 - pressKeys: PK Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 323 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 324 - pressKey "[ENTER]" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 326 - findStringOnPanel "LIST OPTIONS PROCESSED" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 329 - pressKey "[F3]" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 330 - navigate2DropDownList "File" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 331 - findStringOnPanel "File - TCA Test Plan Selection" Passed ***
+*** 2016-05-10 17:33:31 'r015a.pl' 334 - pressKeys: 5 Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 335 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 336 - findStringOnPanel "T.C.A. - REPORT SELECTION" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 337 - findStringOnPanel "TCA PLAN UPDATED" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 340 - pressKeys: 2 Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 341 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 342 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 345 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 348 - write2CommandLine "G" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 349 - findStringOnPanel "T.C.A. - DETAIL STATEMENT LIST" Passed ***
+*** 2016-05-10 17:33:32 'r015a.pl' 355 - pressKeys: 3 Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 356 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 357 - findStringOnPanel "T.C.A. - RESULT SELECTION" Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 360 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 363 - write2CommandLine "G" Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 364 - findStringOnPanel "T.C.A. - PROGRAM - LABEL  LIST" Passed ***
+*** 2016-05-10 17:33:33 'r015a.pl' 370 - pressKeys: 4 Passed ***
+*** 2016-05-10 17:33:34 'r015a.pl' 371 - pressKey "[enter]" Passed ***
+*** 2016-05-10 17:33:34 'r015a.pl' 372 - write2CommandLine "A" Passed ***
+*** 2016-05-10 17:33:34 'r015a.pl' 375 - write2CommandLine "G" Passed ***
+*** 2016-05-10 17:33:34 'r015a.pl' 376 - findStringOnPanel "T.C.A. - PROGRAM - LABEL  LIST" Passed ***
+*** 2016-05-10 17:33:40 'r015a.pl' 379 - navigate2Panel-ISP@MST1 Passed ***
+*** 2016-05-10 17:33:40 'r015a.pl' 379 - Ended with a status of:  Passed ***
+Tue May 10 17:33:40 2016 ------- Test Case r015a.pl Ended. Elasped Time: 0 Day(s). 0 Hour(s). 1 Min(s). 34 Sec(s). ------
+

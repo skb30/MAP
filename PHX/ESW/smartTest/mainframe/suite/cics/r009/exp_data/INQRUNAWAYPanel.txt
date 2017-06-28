@@ -1,0 +1,24 @@
+  INQ RUNAWAY                                                                   
+  STATUS:  RESULTS - OVERTYPE TO MODIFY                                         
+    Aging( 32768 )                 Oslevel(011300)                              
+    Akp( 04000 )                   Progautoctlg( Ctlgmodify )                   
+    Cicstslevel(040200)            Progautoexit( DFHPGADX )                     
+    Cmdprotect(Cmdprot)            Progautoinst( Autoinactive )                 
+    Db2conn()                      Reentprotect(Noreentprot)                    
+    Debugtool( Nodebug )           Release(0670)                                
+    Dfltuser(CICSUSER)             Runaway( 0005000 )                           
+    Dsalimit( 05242880 )           Scandelay( 0500 )                            
+    Dsrtprogram( NONE     )        Sdtran(CESD)                                 
+    Dtrprogram( DFHDYP   )         Sosabovebar(Notsos)                          
+    Dumping( Nosysdump )           Sosaboveline(Notsos)                         
+    Edsalimit( 0050331648 )        Sosbelowline(Notsos)                         
+    Forceqr( Noforce )             Storeprotect(Inactive)                       
+    Logdefer( 00005 )              Time( 0001000 )                              
+    Maxtasks( 005 )                Tranisolate(Inactive)                        
+    Memlimit(Nolimit)                                                           
+    Mqconn()                                                                    
+    Mrobatch( 001 )                                                             
+                                                                                
+                                                      SYSID=CICS APPLID=T42PHXQ1
+   RESPONSE: NORMAL                              TIME: 13.53.34  DATE: 02/13/13 
+ PF 1 HELP       3 END       5 VAR        7 SBH 8 SFH 9 MSG 10 SB 11 SF         

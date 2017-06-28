@@ -1,0 +1,43 @@
+ VPPTCARE                  T.C.A. - SUMMARY REPORT                              
+ Command ===> _______________________________________________ Scroll ===> CSR   
+                                                                                
+                                                                                
+     Enter G      - To generate hardcopy report to LIST FILE.                   
+                                                                                
+     TCA AKR Name.. 'QAL.PHX.ESW#####.TCA.AKR'                                 
+     TCA PLAN Name. QAPLANB1                                                    
+     No.of tests. #                                                             
+                                                                                
+     Summary of Executed / Not Executed                                         
+                                                                                
+ TEST RESULTS SELECTED                                                          
+  NO.JOBNAME  TYPE  DATE    TIME  RC  DESCRIPTION                               
+   1  ONLINE  CVG ###############   0 QA BATCH PLAN B1                          
+                                                                                
+ Program VIAPCOB                                                                
+   Total Procedure Stmts ................  243 (100%)                           
+   Total Dead-code Stmts ................    5 (  2%)                           
+   Total Executable Stmts ...............  238 ( 98%)                           
+   Combined Selected Stmts Executed......  110 ( 46%)                           
+   Combined Selected Stmts Not Executed..  128 ( 54%)                           
+                                                                                
+ Individual Test Stmts       Executed     Not Executed                          
+   Result   1.............   110 ( 46%)    128 ( 54%)                           
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
