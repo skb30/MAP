@@ -1,0 +1,5 @@
+//MEGACMPL JOB (DEV,282300,SRT,00),'USRID PRODUCT',CLASS=A,    
+//   PRTY=6,MSGCLASS=X,NOTIFY=&SYSUID                           
+//*                                                             
+//MEGACMP EXEC MEGACMPL,PROJ=HLQ,LVL=MLQ,ID=USRID,
+//         CENPROJ=CPROJ,CENLVL=CLVL   

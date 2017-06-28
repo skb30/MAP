@@ -1,0 +1,4 @@
+//MEGACMPL JOB (DEV,282300,SRT,00),'USRID VIACEN9',CLASS=L,    
+//   PRTY=6,MSGCLASS=X,NOTIFY=&SYSUID                           
+//*                                                             
+//MEGACMP EXEC MEGACMPL,PROJ=HLQ,LVL=MLQ,ID=USRID

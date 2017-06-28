@@ -1,0 +1,12 @@
+//GITTOMVS JOB (_ucaseid_,282300,SRT,00),'GIT SOURCE TO MVS',CLASS=A,      
+//         MSGCLASS=X,NOTIFY=&SYSUID,TIME=(5,00),PRTY=6,REGION=0M       
+//*
+//HFSTOPDS EXEC PGM=HFSTOPDS,                                                   
+//    REGION=2048K,PARM='//u/_lcaseid_/_project_ _ucaseid_._project_._group_'              
+//STEPLIB  DD  DSNAME=ESW.PROD.LOADPDSE,DISP=SHR                                
+//         DD  DSNAME=CEE.SCEERUN,DISP=SHR                                      
+//SYSPRINT DD  SYSOUT=*                                                         
+//CEEDUMP  DD  SYSOUT=*                                                         
+//SYSOUT   DD  SYSOUT=*                                                         
+//FTPMAP   DD  DISP=SHR,DSN=ESW.PROD.FTPGIT.TCPXLBIN                            
+//*                                                                             

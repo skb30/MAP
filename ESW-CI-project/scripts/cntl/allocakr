@@ -1,0 +1,50 @@
+//ALLOCAKR JOB (DEV,282300,SRT,00),'ALLOCAKR',CLASS=A,    
+//   PRTY=6,MSGCLASS=X,NOTIFY=&SYSUID                           
+//*                                                                   
+//*   INSERT '/*ROUTE PRINT NODE.USER' HERE IF NEEDED.                
+//*                                                                   
+//*   *************************************************************   
+//*   * ASG, INC.           ASG-CENTER                            *   
+//*   *                                                           *   
+//*   * JCL PROCEDURE TO ALLOCATE AND INITIALIZE A ASG            *   
+//*   * APPLICATION KNOWLEDGE REPOSITORY (AKR)                    *   
+//*   *************************************************************   
+//*                                                                   
+//VIASAKAP PROC SYSOUT='*'     PRINTED OUTPUT MESSAGE CLASS           
+//*                                                                   
+//*   *************************************************               
+//*   * ALLOCATE AND INITIALIZE A SEQUENTIAL AKR FILE *               
+//*   *************************************************               
+//INITAKR EXEC PGM=VIASAKRU,REGION=2048K                              
+//STEPLIB  DD  DSN=CENDSN,DISP=SHR               
+//VIASYSIN DD  DDNAME=SYSIN                                           
+//VIALOG   DD  SYSOUT=&SYSOUT                                         
+//SYSUDUMP DD  SYSOUT=&SYSOUT                                         
+//VIAAKRIN DD  DSN=AKRDSN,                                
+//             DISP=(NEW,CATLG,CATLG),                                
+//             DCB=(LRECL=4096,BLKSIZE=4096,RECFM=F,DSORG=PS),        
+//             UNIT=SYSDA,                                            
+//             SPACE=(4096,(4000,0))                                  
+//*                                                                   
+//*   ********************************************                    
+//*   *  DELETE NEW AKR (ONLY IF INITAKR FAILS)  *                    
+//*   ********************************************                    
+//*                                                                   
+//DELETE  EXEC PGM=IDCAMS,REGION=512K,                                
+//             COND=(EVEN,(0,EQ,INITAKR))                             
+//SYSPRINT DD  SYSOUT=&SYSOUT                                         
+//SYSOUT   DD  SYSOUT=&SYSOUT                                         
+//SYSIN    DD  DDNAME=SYSIN                                            
+//*                                                                    
+//         PEND                                                        
+//*                                                                    
+//VIASAKRA EXEC VIASAKAP                                               
+//*                                                                    
+//*                                                                    
+//INITAKR.STEPLIB  DD DSN=CENDSN,DISP=SHR         
+//INITAKR.VIASYSIN DD *                                                
+ INIT DSNAME(AKRDSN)                                       
+//*                                                                    
+//DELETE.SYSIN DD *                                                    
+ DELETE AKRDSN PURGE                                       
+//*                                                                   
